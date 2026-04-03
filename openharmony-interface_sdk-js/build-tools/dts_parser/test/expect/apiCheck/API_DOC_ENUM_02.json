@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_ENUM_02.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_ENUM_02",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [enum] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "export enum ErrorCode",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "ErrorCode",
+      "apiType": "Enum",
+      "hierarchicalRelations": "API_DOC_ENUM_02.d.ts|ErrorCode",
+      "parentModuleName": "API_DOC_ENUM_02.d.ts"
+    }
+  }
+]

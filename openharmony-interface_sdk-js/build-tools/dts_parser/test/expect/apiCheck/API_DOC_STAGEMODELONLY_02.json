@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_STAGEMODELONLY_02.d.ts",
+    "codeContextStaerLine": "27",
+    "defectLevel": 2,
+    "defectType": "API_DOC_STAGEMODELONLY_02",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [stagemodelonly] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "export default class AuthorizationExtensionAbility",
+    "mainBuggyLine": "27",
+    "extendInfo": {
+      "apiName": "AuthorizationExtensionAbility",
+      "apiType": "Class",
+      "hierarchicalRelations": "API_DOC_STAGEMODELONLY_02.d.ts|AuthorizationExtensionAbility",
+      "parentModuleName": "API_DOC_STAGEMODELONLY_02.d.ts"
+    }
+  }
+]

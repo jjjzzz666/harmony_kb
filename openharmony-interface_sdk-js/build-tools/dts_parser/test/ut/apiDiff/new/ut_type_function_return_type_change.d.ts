@@ -1,0 +1,1 @@
+declare type TestReturn = (value: string, ...args: string[]) => Decorator | Test | string;

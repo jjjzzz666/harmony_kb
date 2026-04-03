@@ -1,0 +1,266 @@
+[
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceInfo_Create"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceInfo_GetWidth"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceInfo_GetHeight"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceInfo_GetDynamicRange"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_ImageSourceInfo_GetMimeType"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceInfo_Release"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_Create"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_GetPixelFormat"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_SetPixelFormat"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_GetIndex"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_SetIndex"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_GetRotate"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_SetRotate"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_GetDesiredSize"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_SetDesiredSize"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_GetDesiredRegion"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_SetDesiredRegion"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_GetDesiredDynamicRange"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_SetDesiredDynamicRange"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_DecodingOptions_SetCropAndScaleStrategy"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_DecodingOptions_GetCropAndScaleStrategy"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_DecodingOptions_GetDesiredColorSpace"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_DecodingOptions_SetDesiredColorSpace"
+    },
+    {
+        "first_introduced": "19",
+        "name": "OH_DecodingOptions_SetCropRegion"
+    },
+    {
+        "first_introduced": "19",
+        "name": "OH_DecodingOptions_GetCropRegion"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_DecodingOptions_Release"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceNative_CreateFromUri"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceNative_CreateFromFd"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceNative_CreateFromData"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_ImageSourceNative_CreateFromDataWithUserBuffer"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceNative_CreateFromRawFile"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceNative_CreatePixelmap"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_ImageSourceNative_CreatePixelmapUsingAllocator"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceNative_CreatePixelmapList"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_ImageSourceNative_CreatePicture"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceNative_GetDelayTimeList"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceNative_GetImageInfo"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceNative_GetImageProperty"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_GetImagePropertyShort"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_GetImagePropertyLong"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_GetImagePropertyDouble"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_GetImagePropertyArraySize"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_GetImagePropertyString"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_GetImagePropertyIntArray"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_GetImagePropertyDoubleArray"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_GetImagePropertyBlob"
+    },
+    {
+        "first_introduced": "19",
+        "name": "OH_ImageSourceNative_GetImagePropertyWithNull"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceNative_ModifyImageProperty"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_ModifyImagePropertyShort"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_ModifyImagePropertyLong"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_ModifyImagePropertyDouble"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_ModifyImagePropertyIntArray"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_ModifyImagePropertyDoubleArray"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_ImageSourceNative_ModifyImagePropertyBlob"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceNative_GetFrameCount"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ImageSourceNative_Release"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_DecodingOptionsForPicture_Create"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_DecodingOptionsForPicture_GetDesiredAuxiliaryPictures"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_DecodingOptionsForPicture_SetDesiredAuxiliaryPictures"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_DecodingOptionsForPicture_Release"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_ImageSourceNative_GetSupportedFormats"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_ImageSourceNative_CreatePictureAtIndex"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_ImageSourceNative_CreateImageRawData"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_ImageSourceNative_GetBufferFromRawData"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_ImageSourceNative_GetBitsPerPixelFromRawData"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_ImageSourceNative_DestroyImageRawData"
+    }
+]

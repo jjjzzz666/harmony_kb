@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_JSDOC_03.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_JSDOC_03",
+    "description": "API check error of [JSDOC_HAS_CHINESE]: Jsdoc has chinese.",
+    "language": "typescript",
+    "mainBuggyCode": "export interface OnReleaseCallback",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "OnReleaseCallback",
+      "apiType": "Interface",
+      "hierarchicalRelations": "API_DOC_JSDOC_03.d.ts|OnReleaseCallback",
+      "parentModuleName": "API_DOC_JSDOC_03.d.ts"
+    }
+  }
+]

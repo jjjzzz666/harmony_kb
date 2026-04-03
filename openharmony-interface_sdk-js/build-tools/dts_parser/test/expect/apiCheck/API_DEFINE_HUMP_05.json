@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_HUMP_05.d.ts",
+    "codeContextStaerLine": "35",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_HUMP_05",
+    "description": "API check error of [naming errors]: This name [battery] should be named by all uppercase.",
+    "language": "typescript",
+    "mainBuggyCode": "battery = -3",
+    "mainBuggyLine": "35",
+    "extendInfo": {
+      "apiName": "battery",
+      "apiType": "EnumValue",
+      "hierarchicalRelations": "API_DEFINE_HUMP_05.d.ts|ErrorCode|battery",
+      "parentModuleName": "ErrorCode"
+    }
+  }
+]

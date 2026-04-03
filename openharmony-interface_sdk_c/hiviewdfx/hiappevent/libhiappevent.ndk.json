@@ -1,0 +1,166 @@
+[
+    {
+        "name": "OH_HiAppEvent_Write"
+    },
+    {
+        "name": "OH_HiAppEvent_Configure"
+    },
+    {
+        "name": "OH_HiAppEvent_AddBoolParam"
+    },
+    {
+        "name": "OH_HiAppEvent_AddBoolArrayParam"
+    },
+    {
+        "name": "OH_HiAppEvent_AddInt8Param"
+    },
+    {
+        "name": "OH_HiAppEvent_AddInt8ArrayParam"
+    },
+    {
+        "name": "OH_HiAppEvent_AddInt16Param"
+    },
+    {
+        "name": "OH_HiAppEvent_AddInt16ArrayParam"
+    },
+    {
+        "name": "OH_HiAppEvent_AddInt32Param"
+    },
+    {
+        "name": "OH_HiAppEvent_AddInt32ArrayParam"
+    },
+    {
+        "name": "OH_HiAppEvent_AddInt64Param"
+    },
+    {
+        "name": "OH_HiAppEvent_AddInt64ArrayParam"
+    },
+    {
+        "name": "OH_HiAppEvent_AddFloatParam"
+    },
+    {
+        "name": "OH_HiAppEvent_AddFloatArrayParam"
+    },
+    {
+        "name": "OH_HiAppEvent_AddDoubleParam"
+    },
+    {
+        "name": "OH_HiAppEvent_AddDoubleArrayParam"
+    },
+    {
+        "name": "OH_HiAppEvent_AddStringParam"
+    },
+    {
+        "name": "OH_HiAppEvent_AddStringArrayParam"
+    },
+    {
+        "name": "OH_HiAppEvent_CreateParamList"
+    },
+    {
+        "name": "OH_HiAppEvent_DestroyParamList"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiAppEvent_CreateWatcher"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiAppEvent_DestroyWatcher"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiAppEvent_SetTriggerCondition"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiAppEvent_SetAppEventFilter"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiAppEvent_SetWatcherOnTrigger"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiAppEvent_SetWatcherOnReceive"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiAppEvent_TakeWatcherData"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiAppEvent_AddWatcher"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiAppEvent_RemoveWatcher"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiAppEvent_ClearData"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_HiAppEvent_CreateConfig"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_HiAppEvent_DestroyConfig"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_HiAppEvent_SetConfigItem"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_HiAppEvent_SetEventConfig"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_HiAppEvent_CreateProcessor"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_HiAppEvent_SetReportRoute"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_HiAppEvent_SetReportPolicy"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_HiAppEvent_SetReportEvent"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_HiAppEvent_SetCustomConfig"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_HiAppEvent_SetConfigId"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_HiAppEvent_SetReportUserId"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_HiAppEvent_SetReportUserProperty"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_HiAppEvent_AddProcessor"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_HiAppEvent_DestroyProcessor"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_HiAppEvent_RemoveProcessor"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_HiAppEvent_SetConfigName"
+    }
+]

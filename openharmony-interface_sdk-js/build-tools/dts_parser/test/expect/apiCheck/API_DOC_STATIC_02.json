@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_STATIC_02.d.ts",
+    "codeContextStaerLine": "34",
+    "defectLevel": 2,
+    "defectType": "API_DOC_STATIC_02",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [static] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "function write(): void;",
+    "mainBuggyLine": "34",
+    "extendInfo": {
+      "apiName": "write",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_STATIC_02.d.ts|hiAppEvent|write",
+      "parentModuleName": "hiAppEvent"
+    }
+  }
+]

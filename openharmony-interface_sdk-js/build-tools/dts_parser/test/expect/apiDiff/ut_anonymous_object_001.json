@@ -1,0 +1,79 @@
+[
+  {
+    "apiType": "Method",
+    "statusCode": 16,
+    "oldApiDefinedText": "testFun(\n    dataSource: IDataSource,\n    url: string | number,\n    itenGenerator: {\n      /**\n       * Color property.\n       * @type { ResourceColor } color - the color value.\n       * @syscap SystemCapability.ArkUI.ArkUI.Full\n       * @crossplatform\n       * @since 10\n       */\n      /**\n       * Color property.\n       * @type { ResourceColor } color - the color value.\n       * @syscap SystemCapability.ArkUI.ArkUI.Full\n       * @crossplatform\n       * @atomicservice\n       * @since 11\n       */\n      color: number;\n\n      /**\n       * Offset property.\n       * @type { Length } offset - the color offset.\n       * @syscap SystemCapability.ArkUI.ArkUI.Full\n       * @crossplatform\n       * @since 10\n       */\n      /**\n       * Offset property.\n       * @type { Length } offset - the color offset.\n       * @syscap SystemCapability.ArkUI.ArkUI.Full\n       * @crossplatform\n       * @atomicservice\n       * @since 11\n       */\n      offset: string;\n    }\n  ): LazyForEachInterface;",
+    "newApiDefinedText": "testFun(dataSource: IDataSource, url: string | number, itenGenerator: testType): LazyForEachInterface;",
+    "oldApiName": "testFun",
+    "newApiName": "testFun",
+    "oldDtsName": "ut_anonymous_object_001.d.ts",
+    "newDtsName": "ut_anonymous_object_001.d.ts",
+    "diffType": 96,
+    "diffMessage": "函数的参数类型变更",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [
+      "ut_anonymous_object_001.d.ts",
+      "Test",
+      "testFun"
+    ],
+    "newHierarchicalRelations": [
+      "ut_anonymous_object_001.d.ts",
+      "Test",
+      "testFun"
+    ],
+    "oldPos": {
+      "line": 17,
+      "character": 3
+    },
+    "newPos": {
+      "line": 17,
+      "character": 3
+    },
+    "oldDescription": "itenGenerator: {\n      /**\n       * Color property.\n       * @type { ResourceColor } color - the color value.\n       * @syscap SystemCapability.ArkUI.ArkUI.Full\n       * @crossplatform\n       * @since 10\n       */\n      /**\n       * Color property.\n       * @type { ResourceColor } color - the color value.\n       * @syscap SystemCapability.ArkUI.ArkUI.Full\n       * @crossplatform\n       * @atomicservice\n       * @since 11\n       */\n      color: number;\n\n      /**\n       * Offset property.\n       * @type { Length } offset - the color offset.\n       * @syscap SystemCapability.ArkUI.ArkUI.Full\n       * @crossplatform\n       * @since 10\n       */\n      /**\n       * Offset property.\n       * @type { Length } offset - the color offset.\n       * @syscap SystemCapability.ArkUI.ArkUI.Full\n       * @crossplatform\n       * @atomicservice\n       * @since 11\n       */\n      offset: string;\n    }",
+    "newDescription": "itenGenerator: testType",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  },
+  {
+    "apiType": "TypeAlias",
+    "statusCode": 3,
+    "oldApiDefinedText": "",
+    "newApiDefinedText": "declare type testType = {\n  /**\n   * Color property.\n   * @type { ResourceColor } color - the color value.\n   * @syscap SystemCapability.ArkUI.ArkUI.Full\n   * @crossplatform\n   * @atomicservice\n   * @since 11\n   */\n    /**\n   * Color property.\n   * @type { boolean } color - the color value.\n   * @syscap SystemCapability.ArkUI.ArkUI.Full\n   * @crossplatform\n   * @atomicservice\n   * @since 11\n   */\n  color: boolean;\n\n  /**\n   * Offset property.\n   * @type { Length } offset - the color offset.\n   * @syscap SystemCapability.ArkUI.ArkUI.Full\n   * @crossplatform\n   * @since 10\n   */\n  /**\n   * Offset property.\n   * @type { Length } offset - the color offset.\n   * @syscap SystemCapability.ArkUI.ArkUI.Full\n   * @crossplatform\n   * @atomicservice\n   * @since 11\n   */\n  offset: string;\n};",
+    "oldApiName": "",
+    "newApiName": "testType",
+    "oldDtsName": "",
+    "newDtsName": "ut_anonymous_object_001.d.ts",
+    "diffType": 75,
+    "diffMessage": "新增API",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [],
+    "newHierarchicalRelations": [
+      "ut_anonymous_object_001.d.ts",
+      "testType"
+    ],
+    "oldPos": {
+      "line": -1,
+      "character": -1
+    },
+    "newPos": {
+      "line": 20,
+      "character": 1
+    },
+    "oldDescription": "",
+    "newDescription": "declare type testType = {\n  /**\n   * Color property.\n   * @type { ResourceColor } color - the color value.\n   * @syscap SystemCapability.ArkUI.ArkUI.Full\n   * @crossplatform\n   * @atomicservice\n   * @since 11\n   */\n    /**\n   * Color property.\n   * @type { boolean } color - the color value.\n   * @syscap SystemCapability.ArkUI.ArkUI.Full\n   * @crossplatform\n   * @atomicservice\n   * @since 11\n   */\n  color: boolean;\n\n  /**\n   * Offset property.\n   * @type { Length } offset - the color offset.\n   * @syscap SystemCapability.ArkUI.ArkUI.Full\n   * @crossplatform\n   * @since 10\n   */\n  /**\n   * Offset property.\n   * @type { Length } offset - the color offset.\n   * @syscap SystemCapability.ArkUI.ArkUI.Full\n   * @crossplatform\n   * @atomicservice\n   * @since 11\n   */\n  offset: string;\n};",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

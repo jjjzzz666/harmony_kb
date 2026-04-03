@@ -1,0 +1,376 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_13.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str: string, str2: string): string | number {}",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_13.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_14.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str: string, str2: string): string {}",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_14.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_15.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str: string, str2: string): number {}",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_15.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_16.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str2: string, str: string): void {}",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_16.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_17.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str: string, str2: string, str3: string): void {}",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_17.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_18.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str: string): void {}",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_18.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_19.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str: string, str2: string): void {}",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_19.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_20.d.ts",
+    "codeContextStaerLine": "17",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "declare function copyDir(src: number, dest: string, mode?: number): Promise<void>;",
+    "mainBuggyLine": "17",
+    "extendInfo": {
+      "apiName": "copyDir",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_20.d.ts|copyDir",
+      "parentModuleName": "copyDir"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_21.d.ts",
+    "codeContextStaerLine": "2",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "function testFun(a: number, b: string, c?: number): void;",
+    "mainBuggyLine": "2",
+    "extendInfo": {
+      "apiName": "testFun",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_21.d.ts|Test|testFun",
+      "parentModuleName": "testFun"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_22.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "readonly constant: 1;",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "constant",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_22.d.ts|Test|constant",
+      "parentModuleName": "constant"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_23.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "str?: string;",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "str",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_23.d.ts|Test|str",
+      "parentModuleName": "str"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_24.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "str: string;",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "str",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_24.d.ts|Test|str",
+      "parentModuleName": "str"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_25.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "str: number;",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "str",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_25.d.ts|Test|str",
+      "parentModuleName": "str"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_26.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "readonly constant: string | number;",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "constant",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_26.d.ts|Test|constant",
+      "parentModuleName": "constant"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_27.d.ets",
+    "codeContextStaerLine": "17",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "@Prop primaryText: ResourceStrs;",
+    "mainBuggyLine": "17",
+    "extendInfo": {
+      "apiName": "primaryText",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_27.d.ets|MyComponent|primaryText",
+      "parentModuleName": "primaryText"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_28.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "str: string;",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "str",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_28.d.ts|Test|str",
+      "parentModuleName": "str"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_30.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "const CONSTANT = 2;",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "CONSTANT",
+      "apiType": "Constant",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_30.d.ts|test|CONSTANT",
+      "parentModuleName": "CONSTANT"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_31.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "type Type = 'new';",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "Type",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_31.d.ts|test|Type",
+      "parentModuleName": "Type"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_32.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "type Type = 'none' | 'new';",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "Type",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_32.d.ts|test|Type",
+      "parentModuleName": "Type"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_33.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "type Type = 'none';",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "Type",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_33.d.ts|test|Type",
+      "parentModuleName": "Type"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_34.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "VALUE_ONE = 2",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "VALUE_ONE",
+      "apiType": "EnumValue",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_34.d.ts|Test|VALUE_ONE",
+      "parentModuleName": "VALUE_ONE"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_36.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_36",
+    "description": "API check error of [api change errors]: Forbid changes: API changes must add a new section of JSDoc.",
+    "language": "typescript",
+    "mainBuggyCode": "const CONSTANT = 2;",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "CONSTANT",
+      "apiType": "Constant",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_36.d.ts|test|CONSTANT",
+      "parentModuleName": "CONSTANT"
+    }
+  }
+]

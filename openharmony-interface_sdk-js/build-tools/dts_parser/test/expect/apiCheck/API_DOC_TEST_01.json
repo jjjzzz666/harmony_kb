@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_TEST_01.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_TEST_01",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [test] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "declare enum MatchPattern",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "MatchPattern",
+      "apiType": "Enum",
+      "hierarchicalRelations": "API_DOC_TEST_01.d.ts|MatchPattern",
+      "parentModuleName": "API_DOC_TEST_01.d.ts"
+    }
+  }
+]

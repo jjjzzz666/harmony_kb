@@ -1,0 +1,550 @@
+/*
+ * Copyright (c) 2024 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/**
+ * @addtogroup Preferences
+ * @{
+ *
+ * @brief Provides APIs for processing data in the form of key-value (KV) pairs.
+ * You can use the APIs provided by the Preferences module to query, modify, and persist KV pairs.
+ * The key is of the string type, and the value can be a number, a string, a boolean value.
+ *
+ * @since 13
+ */
+
+/**
+ * @file oh_preferences_value.h
+ *
+ * @brief Defines the APIs and enums related to preferences values.
+ *
+ * @kit ArkData
+ * @library libohpreferences.so
+ * @syscap SystemCapability.DistributedDataManager.Preferences.Core
+ *
+ * @since 13
+ */
+
+#ifndef OH_PREFERENCES_VALUE_H
+#define OH_PREFERENCES_VALUE_H
+
+#include <stdbool.h>
+#include <stdint.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/**
+ * @brief Enumerates the Preference value types.
+ *
+ * @since 13
+ */
+typedef enum Preference_ValueType {
+    /**
+     * @brief Null.
+     */
+    PREFERENCE_TYPE_NULL = 0,
+    /**
+     * @brief Int.
+     */
+    PREFERENCE_TYPE_INT,
+    /**
+     * @brief boolean.
+     */
+    PREFERENCE_TYPE_BOOL,
+    /**
+     * @brief String.
+     */
+    PREFERENCE_TYPE_STRING,
+    /**
+     * @brief Int64.
+     *
+     * @since 23
+     */
+    PREFERENCE_TYPE_INT64,
+    /**
+     * @brief Double.
+     *
+     * @since 23
+     */
+    PREFERENCE_TYPE_DOUBLE,
+    /**
+     * @brief Int array.
+     *
+     * @since 23
+     */
+    PREFERENCE_TYPE_INT_ARRAY,
+    /**
+     * @brief boolean array.
+     *
+     * @since 23
+     */
+    PREFERENCE_TYPE_BOOL_ARRAY,
+    /**
+     * @brief String array.
+     *
+     * @since 23
+     */
+    PREFERENCE_TYPE_STRING_ARRAY,
+    /**
+     * @brief Int64 array.
+     *
+     * @since 23
+     */
+    PREFERENCE_TYPE_INT64_ARRAY,
+    /**
+     * @brief Double array.
+     *
+     * @since 23
+     */
+    PREFERENCE_TYPE_DOUBLE_ARRAY,
+    /**
+     * @brief Blob.
+     *
+     * @since 23
+     */
+    PREFERENCE_TYPE_BLOB,
+    /**
+     * @brief end butt.
+     */
+    PREFERENCE_TYPE_BUTT
+} Preference_ValueType;
+
+/**
+ * @brief Represents a KV pair in a Preferences instance.
+ *
+ * @since 13
+ */
+typedef struct OH_PreferencesPair OH_PreferencesPair;
+
+/**
+ * @brief Represents the value in a KV pair of a Preferences instance.
+ *
+ * @since 13
+ */
+typedef struct OH_PreferencesValue OH_PreferencesValue;
+
+/**
+ * @brief Obtains a key from an {@Link OH_PreferencesPair} instance.
+ *
+ * @param pairs Pointer to the target {@Link OH_PreferencesPair} instance.
+ * @param index Represents a target index of the pairs
+ * @return Returns preferences pointer to the key that when input parameters valid,
+ * return nullptr otherwise while invalid args are passed in.
+ * @see OH_PreferencesPair.
+ * @since 13
+ */
+const char *OH_PreferencesPair_GetKey(const OH_PreferencesPair *pairs, uint32_t index);
+
+/**
+ * @brief Obtains a value from an {@Link OH_PreferencesPair} instance.
+ *
+ * @param pairs Pointer to the target {@Link OH_PreferencesPair} instance.
+ * @param index Index of the value to obtain.
+ * @return Returns a pointer to the {@Link OH_PreferencesValue} obtained if the operation is successful,
+ * returns nullptr otherwise while invalid args are passed in.
+ * @see OH_PreferencesValue.
+ * @since 13
+ */
+const OH_PreferencesValue *OH_PreferencesPair_GetPreferencesValue(const OH_PreferencesPair *pairs, uint32_t index);
+
+/**
+ * @brief Destroy an {@Link OH_PreferencesPair} instance.
+ *
+ * @param pairs Pointer to the target {@Link OH_PreferencesPair} instance.
+ * @param count Represents the pairs size observed.
+ * @see OH_PreferencesPair.
+ * @since 23
+ */
+void OH_PreferencesPair_Destroy(OH_PreferencesPair *pairs, uint32_t count);
+
+/**
+ * @brief Obtains the type of a preferences value.
+ *
+ * @param object Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @return Returns the value type obtained.
+ *         {@link PREFERENCE_TYPE_NULL} indicates invalid args are passed in.
+ * @see OH_PreferencesValue.
+ * @since 13
+ */
+Preference_ValueType OH_PreferencesValue_GetValueType(const OH_PreferencesValue *object);
+
+/**
+ * @brief Obtains the int value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @param value Pointer to the value obtained.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 13
+ */
+int OH_PreferencesValue_GetInt(const OH_PreferencesValue *object, int *value);
+
+/**
+ * @brief Obtains the Boolean value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @param value Pointer to the Boolean value obtained.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 13
+ */
+int OH_PreferencesValue_GetBool(const OH_PreferencesValue *object, bool *value);
+
+/**
+ * @brief Obtains the string value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to target {@Link OH_PreferencesValue} instance.
+ * @param value Double pointer to the value obtained in an char * array. Release {@Link OH_Preferences_FreeString} the
+ * memory by user when this parameter is no longer required.
+ * @param valueLen Pointer to the string length.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 13
+ */
+int OH_PreferencesValue_GetString(const OH_PreferencesValue *object, char **value, uint32_t *valueLen);
+
+/**
+ * @brief Create an {@Link OH_PreferencesValue} instance.
+ *
+ * @return Returns an pointer to the value object in {@Link OH_PreferencesValue} if the operation is successful,
+ * returns nullptr otherwise.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+OH_PreferencesValue* OH_PreferencesValue_Create(void);
+
+/**
+ * @brief Destroy an {@Link OH_PreferencesValue} instance.
+ *
+ * @param value Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+void OH_PreferencesValue_Destroy(OH_PreferencesValue *value);
+
+/**
+ * @brief Sets the int value to an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @param value Value to set.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_SetInt(const OH_PreferencesValue *object, int value);
+
+/**
+ * @brief Sets the Boolean value to an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @param value Value to set.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_SetBool(const OH_PreferencesValue *object, bool value);
+
+/**
+ * @brief Sets the string value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to target {@Link OH_PreferencesValue} instance.
+ * @param value Value to set.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_SetString(const OH_PreferencesValue *object, const char *value);
+
+/**
+ * @brief Sets the int64 value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to target {@Link OH_PreferencesValue} instance.
+ * @param value Value to set.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_SetInt64(const OH_PreferencesValue *object, int64_t value);
+
+/**
+ * @brief Obtains the int64 value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @param value Pointer to the value obtained.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_GetInt64(const OH_PreferencesValue *object, int64_t *value);
+
+/**
+ * @brief Sets the double value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to target {@Link OH_PreferencesValue} instance.
+ * @param value Value to set.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_SetDouble(const OH_PreferencesValue *object, double value);
+
+/**
+ * @brief Obtains the double value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @param value Pointer to the value obtained.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_GetDouble(const OH_PreferencesValue *object, double *value);
+
+/**
+ * @brief Sets the int array value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to target {@Link OH_PreferencesValue} instance.
+ * @param value Value to set.
+ * @param count Pointer to the value size to set.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_SetIntArray(const OH_PreferencesValue *object, const int *value, uint32_t count);
+
+/**
+ * @brief Obtains the int array value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @param value Pointer to the value obtained.
+ * @param count Pointer to the value size obtained.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_GetIntArray(const OH_PreferencesValue *object, int **value, uint32_t *count);
+
+/**
+ * @brief Sets the bool array value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to target {@Link OH_PreferencesValue} instance.
+ * @param value Value to set.
+ * @param count Pointer to the value size to set.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_SetBoolArray(const OH_PreferencesValue *object, const bool *value, uint32_t count);
+
+/**
+ * @brief Obtains the bool array value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @param value Pointer to the value obtained.
+ * @param count Pointer to the value size obtained.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_GetBoolArray(const OH_PreferencesValue *object, bool **value, uint32_t *count);
+
+/**
+ * @brief Sets the string array value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to target {@Link OH_PreferencesValue} instance.
+ * @param value Value to set.
+ * @param count Pointer to the value size to set.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_SetStringArray(const OH_PreferencesValue *object, const char **value, uint32_t count);
+
+/**
+ * @brief Obtains the string array value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @param value Pointer to the value obtained.
+ * @param count Pointer to the value size obtained.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_GetStringArray(const OH_PreferencesValue *object, char ***value, uint32_t *count);
+
+/**
+ * @brief Sets the int64 array value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to target {@Link OH_PreferencesValue} instance.
+ * @param value Value to set.
+ * @param count Pointer to the value size to set.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_SetInt64Array(const OH_PreferencesValue *object, const int64_t *value, uint32_t count);
+
+/**
+ * @brief Obtains the int64 array value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @param value Pointer to the value obtained.
+ * @param count Pointer to the value size obtained.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_GetInt64Array(const OH_PreferencesValue *object, int64_t **value, uint32_t *count);
+
+/**
+ * @brief Sets the double array value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to target {@Link OH_PreferencesValue} instance.
+ * @param value Value to set.
+ * @param count Pointer to the value size to set.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_SetDoubleArray(const OH_PreferencesValue *object, const double *value, uint32_t count);
+
+/**
+ * @brief Obtains the double array value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @param value Pointer to the value obtained.
+ * @param count Pointer to the value size obtained.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_GetDoubleArray(const OH_PreferencesValue *object, double **value, uint32_t *count);
+
+/**
+ * @brief Sets the blob value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to target {@Link OH_PreferencesValue} instance.
+ * @param value Value to set.
+ * @param count Pointer to the value size to set.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_SetBlob(const OH_PreferencesValue *object, const uint8_t *value, uint32_t count);
+
+/**
+ * @brief Obtains the blob value of an {@Link OH_PreferencesValue} instance.
+ *
+ * @param object Pointer to the target {@Link OH_PreferencesValue} instance.
+ * @param value Pointer to the value obtained.
+ * @param count Pointer to the value size obtained.
+ * @return Returns the status code of the execution.
+ *         {@link PREFERENCES_OK} indicates the operation is successful.
+ *         {@link PREFERENCES_ERROR_INVALID_PARAM} indicates invalid args are passed in.
+ *         {@link PREFERENCES_ERROR_STORAGE} indicates an storage error.
+ *         {@link PREFERENCES_ERROR_MALLOC} indicates an malloc memory error.
+ * @see OH_PreferencesValue.
+ * @since 23
+ */
+int OH_PreferencesValue_GetBlob(const OH_PreferencesValue *object, uint8_t **value, uint32_t *count);
+#ifdef __cplusplus
+};
+#endif
+/** @} */
+#endif // OH_PREFERENCES_VALUE_H

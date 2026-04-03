@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_UNKNOW_DECORATOR_01.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_UNKNOW_DECORATOR_01",
+    "description": "API check error of [unknow decorator]: The [import] tag does not exist. Please use a valid JSDoc tag.",
+    "language": "typescript",
+    "mainBuggyCode": "declare namespace dataUriUtils",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "dataUriUtils",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_DOC_UNKNOW_DECORATOR_01.d.ts|dataUriUtils",
+      "parentModuleName": "API_DOC_UNKNOW_DECORATOR_01.d.ts"
+    }
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_TYPEDEF_05.d.ts",
+    "codeContextStaerLine": "29",
+    "defectLevel": 2,
+    "defectType": "API_DOC_TYPEDEF_05",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [typedef] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "export interface OnReleaseCallback",
+    "mainBuggyLine": "29",
+    "extendInfo": {
+      "apiName": "OnReleaseCallback",
+      "apiType": "Interface",
+      "hierarchicalRelations": "API_DOC_TYPEDEF_05.d.ts|OnReleaseCallback",
+      "parentModuleName": "API_DOC_TYPEDEF_05.d.ts"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_TYPEDEF_05.d.ts",
+    "codeContextStaerLine": "37",
+    "defectLevel": 2,
+    "defectType": "API_DOC_TYPEDEF_05",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [typedef] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "declare type ValueType =  number | string | booleant;",
+    "mainBuggyLine": "37",
+    "extendInfo": {
+      "apiName": "ValueType",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_DOC_TYPEDEF_05.d.ts|ValueType",
+      "parentModuleName": "API_DOC_TYPEDEF_05.d.ts"
+    }
+  }
+]

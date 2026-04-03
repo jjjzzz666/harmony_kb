@@ -1,0 +1,749 @@
+[
+    {
+        "first_introduced": "9",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_AVC"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_AAC"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_MPEG4"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_HEVC"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_MPEG"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCODEC_MIMETYPE_IMAGE_JPG"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCODEC_MIMETYPE_IMAGE_PNG"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCODEC_MIMETYPE_IMAGE_BMP"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_FLAC"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_VORBIS"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_VIVID"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_AMR_NB"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_AMR_WB"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_OPUS"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_G711MU"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_APE"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_VVC"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_AVCODEC_MIMETYPE_SUBTITLE_SRT"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_AVCODEC_MIMETYPE_SUBTITLE_WEBVTT"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_RAW"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_G711A"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_ALAC"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_AC3"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_EAC3"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_WMAV1"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_WMAV2"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_WMAPRO"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_MD_KEY_BLOCK_ALIGN"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_GSM"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_GSM_MS"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_TWINVQ"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_ILBC"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_TRUEHD"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_DVAUDIO",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_DTS",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_AUDIO_COOK",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_MPEG2"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_MPEG4_PART2"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_H263"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_VC1"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_AV1",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_VP9",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_VP8",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_RV30",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_RV40",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_WVC1",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_DVVIDEO",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_RAWVIDEO",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_MPEG1",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_CINEPAK",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_MSVIDEO1"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_WMV3"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AVCODEC_MIMETYPE_VIDEO_MJPEG"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_ED_KEY_TIME_STAMP"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_ED_KEY_EOS"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_TRACK_TYPE"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_CODEC_MIME"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_DURATION"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_BITRATE"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_MAX_INPUT_SIZE"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_WIDTH"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_HEIGHT"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_PIXEL_FORMAT"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_RANGE_FLAG"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_COLOR_PRIMARIES"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_TRANSFER_CHARACTERISTICS"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_MATRIX_COEFFICIENTS"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_AUDIO_SAMPLE_FORMAT"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_FRAME_RATE"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_VIDEO_ENCODE_BITRATE_MODE"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_PROFILE"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_AUD_CHANNEL_COUNT"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_AUD_SAMPLE_RATE"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_I_FRAME_INTERVAL"
+    },
+    {
+        "first_introduced": "9",
+        "name": "OH_MD_KEY_ROTATION"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_MD_KEY_VIDEO_TRANSFORM_TYPE"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_CODEC_CONFIG"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_REQUEST_I_FRAME"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_QUALITY"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_CHANNEL_LAYOUT"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_BITS_PER_CODED_SAMPLE"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_AAC_IS_ADTS"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_SBR"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_COMPLIANCE_LEVEL"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_IDENTIFICATION_HEADER"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_SETUP_HEADER"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_SCALING_MODE"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_MAX_INPUT_BUFFER_COUNT"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_MAX_OUTPUT_BUFFER_COUNT"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_TITLE"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_ARTIST"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_ALBUM"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_ALBUM_ARTIST"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_DATE"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_COMMENT"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_GENRE"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_COPYRIGHT"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_LANGUAGE"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_DESCRIPTION"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_LYRICS"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_MD_KEY_TRACK_COUNT"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_MD_KEY_AUDIO_COMPRESSION_LEVEL"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_MD_KEY_VIDEO_IS_HDR_VIVID"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_MD_KEY_AUDIO_OBJECT_NUMBER"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_MD_KEY_AUDIO_VIVID_METADATA"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_FEATURE_PROPERTY_KEY_VIDEO_ENCODER_MAX_LTR_FRAME_COUNT"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_ENABLE_TEMPORAL_SCALABILITY"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_TEMPORAL_GOP_SIZE"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_TEMPORAL_GOP_REFERENCE_MODE"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_LTR_FRAME_COUNT"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_PER_FRAME_MARK_LTR"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_PER_FRAME_USE_LTR"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_PER_FRAME_IS_LTR"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_PER_FRAME_POC"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_CROP_TOP"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_CROP_BOTTOM"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_CROP_LEFT"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_CROP_RIGHT"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_STRIDE"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_SLICE_HEIGHT"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_PIC_WIDTH"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_PIC_HEIGHT"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_ENABLE_LOW_LATENCY"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_QP_MAX"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_QP_MIN"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_QP_AVERAGE"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_MSE"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_DECODING_TIMESTAMP"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_BUFFER_DURATION"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_SAR"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_START_TIME"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_TRACK_START_TIME"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_MD_KEY_VIDEO_DECODER_OUTPUT_COLOR_SPACE"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_MD_KEY_VIDEO_DECODER_OUTPUT_ENABLE_VRR"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_MD_KEY_CREATION_TIME"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_REPEAT_PREVIOUS_FRAME_AFTER"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_REPEAT_PREVIOUS_MAX_COUNT"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_ROI_PARAMS"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_MD_KEY_ENABLE_MOOV_FRONT"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_MD_KEY_SQR_FACTOR"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_MD_KEY_REFERENCE_TRACK_IDS"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_MD_KEY_TRACK_REFERENCE_TYPE"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_MD_KEY_TRACK_DESCRIPTION"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_MD_KEY_MAX_BITRATE"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_ENABLE_PTS_BASED_RATECONTROL"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_MD_KEY_ENABLE_SYNC_MODE"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_ENABLE_B_FRAME"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_MD_KEY_VIDEO_ENCODER_MAX_B_FRAMES"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_MD_KEY_VIDEO_DECODER_BLANK_FRAME_ON_SHUTDOWN"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_MD_KEY_VIDEO_NATIVE_BUFFER_FORMAT"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_MD_KEY_BUFFER_SKIP_SAMPLES_INFO"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_MD_KEY_LATITUDE",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_MD_KEY_LONGITUDE",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_MD_KEY_ALTITUDE",
+        "type": "variable"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCodec_GetCapability"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCodec_GetCapabilityByCategory"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_IsHardware"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetName"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetMaxSupportedInstances"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetEncoderBitrateRange"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_IsEncoderBitrateModeSupported"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetEncoderQualityRange"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetEncoderComplexityRange"
+    },
+    {
+        "name": "OH_AVCapability_GetAudioSupportedSampleRates"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_AVCapability_GetAudioSupportedSampleRateRanges"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetAudioChannelCountRange"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetVideoWidthAlignment"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetVideoHeightAlignment"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetVideoWidthRangeForHeight"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetVideoHeightRangeForWidth"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetVideoWidthRange"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetVideoHeightRange"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_IsVideoSizeSupported"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetVideoFrameRateRange"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetVideoFrameRateRangeForSize"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_AreVideoSizeAndFrameRateSupported"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetVideoSupportedPixelFormats"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AVCapability_GetVideoSupportedNativeBufferFormats"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetSupportedProfiles"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_GetSupportedLevelsForProfile"
+    },
+    {
+        "first_introduced": "10",
+        "name": "OH_AVCapability_AreProfileAndLevelSupported"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_AVCapability_IsFeatureSupported"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_AVCapability_GetFeatureProperties"
+    }
+]

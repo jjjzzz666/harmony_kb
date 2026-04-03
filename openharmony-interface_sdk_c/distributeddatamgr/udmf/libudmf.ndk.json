@@ -1,0 +1,746 @@
+[
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_Create"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_Destroy"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_GetTypeId"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_GetDescription"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_GetReferenceUrl"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_GetIconFile"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_GetBelongingToTypes"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_GetFilenameExtensions"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_GetMimeTypes"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_GetTypesByFilenameExtension"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_GetTypesByMimeType"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_BelongsTo"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_IsLower"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_IsHigher"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_Equals"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Utd_DestroyStringList"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsPlainText_Create"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsPlainText_Destroy"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsPlainText_GetType"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsPlainText_GetContent"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsPlainText_GetAbstract"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsPlainText_SetContent"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsPlainText_SetAbstract"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHyperlink_Create"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHyperlink_Destroy"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHyperlink_GetType"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHyperlink_GetUrl"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHyperlink_GetDescription"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHyperlink_SetUrl"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHyperlink_SetDescription"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHtml_Create"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHtml_Destroy"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHtml_GetType"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHtml_GetContent"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHtml_GetPlainContent"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHtml_SetContent"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsHtml_SetPlainContent"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_Create"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_Destroy"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_GetType"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_GetId"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_GetName"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_GetIconId"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_GetLabelId"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_GetBundleName"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_GetAbilityName"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_SetId"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_SetName"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_SetIconId"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_SetLabelId"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_SetBundleName"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdsAppItem_SetAbilityName"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfData_Create"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfData_Destroy"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfData_AddRecord"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfData_HasType"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfData_GetTypes"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfData_GetRecords"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfRecord_Create"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfRecord_Destroy"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfRecord_AddGeneralEntry"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfRecord_AddPlainText"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfRecord_AddHyperlink"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfRecord_AddHtml"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfRecord_AddAppItem"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfRecord_GetTypes"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfRecord_GetGeneralEntry"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfRecord_GetPlainText"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfRecord_GetHyperlink"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfRecord_GetHtml"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfRecord_GetAppItem"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfProperty_Create"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfProperty_Destroy"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfProperty_GetTag"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfProperty_GetTimestamp"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfProperty_GetShareOption"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfProperty_GetExtrasIntParam"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfProperty_GetExtrasStringParam"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfProperty_SetTag"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfProperty_SetShareOption"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfProperty_SetExtrasIntParam"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_UdmfProperty_SetExtrasStringParam"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Udmf_GetUnifiedData"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_Udmf_SetUnifiedData"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfRecordProvider_Create"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfRecordProvider_Destroy"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfRecordProvider_SetData"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfRecord_AddFileUri"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfRecord_AddPixelMap"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfRecord_AddArrayBuffer"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfRecord_SetProvider"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfRecord_GetFileUri"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfRecord_GetPixelMap"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfRecord_GetArrayBuffer"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfData_GetPrimaryPlainText"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfData_GetPrimaryHtml"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfData_GetRecordCount"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfData_GetRecord"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdmfData_IsLocal"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsFileUri_Create"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsFileUri_Destroy"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsFileUri_GetType"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsFileUri_GetFileUri"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsFileUri_GetFileType"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsFileUri_SetFileUri"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsFileUri_SetFileType"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsPixelMap_Create"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsPixelMap_Destroy"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsPixelMap_GetType"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsPixelMap_GetPixelMap"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsPixelMap_SetPixelMap"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsArrayBuffer_Create"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsArrayBuffer_Destroy"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsArrayBuffer_SetData"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_UdsArrayBuffer_GetData"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_Create"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_Destroy"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_GetType"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_GetThumbData"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_GetDescription"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_GetTitle"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_GetAppIcon"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_GetAppName"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_GetLinkUri"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_SetThumbData"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_SetDescription"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_SetTitle"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_SetAppIcon"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_SetAppName"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdsContentForm_SetLinkUri"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdmfRecord_AddContentForm"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_UdmfRecord_GetContentForm"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_UdmfProgressInfo_GetProgress"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_UdmfProgressInfo_GetStatus"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_UdmfGetDataParams_Create"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_UdmfGetDataParams_Destroy"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_UdmfGetDataParams_SetDestUri"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_UdmfGetDataParams_SetFileConflictOptions"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_UdmfGetDataParams_SetProgressIndicator"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_UdmfGetDataParams_SetDataProgressListener"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfOptions_Create"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfOptions_Destroy"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfOptions_GetKey"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfOptions_SetKey"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfOptions_GetIntention"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfOptions_SetIntention"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfOptions_Reset"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_Udmf_GetUnifiedDataByOptions"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_Udmf_SetUnifiedDataByOptions"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_Udmf_UpdateUnifiedData"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_Udmf_DeleteUnifiedData"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_Udmf_DestroyDataArray"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfGetDataParams_SetAcceptableInfo"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfDataLoadParams_Create"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfDataLoadParams_Destroy"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfDataLoadParams_SetLoadHandler"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfDataLoadParams_SetDataLoadInfo"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfDataLoadInfo_Create"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfDataLoadInfo_Destroy"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfDataLoadInfo_GetTypes"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfDataLoadInfo_SetType"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfDataLoadInfo_GetRecordCount"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfDataLoadInfo_SetRecordCount"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfOptions_GetVisibility"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_UdmfOptions_SetVisibility"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsPlainText_GetDetails"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsPlainText_SetDetails"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsHyperlink_GetDetails"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsHyperlink_SetDetails"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsHtml_GetDetails"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsHtml_SetDetails"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsAppItem_GetDetails"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsAppItem_SetDetails"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsFileUri_GetDetails"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsFileUri_SetDetails"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsPixelMap_GetDetails"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsPixelMap_SetDetails"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsDetails_Create"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsDetails_Destroy"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsDetails_HasKey"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsDetails_Remove"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsDetails_Clear"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsDetails_SetValue"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsDetails_GetValue"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UdsDetails_GetAllKeys"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_UDMF_GetDataElementAt"
+    }
+]

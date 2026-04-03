@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_FORM_02.d.ts",
+    "codeContextStaerLine": "29",
+    "defectLevel": 2,
+    "defectType": "API_DOC_FORM_02",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [form] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "declare enum BadgePosition",
+    "mainBuggyLine": "29",
+    "extendInfo": {
+      "apiName": "BadgePosition",
+      "apiType": "Enum",
+      "hierarchicalRelations": "API_DOC_FORM_02.d.ts|BadgePosition",
+      "parentModuleName": "API_DOC_FORM_02.d.ts"
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "UniformDataTypeDeclarations": [{
+    "TypeId": "com.example.UTDType.image",
+    "BelongingToTypes": ["general.image"],
+    "FilenameExtensions": [".myImage", ".khImage"],
+    "MIMETypes": ["application/my-document", "application/my-doc"],
+    "Description": "My Image.",
+    "ReferenceURL": ""
+  },
+  {
+    "TypeId": "com.example.UTDType.audio",
+    "BelongingToTypes": ["general.audio"],
+    "FilenameExtensions": [".myAudio", ".khAudio"],
+    "MIMETypes": ["application/my-document", "application/my-doc"],
+    "Description": "My audio.",
+    "ReferenceURL": ""
+  },
+  {
+    "TypeId": "com.example.UTDType.video",
+    "BelongingToTypes": ["general.video"],
+    "FilenameExtensions": [".myVideo", ".khVideo"],
+    "MIMETypes": ["application/my-document", "application/my-doc"],
+    "Description": "My video.",
+    "ReferenceURL": ""
+  }
+  ]
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_16.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_16",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change function param position.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str2: string, str: string): void {}",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_16.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  }
+]

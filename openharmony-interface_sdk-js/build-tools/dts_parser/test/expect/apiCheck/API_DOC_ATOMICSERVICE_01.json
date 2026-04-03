@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_ATOMICSERVICE_01.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_ATOMICSERVICE_01",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [atomicservice] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "declare namespace advertising",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "advertising",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_DOC_ATOMICSERVICE_01.d.ts|advertising",
+      "parentModuleName": "API_DOC_ATOMICSERVICE_01.d.ts"
+    }
+  }
+]

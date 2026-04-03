@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_ENUM_03.d.ts",
+    "codeContextStaerLine": "29",
+    "defectLevel": 2,
+    "defectType": "API_DOC_ENUM_03",
+    "description": "API check error of [wrong scene]: JSDoc label validity verification failed. The [enum] label is not allowed. Please check the label usage method.",
+    "language": "typescript",
+    "mainBuggyCode": "declare namespace dataUriUtils",
+    "mainBuggyLine": "29",
+    "extendInfo": {
+      "apiName": "dataUriUtils",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_DOC_ENUM_03.d.ts|dataUriUtils",
+      "parentModuleName": "API_DOC_ENUM_03.d.ts"
+    }
+  }
+]

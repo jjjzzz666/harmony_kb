@@ -1,0 +1,274 @@
+[
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_Create"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_GetWidth"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_SetWidth"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_GetHeight"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_PixelmapImageInfo_GetAlphaMode"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_SetHeight"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_GetPixelFormat"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_SetPixelFormat"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_GetSrcPixelFormat"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_SetSrcPixelFormat"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_GetAlphaType"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_SetAlphaType"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_PixelmapInitializationOptions_GetEditable"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_PixelmapInitializationOptions_SetEditable"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_GetRowStride"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_SetRowStride"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapInitializationOptions_Release"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapImageInfo_Create"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapImageInfo_GetWidth"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapImageInfo_GetHeight"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapImageInfo_GetRowStride"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapImageInfo_GetPixelFormat"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapImageInfo_GetAlphaType"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapImageInfo_GetDynamicRange"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapImageInfo_Release"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_CreatePixelmap"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_PixelmapNative_CreatePixelmapUsingAllocator"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_ReadPixels"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_WritePixels"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_PixelmapNative_ReadPixelsFromArea"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_PixelmapNative_WritePixelsToArea"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_PixelmapNative_GetArgbPixels"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_ToSdr"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_GetImageInfo"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_Opacity"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_Scale"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_ScaleWithAntiAliasing"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_PixelmapNative_CreateScaledPixelMap"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_PixelmapNative_CreateScaledPixelMapWithAntiAliasing"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_Translate"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_PixelmapNative_CreateAlphaPixelmap"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_PixelmapNative_Clone"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_PixelmapNative_CreateCroppedAndScaledPixelMap"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_Rotate"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_Flip"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_Crop"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_Release"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_PixelmapNative_Destroy"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_ConvertAlphaFormat"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_CreateEmptyPixelmap"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_PixelmapNative_CreateEmptyPixelmapUsingAllocator"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_PixelmapNative_CreatePixelmapFromSurface"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_PixelmapNative_CreatePixelmapFromSurfaceWithTransformation"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_PixelmapNative_CreatePixelmapFromNativeBuffer"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_GetMetadata"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_SetMetadata"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_GetNativeBuffer"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_PixelmapNative_GetColorSpaceNative"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_PixelmapNative_SetColorSpaceNative"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_ConvertPixelmapNativeToNapi"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PixelmapNative_ConvertPixelmapNativeFromNapi"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_PixelmapNative_SetMemoryName"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_PixelmapNative_GetByteCount"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_PixelmapNative_GetAllocationByteCount"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_PixelmapNative_AccessPixels"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_PixelmapNative_UnaccessPixels"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_PixelmapNative_GetUniqueId"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_PixelmapNative_IsReleased"
+    }
+]

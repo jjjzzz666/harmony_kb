@@ -1,0 +1,41 @@
+[
+  {
+    "apiType": "TypeAlias",
+    "statusCode": 14,
+    "oldApiDefinedText": "declare type TestReturn = (value: string, ...args: string[]) => MethodDecorator | Test | string;",
+    "newApiDefinedText": "declare type TestReturn = (value: string, ...args: string[]) => MethodDecorator | string;",
+    "oldApiName": "TestReturn",
+    "newApiName": "TestReturn",
+    "oldDtsName": "ut_type_function_return_type_range_reduce.d.ts",
+    "newDtsName": "ut_type_function_return_type_range_reduce.d.ts",
+    "diffType": 62,
+    "diffMessage": "自定义方法类型返回值类型缩小",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [
+      "ut_type_function_return_type_range_reduce.d.ts",
+      "TestReturn"
+    ],
+    "newHierarchicalRelations": [
+      "ut_type_function_return_type_range_reduce.d.ts",
+      "TestReturn"
+    ],
+    "oldPos": {
+      "line": 1,
+      "character": 1
+    },
+    "newPos": {
+      "line": 1,
+      "character": 1
+    },
+    "oldDescription": "MethodDecorator,Test,string",
+    "newDescription": "MethodDecorator,string",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

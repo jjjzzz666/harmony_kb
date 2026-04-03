@@ -1,0 +1,1 @@
+declare function testFun(a: number, b: string): void;

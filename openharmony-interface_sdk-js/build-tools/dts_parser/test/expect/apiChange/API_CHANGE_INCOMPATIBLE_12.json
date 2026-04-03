@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_12.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_12",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change from nothing to FAModelOnly.",
+    "language": "typescript",
+    "mainBuggyCode": "export namespace test",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "test",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_12.d.ts|test",
+      "parentModuleName": "test"
+    }
+  }
+]

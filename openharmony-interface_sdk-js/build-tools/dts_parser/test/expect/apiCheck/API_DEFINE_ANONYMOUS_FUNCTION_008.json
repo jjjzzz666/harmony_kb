@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_ANONYMOUS_FUNCTION_008.d.ts",
+    "codeContextStaerLine": "38",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_ANONYMOUS_FUNCTION_01",
+    "description": "API check error of [wrong scene]: Anonymous functions or anonymous object that are not allowed are used in this api.",
+    "language": "typescript",
+    "mainBuggyCode": "get: { [key: string]: string[] };",
+    "mainBuggyLine": "38",
+    "extendInfo": {
+      "apiName": "get",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_DEFINE_ANONYMOUS_FUNCTION_008.d.ts|PermissionStateChangeInfo|get",
+      "parentModuleName": "PermissionStateChangeInfo"
+    }
+  }
+]

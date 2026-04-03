@@ -1,0 +1,43 @@
+[
+  {
+    "apiType": "Property",
+    "statusCode": 16,
+    "oldApiDefinedText": "left?: { anchor: string; align: HorizontalAlign };",
+    "newApiDefinedText": "left?: { anchor: string, align: HorizontalAlign };",
+    "oldApiName": "left",
+    "newApiName": "left",
+    "oldDtsName": "ut_property_change.d.ts",
+    "newDtsName": "ut_property_change.d.ts",
+    "diffType": 87,
+    "diffMessage": "属性类型发生改变",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [
+      "ut_property_change.d.ts",
+      "AlignRuleOption",
+      "left"
+    ],
+    "newHierarchicalRelations": [
+      "ut_property_change.d.ts",
+      "AlignRuleOption",
+      "left"
+    ],
+    "oldPos": {
+      "line": 29,
+      "character": 3
+    },
+    "newPos": {
+      "line": 29,
+      "character": 3
+    },
+    "oldDescription": "{ anchor: string; align: HorizontalAlign }",
+    "newDescription": "{ anchor: string, align: HorizontalAlign }",
+    "oldSyscapField": "ArkUI",
+    "newSyscapField": "ArkUI",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "apiType": "TypeAlias",
+    "statusCode": 14,
+    "oldApiDefinedText": "declare type Test = (value: string | number, ...args: string[]) => void;",
+    "newApiDefinedText": "declare type Test = (value: string, ...args: string[]) => void;",
+    "oldApiName": "Test",
+    "newApiName": "Test",
+    "oldDtsName": "ut_type_function_param_type_range_reduce.d.ts",
+    "newDtsName": "ut_type_function_param_type_range_reduce.d.ts",
+    "diffType": 72,
+    "diffMessage": "自定义方法类型的参数类型范围缩小",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [
+      "ut_type_function_param_type_range_reduce.d.ts",
+      "Test"
+    ],
+    "newHierarchicalRelations": [
+      "ut_type_function_param_type_range_reduce.d.ts",
+      "Test"
+    ],
+    "oldPos": {
+      "line": 1,
+      "character": 1
+    },
+    "newPos": {
+      "line": 1,
+      "character": 1
+    },
+    "oldDescription": "value: string | number",
+    "newDescription": "value: string",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

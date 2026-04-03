@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_DEFAULT_01.d.ts",
+    "codeContextStaerLine": "35",
+    "defectLevel": 2,
+    "defectType": "API_DOC_DEFAULT_01",
+    "description": "API check error of [wrong value]: The [default] tag value is incorrect. Please supplement the default value.",
+    "language": "typescript",
+    "mainBuggyCode": "isProxy?: boolean;",
+    "mainBuggyLine": "35",
+    "extendInfo": {
+      "apiName": "isProxy",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_DOC_DEFAULT_01.d.ts|DataShareHelperOptions|isProxy",
+      "parentModuleName": "DataShareHelperOptions"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/PreferOutputDevice",
+    "pages/Focus",
+    "pages/PresetEffect",
+    "pages/RealtimeEffect",
+    "pages/NormalCapturer",
+    "pages/ParallelCapturer",
+    "pages/LiveCapturer",
+    "pages/VolumePanel",
+    "pages/SpatialAudio",
+    "pages/Karaoke"
+  ]
+}

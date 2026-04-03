@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_THROWS_01.d.ts",
+    "codeContextStaerLine": "34",
+    "defectLevel": 2,
+    "defectType": "API_DOC_THROWS_01",
+    "description": "API check error of [wrong value]: The type of the [1] [throws] tag is incorrect. Please check if the tag value is a numerical value.",
+    "language": "typescript",
+    "mainBuggyCode": "onResult: string;",
+    "mainBuggyLine": "34",
+    "extendInfo": {
+      "apiName": "onResult",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_DOC_THROWS_01.d.ts|AuthorizationCallback|onResult",
+      "parentModuleName": "AuthorizationCallback"
+    }
+  }
+]

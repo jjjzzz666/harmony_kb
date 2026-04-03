@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_THROWS_04.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_THROWS_04",
+    "description": "API check error of [wrong scene]: JSDoc label validity verification failed. The [throws] label is not allowed. Please check the label usage method.",
+    "language": "typescript",
+    "mainBuggyCode": "declare namespace hiAppEvent",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "hiAppEvent",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_DOC_THROWS_04.d.ts|hiAppEvent",
+      "parentModuleName": "API_DOC_THROWS_04.d.ts"
+    }
+  }
+]

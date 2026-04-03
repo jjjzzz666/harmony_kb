@@ -1,0 +1,1 @@
+export const concurrent_queue_exec: (apiType: boolean) => number;

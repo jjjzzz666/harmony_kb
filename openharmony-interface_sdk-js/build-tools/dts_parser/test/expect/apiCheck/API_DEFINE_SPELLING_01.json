@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_SPELLING_01.d.ts",
+    "codeContextStaerLine": "27",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_SPELLING_01",
+    "description": "API check error of [misspell words]: Error words in [sdfghjk]: {sdfghjk}. please confirm whether it needs to be corrected to a common word.",
+    "language": "typescript",
+    "mainBuggyCode": "export interface Configuration",
+    "mainBuggyLine": "27",
+    "extendInfo": {
+      "apiName": "Configuration",
+      "apiType": "Interface",
+      "hierarchicalRelations": "API_DEFINE_SPELLING_01.d.ts|Configuration",
+      "parentModuleName": "API_DEFINE_SPELLING_01.d.ts"
+    }
+  }
+]

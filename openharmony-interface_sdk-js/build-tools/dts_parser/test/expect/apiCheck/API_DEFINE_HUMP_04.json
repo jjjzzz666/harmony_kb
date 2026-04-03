@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_HUMP_04.d.ts",
+    "codeContextStaerLine": "29",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_HUMP_04",
+    "description": "API check error of [naming errors]: This name [Ability] should be named by small hump.",
+    "language": "typescript",
+    "mainBuggyCode": "declare namespace Ability",
+    "mainBuggyLine": "29",
+    "extendInfo": {
+      "apiName": "Ability",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_DEFINE_HUMP_04.d.ts|Ability",
+      "parentModuleName": "API_DEFINE_HUMP_04.d.ts"
+    }
+  }
+]

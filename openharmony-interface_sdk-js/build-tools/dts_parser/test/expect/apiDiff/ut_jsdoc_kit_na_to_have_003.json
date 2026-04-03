@@ -1,0 +1,38 @@
+[
+  {
+    "apiType": "SourceFile",
+    "statusCode": 26,
+    "oldApiDefinedText": "",
+    "newApiDefinedText": "",
+    "oldApiName": "ut_jsdoc_kit_na_to_have_003.d.ts",
+    "newApiName": "ut_jsdoc_kit_na_to_have_003.d.ts",
+    "oldDtsName": "ut_jsdoc_kit_na_to_have_003.d.ts",
+    "newDtsName": "ut_jsdoc_kit_na_to_have_003.d.ts",
+    "diffType": 89,
+    "diffMessage": "kit信息从无到有",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [
+      "ut_jsdoc_kit_na_to_have_003.d.ts"
+    ],
+    "newHierarchicalRelations": [
+      "ut_jsdoc_kit_na_to_have_003.d.ts"
+    ],
+    "oldPos": {
+      "line": 19,
+      "character": 1
+    },
+    "newPos": {
+      "line": 20,
+      "character": 1
+    },
+    "oldDescription": "NA",
+    "newDescription": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

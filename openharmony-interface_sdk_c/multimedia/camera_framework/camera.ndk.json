@@ -1,0 +1,986 @@
+[
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraInput_RegisterCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraInput_UnregisterCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraInput_Open"
+    },
+        {
+        "first_introduced": "12",
+        "name": "OH_CameraInput_OpenSecureCamera"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraInput_Close"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraInput_Release"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_CameraInput_IsPhysicalCameraOrientationVariable"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_CameraInput_GetPhysicalCameraOrientation"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_CameraInput_UsePhysicalCameraOrientation"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_RegisterCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_UnregisterCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CameraManager_RegisterTorchStatusCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CameraManager_UnregisterTorchStatusCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_GetSupportedCameras"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_DeleteSupportedCameras"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_GetSupportedCameraOutputCapability"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CameraManager_GetSupportedCameraOutputCapabilityWithSceneMode"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_DeleteSupportedCameraOutputCapability"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_IsCameraMuted"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_CreateCaptureSession"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_CreateCameraInput"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_CreateCameraInput_WithPositionAndType"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_CreatePreviewOutput"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CameraManager_CreateDeferredPreviewOutput"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CameraManager_CreatePreviewOutputUsedInPreconfig"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_CreatePhotoOutput"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CameraManager_CreatePhotoOutputUsedInPreconfig"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CameraManager_CreatePhotoOutputWithoutSurface"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_CreateVideoOutput"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CameraManager_CreateVideoOutputUsedInPreconfig"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CameraManager_CreateMetadataOutput"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CameraManager_GetSupportedSceneModes"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CameraManager_DeleteSceneModes"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CameraManager_IsTorchSupported"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CameraManager_IsTorchSupportedByTorchMode"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CameraManager_SetTorchMode"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_Camera_GetCameraManager"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_Camera_DeleteCameraManager"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_RegisterCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_UnregisterCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_RegisterSmoothZoomInfoCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_UnregisterSmoothZoomInfoCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_SetSessionMode"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_AddSecureOutput"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_BeginConfig"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_CommitConfig"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_AddInput"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_RemoveInput"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_AddPreviewOutput"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_RemovePreviewOutput"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_AddPhotoOutput"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_RemovePhotoOutput"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_AddVideoOutput"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_RemoveVideoOutput"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_AddMetadataOutput"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_RemoveMetadataOutput"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_Start"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_Stop"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_Release"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_HasFlash"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_IsFlashModeSupported"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_GetFlashMode"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_SetFlashMode"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_IsExposureModeSupported"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_GetExposureMode"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_SetExposureMode"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_GetMeteringPoint"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_SetMeteringPoint"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_GetExposureBiasRange"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_SetExposureBias"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_GetExposureBias"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_IsFocusModeSupported"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_GetFocusMode"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_SetFocusMode"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_GetFocusPoint"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_SetFocusPoint"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_GetZoomRatioRange"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_GetZoomRatio"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_SetZoomRatio"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_IsVideoStabilizationModeSupported"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_GetVideoStabilizationMode"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_CaptureSession_SetVideoStabilizationMode"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_CanAddInput"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_CanAddPreviewOutput"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_CanAddPhotoOutput"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_CanAddVideoOutput"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_CanPreconfig"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_CanPreconfigWithRatio"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_Preconfig"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_PreconfigWithRatio"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_GetExposureValue"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_GetFocalLength"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_SetSmoothZoom"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_GetSupportedColorSpaces"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_DeleteColorSpaces"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_GetActiveColorSpace"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CaptureSession_SetActiveColorSpace"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_MetadataOutput_RegisterCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_MetadataOutput_UnregisterCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_MetadataOutput_Start"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_MetadataOutput_Stop"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_MetadataOutput_Release"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_PhotoOutput_RegisterCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_PhotoOutput_UnregisterCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_RegisterCaptureStartWithInfoCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_UnregisterCaptureStartWithInfoCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_RegisterCaptureEndCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_UnregisterCaptureEndCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_RegisterFrameShutterEndCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_UnregisterFrameShutterEndCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_RegisterCaptureReadyCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_UnregisterCaptureReadyCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_RegisterEstimatedCaptureDurationCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_UnregisterEstimatedCaptureDurationCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_PhotoOutput_Capture"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_RegisterPhotoAvailableCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_UnregisterPhotoAvailableCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_RegisterPhotoAssetAvailableCallback"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_UnregisterPhotoAssetAvailableCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_PhotoOutput_Capture_WithCaptureSetting"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_PhotoOutput_Release"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_PhotoOutput_IsMirrorSupported"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_PhotoOutput_EnableMirror"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_GetActiveProfile"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_DeleteProfile"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_IsMovingPhotoSupported"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_GetPhotoRotation"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_PhotoOutput_GetPhotoRotationWithoutDeviceDegree"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoOutput_EnableMovingPhoto"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_PreviewOutput_RegisterCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_PreviewOutput_UnregisterCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_PreviewOutput_Start"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_PreviewOutput_Stop"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_PreviewOutput_Release"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PreviewOutput_GetActiveProfile"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PreviewOutput_DeleteProfile"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PreviewOutput_GetSupportedFrameRates"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PreviewOutput_DeleteFrameRates"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PreviewOutput_SetFrameRate"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PreviewOutput_GetActiveFrameRate"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PreviewOutput_GetPreviewRotation"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_PreviewOutput_GetPreviewRotationWithoutDisplayRotation"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PreviewOutput_SetPreviewRotation"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_VideoOutput_RegisterCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_VideoOutput_UnregisterCallback"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_VideoOutput_Start"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_VideoOutput_Stop"
+    },
+    {
+        "first_introduced": "11",
+        "name": "OH_VideoOutput_Release"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_VideoOutput_GetActiveProfile"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_VideoOutput_DeleteProfile"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_VideoOutput_GetSupportedFrameRates"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_VideoOutput_DeleteFrameRates"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_VideoOutput_SetFrameRate"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_VideoOutput_GetActiveFrameRate"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_VideoOutput_EnableMirror"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_VideoOutput_IsMirrorSupported"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_VideoOutput_GetVideoRotation"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_VideoOutput_GetVideoRotationWithoutDeviceDegree"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_CameraDevice_GetCameraOrientation"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_CameraDevice_GetHostDeviceName"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_CameraDevice_GetHostDeviceType"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoNative_GetMainImage"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_PhotoNative_Release"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_CameraManager_RegisterFoldStatusInfoCallback"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_CameraManager_UnregisterFoldStatusInfoCallback"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_CaptureSession_RegisterAutoDeviceSwitchStatusCallback"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_CaptureSession_UnregisterAutoDeviceSwitchStatusCallback"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_CaptureSession_IsAutoDeviceSwitchSupported"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_CaptureSession_EnableAutoDeviceSwitch"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_CaptureSession_SetQualityPrioritization"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_CameraManager_GetCameraDevice"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_CameraManager_GetCameraDevices"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_CameraManager_DeleteCameraDevices"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_CameraManager_GetCameraConcurrentInfos"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_CameraInput_OpenConcurrentCameras"
+    },
+    {
+        "first_introduced": "19",
+        "name": "OH_CaptureSession_IsMacroSupported"
+    },
+    {
+        "first_introduced": "19",
+        "name": "OH_CaptureSession_EnableMacro"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_IsWhiteBalanceModeSupported"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_GetWhiteBalanceMode"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_GetWhiteBalanceRange"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_GetWhiteBalance"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_SetWhiteBalance"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_SetWhiteBalanceMode"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_RegisterSystemPressureLevelChangeCallback"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_UnregisterSystemPressureLevelChangeCallback"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_IsControlCenterSupported"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_GetSupportedEffectTypes"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_DeleteSupportedEffectTypes"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_EnableControlCenter"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_RegisterControlCenterEffectStatusChangeCallback"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_UnregisterControlCenterEffectStatusChangeCallback"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_RegisterMacroStatusChangeCallback"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_CaptureSession_UnregisterMacroStatusChangeCallback"
+    },
+    {
+        "first_introduced": "21",
+        "name": "OH_PhotoOutput_IsPhotoQualityPrioritizationSupported"
+    },
+    {
+        "first_introduced": "21",
+        "name": "OH_PhotoOutput_SetPhotoQualityPrioritization"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_CaptureSession_RegisterIsoChangeCallback"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_CaptureSession_UnregisterIsoChangeCallback"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_PreviewOutput_IsBandwidthCompressionSupported"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_PreviewOutput_EnableBandwidthCompression"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_PreviewOutput_AddDeferredSurface"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_CameraManager_GetSupportedFullCameraOutputCapabilityWithSceneMode"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_PhotoNative_GetUncompressedImage"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_CameraInput_RegisterOcclusionDetectionCallback"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_CameraInput_UnregisterOcclusionDetectionCallback"
+    },
+        {
+        "first_introduced": "23",
+        "name": "OH_MetadataOutput_AddMetadataObjectTypes"
+    },
+        {
+        "first_introduced": "23",
+        "name": "OH_MetadataOutput_RemoveMetadataObjectTypes"
+    },
+        {
+        "first_introduced": "23",
+        "name": "OH_CameraManager_CreateMetadataOutputWithObjectTypes"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CameraDevice_GetLensEquivalentFocalLengths"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CameraDevice_IsLogicalCamera"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CameraDevice_GetLogicalCameraConstituentCameraDevices"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CameraDevice_GetConstituentCamerasSize"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CameraDevice_GetLensFocalLength"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CameraDevice_GetMinimumFocusDistance"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CameraDevice_GetLensDistortion"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CameraDevice_GetIntrinsicCalibration"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CameraDevice_GetSensorPhysicalSize"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CameraDevice_GetSensorPixelArraySize"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_RegisterFlashStateChangeCallback"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_UnregisterFlashStateChangeCallback"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_IsExposureMeteringModeSupported"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_GetExposureMeteringMode"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_SetExposureMeteringMode"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_GetSupportedISORange"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_GetIso"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_SetIso"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_GetSupportedPhysicalApertures"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_GetPhysicalAperturesSize"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_GetPhysicalAperture"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_SetPhysicalAperture"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_GetSupportedExposureDurationRange"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_SetExposureDuration"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_GetExposureDuration"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_RegisterExposureInfoChangeCallback"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_UnregisterExposureInfoChangeCallback"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_GetFocusDistance"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_SetFocusDistance"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_IsFocusDistanceSupported"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_GetRAWCaptureZoomRatioRange"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_IsOISModeSupported"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_GetCurrentOISMode"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_SetOISMode"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_GetSupportedOISBiasRange"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_GetCurrentCustomOISBias"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_CaptureSession_SetOISModeCustom"
+    },
+    {
+        "first_introduced": "26",
+        "name": "OH_CameraManager_IsTorchLevelControlSupported"
+    },
+    {
+        "first_introduced": "26",
+        "name": "OH_CameraManager_SetTorchModeOnWithLevel"
+    }
+]

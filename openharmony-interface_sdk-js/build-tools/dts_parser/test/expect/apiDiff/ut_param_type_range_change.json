@@ -1,0 +1,113 @@
+[
+  {
+    "apiType": "Method",
+    "statusCode": 0,
+    "oldApiDefinedText": "on(type: 'enableChange', callback: Callback<boolean>): void;",
+    "newApiDefinedText": "",
+    "oldApiName": "on_enableChange",
+    "newApiName": "",
+    "oldDtsName": "ut_param_type_range_change.d.ts",
+    "newDtsName": "",
+    "diffType": 76,
+    "diffMessage": "删除API",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [
+      "ut_param_type_range_change.d.ts",
+      "Test",
+      "on_enableChange"
+    ],
+    "newHierarchicalRelations": [],
+    "oldPos": {
+      "line": 2,
+      "character": 3
+    },
+    "newPos": {
+      "line": -1,
+      "character": -1
+    },
+    "oldDescription": "on(type: 'enableChange', callback: Callback<boolean>): void;",
+    "newDescription": "",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  },
+  {
+    "apiType": "Method",
+    "statusCode": 3,
+    "oldApiDefinedText": "",
+    "newApiDefinedText": "on(type: 'enableTest' | 'test', callback: Callback<boolean>): void;",
+    "oldApiName": "",
+    "newApiName": "on_enableTest",
+    "oldDtsName": "",
+    "newDtsName": "ut_param_type_range_change.d.ts",
+    "diffType": 75,
+    "diffMessage": "新增API",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [],
+    "newHierarchicalRelations": [
+      "ut_param_type_range_change.d.ts",
+      "Test",
+      "on_enableTest"
+    ],
+    "oldPos": {
+      "line": -1,
+      "character": -1
+    },
+    "newPos": {
+      "line": 2,
+      "character": 3
+    },
+    "oldDescription": "",
+    "newDescription": "on(type: 'enableTest' | 'test', callback: Callback<boolean>): void;",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  },
+  {
+    "apiType": "Method",
+    "statusCode": 3,
+    "oldApiDefinedText": "",
+    "newApiDefinedText": "on(type: 'enableTest' | 'test', callback: Callback<boolean>): void;",
+    "oldApiName": "",
+    "newApiName": "on_test",
+    "oldDtsName": "",
+    "newDtsName": "ut_param_type_range_change.d.ts",
+    "diffType": 75,
+    "diffMessage": "新增API",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [],
+    "newHierarchicalRelations": [
+      "ut_param_type_range_change.d.ts",
+      "Test",
+      "on_test"
+    ],
+    "oldPos": {
+      "line": -1,
+      "character": -1
+    },
+    "newPos": {
+      "line": 2,
+      "character": 3
+    },
+    "oldDescription": "",
+    "newDescription": "on(type: 'enableTest' | 'test', callback: Callback<boolean>): void;",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_ATOMICSERVICE_03.d.ts",
+    "codeContextStaerLine": "35",
+    "defectLevel": 2,
+    "defectType": "API_DOC_ATOMICSERVICE_03",
+    "description": "API check error of [wrong scene]: It was detected that there is a following label [atomicservice] in the current file, but the parent nodes without this label.",
+    "language": "typescript",
+    "mainBuggyCode": "export type Advertisement = _Advertisement;",
+    "mainBuggyLine": "35",
+    "extendInfo": {
+      "apiName": "Advertisement",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_DOC_ATOMICSERVICE_03.d.ts|advertising|Advertisement",
+      "parentModuleName": "advertising"
+    }
+  }
+]

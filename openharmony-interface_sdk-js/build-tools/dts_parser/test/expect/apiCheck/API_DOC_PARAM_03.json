@@ -1,0 +1,36 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_PARAM_03.d.ts",
+    "codeContextStaerLine": "34",
+    "defectLevel": 2,
+    "defectType": "API_DOC_PARAM_03",
+    "description": "API check error of [wrong scene]: JSDoc tag validity verification failed.There are [1] redundant [param]. Please check if the tag should be deleted.",
+    "language": "typescript",
+    "mainBuggyCode": "function attachId(): void;",
+    "mainBuggyLine": "34",
+    "extendInfo": {
+      "apiName": "attachId",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_PARAM_03.d.ts|dataUriUtils|attachId",
+      "parentModuleName": "dataUriUtils"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_PARAM_03.d.ts",
+    "codeContextStaerLine": "47",
+    "defectLevel": 2,
+    "defectType": "API_DOC_PARAM_03",
+    "description": "API check error of [wrong scene]: JSDoc tag validity verification failed.There are [1] redundant [param]. Please check if the tag should be deleted.",
+    "language": "typescript",
+    "mainBuggyCode": "declare type ClickEventListenerCallback = (event: ClickEvent) => void;",
+    "mainBuggyLine": "47",
+    "extendInfo": {
+      "apiName": "ClickEventListenerCallback",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_DOC_PARAM_03.d.ts|ClickEventListenerCallback",
+      "parentModuleName": "API_DOC_PARAM_03.d.ts"
+    }
+  }
+]

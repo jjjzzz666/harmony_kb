@@ -1,0 +1,41 @@
+[
+  {
+    "apiType": "TypeAlias",
+    "statusCode": 14,
+    "oldApiDefinedText": "declare type TestReturn = (value: string, ...args: string[]) => MethodDecorator | string;",
+    "newApiDefinedText": "declare type TestReturn = (value: string, ...args: string[]) => Decorator | Test | string;",
+    "oldApiName": "TestReturn",
+    "newApiName": "TestReturn",
+    "oldDtsName": "ut_type_function_return_type_change.d.ts",
+    "newDtsName": "ut_type_function_return_type_change.d.ts",
+    "diffType": 63,
+    "diffMessage": "自定义方法类型返回值类型改变",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [
+      "ut_type_function_return_type_change.d.ts",
+      "TestReturn"
+    ],
+    "newHierarchicalRelations": [
+      "ut_type_function_return_type_change.d.ts",
+      "TestReturn"
+    ],
+    "oldPos": {
+      "line": 1,
+      "character": 1
+    },
+    "newPos": {
+      "line": 1,
+      "character": 1
+    },
+    "oldDescription": "MethodDecorator,string",
+    "newDescription": "Decorator,Test,string",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

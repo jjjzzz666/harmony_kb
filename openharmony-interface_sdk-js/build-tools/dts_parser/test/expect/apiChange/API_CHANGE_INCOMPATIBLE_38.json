@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_38.d.ts",
+    "codeContextStaerLine": "26",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_38",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change from NA to syscap.",
+    "language": "typescript",
+    "mainBuggyCode": "declare namespace dataUriUtils",
+    "mainBuggyLine": "26",
+    "extendInfo": {
+      "apiName": "dataUriUtils",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_38.d.ts|dataUriUtils",
+      "parentModuleName": "dataUriUtils"
+    }
+  }
+]

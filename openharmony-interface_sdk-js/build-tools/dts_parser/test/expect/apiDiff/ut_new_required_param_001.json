@@ -1,0 +1,43 @@
+[
+  {
+    "apiType": "Method",
+    "statusCode": 16,
+    "oldApiDefinedText": "testFun(a: number, b: string): void;",
+    "newApiDefinedText": "testFun(a: number, b: string, c: number): void;",
+    "oldApiName": "testFun",
+    "newApiName": "testFun",
+    "oldDtsName": "ut_new_required_param_001.d.ts",
+    "newDtsName": "ut_new_required_param_001.d.ts",
+    "diffType": 38,
+    "diffMessage": "函数新增必选参数",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [
+      "ut_new_required_param_001.d.ts",
+      "Test",
+      "testFun"
+    ],
+    "newHierarchicalRelations": [
+      "ut_new_required_param_001.d.ts",
+      "Test",
+      "testFun"
+    ],
+    "oldPos": {
+      "line": 2,
+      "character": 3
+    },
+    "newPos": {
+      "line": 2,
+      "character": 3
+    },
+    "oldDescription": "",
+    "newDescription": "c: number",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

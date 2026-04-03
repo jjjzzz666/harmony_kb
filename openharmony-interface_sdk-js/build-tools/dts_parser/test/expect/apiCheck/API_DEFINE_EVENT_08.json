@@ -1,0 +1,36 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_EVENT_08.d.ts",
+    "codeContextStaerLine": "35",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_EVENT_08",
+    "description": "API check error of [wrong parameter]: The event name should be named by small hump. (Received [\"ServiceChange\"]).",
+    "language": "typescript",
+    "mainBuggyCode": "on(type: 'ServiceChange', callback: Callback<ServiceChangeType>): void;",
+    "mainBuggyLine": "35",
+    "extendInfo": {
+      "apiName": "on_ServiceChange",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DEFINE_EVENT_08.d.ts|IntelligentVoiceManager|on_ServiceChange",
+      "parentModuleName": "IntelligentVoiceManager"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_EVENT_08.d.ts",
+    "codeContextStaerLine": "43",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_EVENT_08",
+    "description": "API check error of [wrong parameter]: The event name should be named by small hump. (Received [\"ServiceChange\"]).",
+    "language": "typescript",
+    "mainBuggyCode": "off(type: 'ServiceChange', callback?: Callback<ServiceChangeType>): void;",
+    "mainBuggyLine": "43",
+    "extendInfo": {
+      "apiName": "off_ServiceChange",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DEFINE_EVENT_08.d.ts|IntelligentVoiceManager|off_ServiceChange",
+      "parentModuleName": "IntelligentVoiceManager"
+    }
+  }
+]

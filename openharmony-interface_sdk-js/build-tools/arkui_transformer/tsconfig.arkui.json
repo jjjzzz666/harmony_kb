@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true,
+    "plugins": [
+      {
+        "transform": "/home/leslie/openharmony/src/interface/sdk-js/build-tools/dist/arkui_transformer.js",
+      }
+    ],
+  },
+  "include": [
+    "../etstest/foo.ts"
+  ]
+}

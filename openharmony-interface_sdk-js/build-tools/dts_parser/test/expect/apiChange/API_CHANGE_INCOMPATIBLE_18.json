@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_18.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_18",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot delete function param.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str: string): void {}",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_18.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  }
+]

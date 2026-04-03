@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_STRUCT_04.d.ets",
+    "codeContextStaerLine": "27",
+    "defectLevel": 2,
+    "defectType": "API_DOC_STRUCT_04",
+    "description": "API check error of [wrong scene]: JSDoc tag validity verification failed. Please confirm if the [struct] tag is missing.",
+    "language": "typescript",
+    "mainBuggyCode": "export declare struct GridObjectSortComponent",
+    "mainBuggyLine": "27",
+    "extendInfo": {
+      "apiName": "GridObjectSortComponent",
+      "apiType": "Struct",
+      "hierarchicalRelations": "API_DOC_STRUCT_04.d.ets|GridObjectSortComponent",
+      "parentModuleName": "API_DOC_STRUCT_04.d.ets"
+    }
+  }
+]

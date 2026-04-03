@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_IMPLEMENTS_02.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_IMPLEMENTS_02",
+    "description": "API check error of [wrong scene]: JSDoc label validity verification failed. The [implements] label is not allowed. Please check the label usage method.",
+    "language": "typescript",
+    "mainBuggyCode": "export class MediaAssetChangeRequest",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "MediaAssetChangeRequest",
+      "apiType": "Class",
+      "hierarchicalRelations": "API_DOC_IMPLEMENTS_02.d.ts|MediaAssetChangeRequest",
+      "parentModuleName": "API_DOC_IMPLEMENTS_02.d.ts"
+    }
+  }
+]

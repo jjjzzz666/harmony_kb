@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_TYPE_04.d.ts",
+    "codeContextStaerLine": "31",
+    "defectLevel": 2,
+    "defectType": "API_DOC_TYPE_04",
+    "description": "API check error of [wrong scene]: JSDoc tag validity verification failed. Please confirm if the [type] tag is missing.",
+    "language": "typescript",
+    "mainBuggyCode": "durationTime: number;",
+    "mainBuggyLine": "31",
+    "extendInfo": {
+      "apiName": "durationTime",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_DOC_TYPE_04.d.ts|GesturePath|durationTime",
+      "parentModuleName": "GesturePath"
+    }
+  }
+]

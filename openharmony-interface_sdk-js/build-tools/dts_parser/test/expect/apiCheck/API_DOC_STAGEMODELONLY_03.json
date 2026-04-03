@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_STAGEMODELONLY_03.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_STAGEMODELONLY_03",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [stagemodelonly] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "export default class AuthorizationExtensionAbility",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "AuthorizationExtensionAbility",
+      "apiType": "Class",
+      "hierarchicalRelations": "API_DOC_STAGEMODELONLY_03.d.ts|AuthorizationExtensionAbility",
+      "parentModuleName": "API_DOC_STAGEMODELONLY_03.d.ts"
+    }
+  }
+]

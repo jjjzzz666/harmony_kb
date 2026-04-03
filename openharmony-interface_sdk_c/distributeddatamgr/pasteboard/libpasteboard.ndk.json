@@ -1,0 +1,110 @@
+[
+    {
+        "first_introduced": "13",
+        "name": "OH_PasteboardObserver_Create"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_PasteboardObserver_Destroy"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_PasteboardObserver_SetData"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_Pasteboard_Create"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_Pasteboard_Destroy"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_Pasteboard_Subscribe"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_Pasteboard_Unsubscribe"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_Pasteboard_IsRemoteData"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_Pasteboard_GetDataSource"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_Pasteboard_HasType"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_Pasteboard_HasData"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_Pasteboard_GetData"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_Pasteboard_SetData"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_Pasteboard_ClearData"
+    },
+    {
+        "first_introduced": "14",
+        "name": "OH_Pasteboard_GetMimeTypes"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_Pasteboard_GetDataParams_Create"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_Pasteboard_GetDataParams_Destroy"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_Pasteboard_GetDataParams_SetProgressIndicator"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_Pasteboard_GetDataParams_SetDestUri"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_Pasteboard_GetDataParams_SetFileConflictOptions"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_Pasteboard_GetDataParams_SetProgressListener"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_Pasteboard_ProgressInfo_GetProgress"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_Pasteboard_ProgressCancel"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_Pasteboard_GetDataWithProgress"
+    },
+    {
+        "first_introduced": "18",
+        "name": "OH_Pasteboard_GetChangeCount"
+    },
+    {
+        "first_introduced": "21",
+        "name": "OH_Pasteboard_SyncDelayedDataAsync"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_Pasteboard_HasRemoteData"
+    }
+]

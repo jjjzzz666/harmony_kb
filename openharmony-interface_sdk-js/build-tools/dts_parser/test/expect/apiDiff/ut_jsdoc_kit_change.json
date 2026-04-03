@@ -1,0 +1,38 @@
+[
+  {
+    "apiType": "SourceFile",
+    "statusCode": 26,
+    "oldApiDefinedText": "",
+    "newApiDefinedText": "",
+    "oldApiName": "ut_jsdoc_kit_change.d.ts",
+    "newApiName": "ut_jsdoc_kit_change.d.ts",
+    "oldDtsName": "ut_jsdoc_kit_change.d.ts",
+    "newDtsName": "ut_jsdoc_kit_change.d.ts",
+    "diffType": 84,
+    "diffMessage": "kit变更",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [
+      "ut_jsdoc_kit_change.d.ts"
+    ],
+    "newHierarchicalRelations": [
+      "ut_jsdoc_kit_change.d.ts"
+    ],
+    "oldPos": {
+      "line": 20,
+      "character": 1
+    },
+    "newPos": {
+      "line": 20,
+      "character": 1
+    },
+    "oldDescription": "AbilityKit",
+    "newDescription": "AbilitKit",
+    "newSyscapField": "",
+    "oldKitInfo": "AbilityKit",
+    "newKitInfo": "AbilitKit",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

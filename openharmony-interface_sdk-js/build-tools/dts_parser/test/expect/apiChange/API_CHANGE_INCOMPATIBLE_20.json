@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_20.d.ts",
+    "codeContextStaerLine": "17",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_20",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change function param type.",
+    "language": "typescript",
+    "mainBuggyCode": "declare function copyDir(src: number, dest: string, mode?: number): Promise<void>;",
+    "mainBuggyLine": "17",
+    "extendInfo": {
+      "apiName": "copyDir",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_20.d.ts|copyDir",
+      "parentModuleName": "copyDir"
+    }
+  }
+]

@@ -1,0 +1,6 @@
+{
+    "removeFile": [
+        "api\\@internal\\component\\ets\\ability_component.d.ts",
+        "api\\@internal\\component\\ets\\action_sheet.d.ts"
+    ]
+}

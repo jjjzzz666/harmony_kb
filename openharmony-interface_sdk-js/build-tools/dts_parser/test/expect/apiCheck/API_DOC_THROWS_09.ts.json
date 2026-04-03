@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_THROWS_09.ts",
+    "codeContextStaerLine": "35",
+    "defectLevel": 2,
+    "defectType": "API_DOC_THROWS_09",
+    "description": "API check error of [error_error_code]: The generic error code does not contain the current error code.",
+    "language": "typescript",
+    "mainBuggyCode": "initialize(): void;",
+    "mainBuggyLine": "35",
+    "extendInfo": {
+      "apiName": "initialize",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_THROWS_09.ts|StartBLEScanOptions|initialize",
+      "parentModuleName": "StartBLEScanOptions"
+    }
+  }
+]

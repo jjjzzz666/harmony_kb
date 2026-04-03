@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_EVENT_06.d.ts",
+    "codeContextStaerLine": "36",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_EVENT_06",
+    "description": "API check error of [wrong parameter]: The event subscription methods should has at least one parameter.",
+    "language": "typescript",
+    "mainBuggyCode": "off(): void;",
+    "mainBuggyLine": "36",
+    "extendInfo": {
+      "apiName": "off",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DEFINE_EVENT_06.d.ts|Configuration|off",
+      "parentModuleName": "Configuration"
+    }
+  }
+]

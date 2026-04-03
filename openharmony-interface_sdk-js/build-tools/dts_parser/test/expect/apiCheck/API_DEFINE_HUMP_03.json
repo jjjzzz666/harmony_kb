@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_HUMP_03.d.ts",
+    "codeContextStaerLine": "27",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_HUMP_03",
+    "description": "API check error of [naming errors]: This name [configuration] should be named by large hump.",
+    "language": "typescript",
+    "mainBuggyCode": "export interface configuration",
+    "mainBuggyLine": "27",
+    "extendInfo": {
+      "apiName": "configuration",
+      "apiType": "Interface",
+      "hierarchicalRelations": "API_DEFINE_HUMP_03.d.ts|configuration",
+      "parentModuleName": "API_DEFINE_HUMP_03.d.ts"
+    }
+  }
+]

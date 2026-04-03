@@ -1,0 +1,48 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "SigningSignatureVerification"
+    },
+    {
+      "name": "call_signature_seg",
+      "value": "Call SignatureSeg"
+    },
+    {
+      "name": "call_signature",
+      "value": "Call Signature"
+    },
+    {
+      "name": "call_signature_recover",
+      "value": "Call SignatureRecover"
+    },
+    {
+      "name": "call_psssignature_seg",
+      "value": "Call PSSSignatureSeg"
+    },
+    {
+      "name": "call_ecdsasignature",
+      "value": "Call ECDSASignature"
+    },
+    {
+      "name": "call_sm2signature",
+      "value": "Call SM2Signature"
+    },
+    {
+      "name": "call_sm2_rs_to_der",
+      "value": "Call SM2 RS to DER"
+    },
+    {
+      "name": "call_sm2_der_convert_rs",
+      "value": "Call SM2 DER Convert RS"
+    }
+  ]
+}

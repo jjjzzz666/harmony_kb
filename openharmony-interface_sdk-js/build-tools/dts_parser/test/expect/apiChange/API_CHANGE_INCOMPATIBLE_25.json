@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_25.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_25",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change property type.",
+    "language": "typescript",
+    "mainBuggyCode": "str: number;",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "str",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_25.d.ts|Test|str",
+      "parentModuleName": "str"
+    }
+  }
+]

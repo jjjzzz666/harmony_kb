@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_DEPRECATED_03.d.ts",
+    "codeContextStaerLine": "34",
+    "defectLevel": 2,
+    "defectType": "API_DOC_DEPRECATED_03",
+    "description": "API check error of [wrong scene]: It was detected that there is an inheritable label [deprecated] in the current file, but there are child nodes without this label.",
+    "language": "typescript",
+    "mainBuggyCode": "function getId(): void;",
+    "mainBuggyLine": "34",
+    "extendInfo": {
+      "apiName": "getId",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_DEPRECATED_03.d.ts|dataUriUtils|getId",
+      "parentModuleName": "dataUriUtils"
+    }
+  }
+]

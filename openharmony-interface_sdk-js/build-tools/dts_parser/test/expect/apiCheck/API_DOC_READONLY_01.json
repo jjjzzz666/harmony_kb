@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_READONLY_01.d.ts",
+    "codeContextStaerLine": "34",
+    "defectLevel": 2,
+    "defectType": "API_DOC_READONLY_01",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [readonly] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "readonly moduleName: string;",
+    "mainBuggyLine": "34",
+    "extendInfo": {
+      "apiName": "moduleName",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_DOC_READONLY_01.d.ts|HapModuleQuickFixInfo|moduleName",
+      "parentModuleName": "HapModuleQuickFixInfo"
+    }
+  }
+]

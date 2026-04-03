@@ -1,0 +1,43 @@
+[
+  {
+    "apiType": "Method",
+    "statusCode": 16,
+    "oldApiDefinedText": "function testFun(a: number, b: string, c?: number): void;",
+    "newApiDefinedText": "function testFun(a: number | string, b: string, c?: number): void;",
+    "oldApiName": "testFun",
+    "newApiName": "testFun",
+    "oldDtsName": "ut_param_type_range_expand_002.d.ts",
+    "newDtsName": "ut_param_type_range_expand_002.d.ts",
+    "diffType": 44,
+    "diffMessage": "函数的参数类型范围扩大",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [
+      "ut_param_type_range_expand_002.d.ts",
+      "Test",
+      "testFun"
+    ],
+    "newHierarchicalRelations": [
+      "ut_param_type_range_expand_002.d.ts",
+      "Test",
+      "testFun"
+    ],
+    "oldPos": {
+      "line": 2,
+      "character": 3
+    },
+    "newPos": {
+      "line": 2,
+      "character": 3
+    },
+    "oldDescription": "a: number",
+    "newDescription": "a: number | string",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

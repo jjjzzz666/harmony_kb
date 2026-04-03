@@ -1,0 +1,1 @@
+export const serial_queue_exec: (apiType: boolean) => number;

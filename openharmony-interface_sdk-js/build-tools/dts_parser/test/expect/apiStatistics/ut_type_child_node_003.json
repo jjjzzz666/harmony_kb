@@ -1,0 +1,31 @@
+[
+  {
+    "filePath": "ut_type_child_node_003.d.ts",
+    "packageName": "ut_type_child_node_003",
+    "parentModuleName": "test",
+    "syscap": "",
+    "permissions": "",
+    "since": "-1",
+    "isForm": false,
+    "isCrossPlatForm": false,
+    "isAutomicService": false,
+    "hierarchicalRelations": "ut_type_child_node_003.d.ts/test/TextOneType",
+    "apiName": "TextOneType",
+    "deprecatedVersion": "",
+    "useInstead": "",
+    "apiType": "TypeAlias",
+    "definedText": "type TextOneType = Resoure;",
+    "pos": {
+      "line": 17,
+      "character": 3
+    },
+    "isSystemapi": false,
+    "modelLimitation": "",
+    "decorators": [],
+    "errorCodes": [],
+    "kitInfo": "NA",
+    "absolutePath": "",
+    "parentApiType": "Namespace",
+    "isOptional": false
+  }
+]

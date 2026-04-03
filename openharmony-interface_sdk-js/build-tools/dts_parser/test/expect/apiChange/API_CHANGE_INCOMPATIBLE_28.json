@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_28.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_28",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot reduce the range of writable property types.",
+    "language": "typescript",
+    "mainBuggyCode": "str: string;",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "str",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_28.d.ts|Test|str",
+      "parentModuleName": "str"
+    }
+  }
+]

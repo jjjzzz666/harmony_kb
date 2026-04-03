@@ -1,0 +1,188 @@
+[
+  {
+    "apiType": "Method",
+    "statusCode": 16,
+    "oldApiDefinedText": "declare function test(data: { userId: number; userToken: string }): void;",
+    "newApiDefinedText": "declare function test(data: dataA): void;",
+    "oldApiName": "test",
+    "newApiName": "test",
+    "oldDtsName": "ut_anonymous_object_004.d.ts",
+    "newDtsName": "ut_anonymous_object_004.d.ts",
+    "diffType": 92,
+    "diffMessage": "函数的参数类型变更",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [
+      "ut_anonymous_object_004.d.ts",
+      "test"
+    ],
+    "newHierarchicalRelations": [
+      "ut_anonymous_object_004.d.ts",
+      "test"
+    ],
+    "oldPos": {
+      "line": 1,
+      "character": 1
+    },
+    "newPos": {
+      "line": 1,
+      "character": 1
+    },
+    "oldDescription": "data: { userId: number; userToken: string }",
+    "newDescription": "data: dataA",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  },
+  {
+    "apiType": "Interface",
+    "statusCode": 3,
+    "oldApiDefinedText": "",
+    "newApiDefinedText": "interface dataA",
+    "oldApiName": "",
+    "newApiName": "dataA",
+    "oldDtsName": "",
+    "newDtsName": "ut_anonymous_object_004.d.ts",
+    "diffType": 75,
+    "diffMessage": "新增API",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [],
+    "newHierarchicalRelations": [
+      "ut_anonymous_object_004.d.ts",
+      "dataA"
+    ],
+    "oldPos": {
+      "line": -1,
+      "character": -1
+    },
+    "newPos": {
+      "line": 3,
+      "character": 1
+    },
+    "oldDescription": "",
+    "newDescription": "interface dataA",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  },
+  {
+    "apiType": "Property",
+    "statusCode": 3,
+    "oldApiDefinedText": "",
+    "newApiDefinedText": "userId: number;",
+    "oldApiName": "",
+    "newApiName": "userId",
+    "oldDtsName": "",
+    "newDtsName": "ut_anonymous_object_004.d.ts",
+    "diffType": 75,
+    "diffMessage": "新增API",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [],
+    "newHierarchicalRelations": [
+      "ut_anonymous_object_004.d.ts",
+      "dataA",
+      "userId"
+    ],
+    "oldPos": {
+      "line": -1,
+      "character": -1
+    },
+    "newPos": {
+      "line": 4,
+      "character": 3
+    },
+    "oldDescription": "",
+    "newDescription": "userId: number;",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  },
+  {
+    "apiType": "Property",
+    "statusCode": 3,
+    "oldApiDefinedText": "",
+    "newApiDefinedText": "userToken: string;",
+    "oldApiName": "",
+    "newApiName": "userToken",
+    "oldDtsName": "",
+    "newDtsName": "ut_anonymous_object_004.d.ts",
+    "diffType": 75,
+    "diffMessage": "新增API",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [],
+    "newHierarchicalRelations": [
+      "ut_anonymous_object_004.d.ts",
+      "dataA",
+      "userToken"
+    ],
+    "oldPos": {
+      "line": -1,
+      "character": -1
+    },
+    "newPos": {
+      "line": 5,
+      "character": 3
+    },
+    "oldDescription": "",
+    "newDescription": "userToken: string;",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  },
+  {
+    "apiType": "Property",
+    "statusCode": 3,
+    "oldApiDefinedText": "",
+    "newApiDefinedText": "testProperty?: boolean;",
+    "oldApiName": "",
+    "newApiName": "testProperty",
+    "oldDtsName": "",
+    "newDtsName": "ut_anonymous_object_004.d.ts",
+    "diffType": 75,
+    "diffMessage": "新增API",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [],
+    "newHierarchicalRelations": [
+      "ut_anonymous_object_004.d.ts",
+      "dataA",
+      "testProperty"
+    ],
+    "oldPos": {
+      "line": -1,
+      "character": -1
+    },
+    "newPos": {
+      "line": 6,
+      "character": 3
+    },
+    "oldDescription": "",
+    "newDescription": "testProperty?: boolean;",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

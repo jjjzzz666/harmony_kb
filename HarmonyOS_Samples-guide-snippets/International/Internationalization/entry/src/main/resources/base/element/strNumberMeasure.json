@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "ResultsOfMeasureTrans",
+      "value": "度量衡转换结果: "
+    },
+    {
+      "name": "MeasureTrans",
+      "value": "以en-US区域参数转换度量衡: "
+    },
+    {
+      "name": "LongMeasureTrans",
+      "value": "显示完整的度量衡: "
+    }
+  ]
+}

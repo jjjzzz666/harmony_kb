@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_CONSTANT_01.d.ts",
+    "codeContextStaerLine": "34",
+    "defectLevel": 2,
+    "defectType": "API_DOC_CONSTANT_01",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [constant] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "const batterySOC = 123;",
+    "mainBuggyLine": "34",
+    "extendInfo": {
+      "apiName": "batterySOC",
+      "apiType": "Constant",
+      "hierarchicalRelations": "API_DOC_CONSTANT_01.d.ts|batteryInfo|batterySOC",
+      "parentModuleName": "batteryInfo"
+    }
+  }
+]

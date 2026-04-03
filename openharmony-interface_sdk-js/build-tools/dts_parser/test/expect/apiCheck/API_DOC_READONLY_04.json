@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_READONLY_04.d.ts",
+    "codeContextStaerLine": "34",
+    "defectLevel": 2,
+    "defectType": "API_DOC_READONLY_04",
+    "description": "API check error of [wrong scene]: JSDoc tag validity verification failed. Please confirm if the [readonly] tag is missing.",
+    "language": "typescript",
+    "mainBuggyCode": "readonly moduleName: string;",
+    "mainBuggyLine": "34",
+    "extendInfo": {
+      "apiName": "moduleName",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_DOC_READONLY_04.d.ts|HapModuleQuickFixInfo|moduleName",
+      "parentModuleName": "HapModuleQuickFixInfo"
+    }
+  }
+]

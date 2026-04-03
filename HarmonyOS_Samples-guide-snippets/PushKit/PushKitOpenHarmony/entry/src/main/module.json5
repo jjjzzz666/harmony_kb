@@ -1,0 +1,246 @@
+/*
+ * Copyright (c) 2026 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+// [Start background_proxy_data]
+// [Start click_home_action_config]
+{
+  "module": {
+    // [StartExclude background_proxy_data]
+    // [StartExclude click_home_action_config]
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    // [Start push_voip_action_config]
+    // [EndExclude click_home_action_config]
+    "abilities": [
+      // [StartExclude push_voip_action_config]
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ets",
+        "description": "$string:EntryAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:EntryAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true,
+        "skills": [
+          // 该skill标识应用首页，不要配置uris
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              // "action.system.home"为API19以下版本配置，已废弃
+              "ohos.want.action.home"
+            ]
+          },
+          // 其他skill配置
+          {}
+        ]
+      },
+      // [StartExclude click_home_action_config]
+      // [Start click_action_config]
+      {
+        "name": "TestAbility",
+        "srcEntry": "./ets/abilities/TestAbility.ets",
+        "exported": false,
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "skills": [
+          // 保持现有skill对象不变
+          {
+            "actions": [
+              "com.app.action"
+            ]
+          },
+          // 新增一个独立的skill对象，配置actions参数
+          {
+            "actions": [
+              "com.test.action"
+            ]
+          }
+        ]
+      },
+      // [End click_action_config]
+      // [Start click_uris_config]
+      {
+        "name": "InnerUrisAbility",
+        "srcEntry": "./ets/abilities/InnerUrisAbility.ets",
+        "exported": false,
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "skills": [
+          // 保持现有skill对象不变
+          {
+            "actions": [
+              "com.app.action"
+            ]
+          },
+          // 新增一个独立的skill对象，配置uris参数，且必须同时配置actions参数，actions参数为空字符串
+          {
+            "actions": [
+              ""
+            ],
+            "uris": [
+              {
+                "scheme": "https",
+                "host": "www.xxx.com",
+                "port": "8080",
+                "path": "push/test"
+              }
+            ]
+          }
+        ]
+      },
+      // [End click_uris_config]
+      // [Start push_token_update_config]
+      // [Start push_action_configuration]
+      {
+        "name": "PushMessageAbility",
+        "srcEntry": "./ets/abilities/PushMessageAbility.ets",
+        "description": "$string:PushMessageAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:PushMessageAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "launchType": "singleton",
+        "exported": false,
+        "skills": [
+          // 保持现有skill对象不变
+          {
+            "actions": [
+              "com.app.action"
+            ]
+          },
+          // 新增一个独立的skill对象，配置actions参数
+          {
+            "actions": [
+              "action.ohos.push.listener"
+            ]
+          }
+        ]
+      },
+      // [End push_action_configuration]
+      // [End push_token_update_config]
+      // [EndExclude push_voip_action_config]
+      {
+        "name": "VoIPUIAbility",
+        "srcEntry": "./ets/entryability/VoIPUIAbility.ets",
+        "launchType": "singleton",
+        "description": "VoIPUIAbility test",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": false,
+        "skills": [
+          // 保持现有skill对象不变
+          // 新增一个独立的skill对象，配置actions参数
+          {
+            "actions": [
+              "action.ohos.push.listener"
+            ]
+          }
+        ]
+      },
+      // [StartExclude push_voip_action_config]
+    ],
+    // [Start voip_skill_config]
+    "extensionAbilities": [
+      // [StartExclude voip_skill_config]
+      {
+        "name": "EntryBackupAbility",
+        "srcEntry": "./ets/entrybackupability/EntryBackupAbility.ets",
+        "type": "backup",
+        "exported": false,
+        "metadata": [
+          {
+            "name": "ohos.extension.backup",
+            "resource": "$profile:backup_config"
+          }
+        ],
+      },
+      {
+        "name": "EntryFormAbility",
+        "srcEntry": "./ets/entryformability/EntryFormAbility.ets",
+        "label": "$string:EntryFormAbility_label",
+        "description": "$string:EntryFormAbility_desc",
+        "type": "form",
+        "metadata": [
+          {
+            "name": "ohos.extension.form",
+            "resource": "$profile:form_config"
+          }
+        ]
+      },
+      // [EndExclude voip_skill_config]
+      {
+        "name": "RemoteNotificationExtAbility",
+        "type": "remoteNotification",
+        "srcEntry": "./ets/entryability/RemoteNotificationExtAbility.ets",
+        "description": "RemoteNotificationExtAbility test",
+        "exported": false,
+        "skills": [
+          // 新增一个独立的skill对象，配置actions参数
+          {
+            "actions": [
+              "action.hms.push.extension.remotenotification"
+            ]
+          }
+        ]
+      }
+      // [StartExclude voip_skill_config]
+    ],
+    // [EndExclude background_proxy_data]
+    "proxyData": [
+      {
+        "uri": "datashareproxy://com.samples.push/PushMessage",
+        "requiredWritePermission": "ohos.permission.WRITE_PRIVACY_PUSH_DATA",
+        "metadata": {
+          "name": "dataProperties",
+          "resource": "$profile:PushMessage"
+        }
+      }
+      // [StartExclude background_proxy_data]
+    ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.LOCATION_IN_BACKGROUND",
+        "reason": "$string:PushMessageAbility_desc",
+        "usedScene": {
+          "abilities": [
+            "PushMessageAbility",
+          ],
+          "when": "always"
+        },
+        // [EndExclude voip_skill_config]
+      }
+      // [EndExclude background_proxy_data]
+      // [EndExclude push_voip_action_config]
+      // [EndExclude click_home_action_config]
+    ]
+    // [End voip_skill_config]
+    // [End push_voip_action_config]
+  }
+}
+// [End background_proxy_data]
+// [End click_home_action_config]

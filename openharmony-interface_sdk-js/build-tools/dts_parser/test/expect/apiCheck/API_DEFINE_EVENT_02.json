@@ -1,0 +1,36 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_EVENT_02.d.ts",
+    "codeContextStaerLine": "38",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_EVENT_02",
+    "description": "API check error of [wrong parameter]: The event name cannot be Null value.",
+    "language": "typescript",
+    "mainBuggyCode": "on(type:'', callback: Callback<ServiceChangeType>): void;",
+    "mainBuggyLine": "38",
+    "extendInfo": {
+      "apiName": "on_",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DEFINE_EVENT_02.d.ts|Configuration|on_",
+      "parentModuleName": "Configuration"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_EVENT_02.d.ts",
+    "codeContextStaerLine": "49",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_EVENT_02",
+    "description": "API check error of [wrong parameter]: The event name cannot be Null value.",
+    "language": "typescript",
+    "mainBuggyCode": "off(type:'', callback?: Callback<ServiceChangeType>): void;",
+    "mainBuggyLine": "49",
+    "extendInfo": {
+      "apiName": "off_",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DEFINE_EVENT_02.d.ts|Configuration|off_",
+      "parentModuleName": "Configuration"
+    }
+  }
+]

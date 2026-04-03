@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_06.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_06",
+    "description": "API check error of [api change errors]: Forbid changes: The card application cannot be changed from supported to not supported.",
+    "language": "typescript",
+    "mainBuggyCode": "export class Test",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "Test",
+      "apiType": "Class",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_06.d.ts|Test",
+      "parentModuleName": "Test"
+    }
+  }
+]

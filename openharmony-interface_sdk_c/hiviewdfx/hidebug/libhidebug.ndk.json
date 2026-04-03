@@ -1,0 +1,102 @@
+[
+    {
+        "first_introduced": "12",
+        "name": "OH_HiDebug_GetSystemCpuUsage"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiDebug_GetAppCpuUsage"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiDebug_GetAppThreadCpuUsage"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiDebug_FreeThreadCpuUsage"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiDebug_GetSystemMemInfo"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiDebug_GetAppNativeMemInfo"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_HiDebug_GetAppNativeMemInfoWithCache"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiDebug_GetAppMemoryLimit"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiDebug_StartAppTraceCapture"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_HiDebug_StopAppTraceCapture"
+    },
+    {
+      "first_introduced": "14",
+      "name": "OH_HiDebug_GetGraphicsMemory"
+    },
+    {
+        "first_introduced": "21",
+        "name": "OH_HiDebug_GetGraphicsMemorySummary"
+    },
+    {
+      "first_introduced": "20",
+      "name": "OH_HiDebug_SetMallocDispatchTable"
+    },
+    {
+      "first_introduced": "20",
+      "name": "OH_HiDebug_GetDefaultMallocDispatchTable"
+    },
+    {
+      "first_introduced": "20",
+      "name": "OH_HiDebug_RestoreMallocDispatchTable"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_HiDebug_BacktraceFromFp"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_HiDebug_SymbolicAddress"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_HiDebug_CreateBacktraceObject"
+    },
+    {
+        "first_introduced": "20",
+        "name": "OH_HiDebug_DestroyBacktraceObject"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_HiDebug_RequestThreadLiteSampling"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_HiDebug_SetCrashObj"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_HiDebug_ResetCrashObj"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_HiDebug_RequestTrace"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_HiDebug_StartProfiler"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_HiDebug_StopProfiler"
+    }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "apiType": "Property",
+    "statusCode": 27,
+    "oldApiDefinedText": "color: ResourceColor;",
+    "newApiDefinedText": "color: ResourceColor;",
+    "oldApiName": "color",
+    "newApiName": "color",
+    "oldDtsName": "ut_property_in_typealias_001.d.ts",
+    "newDtsName": "ut_property_in_typealias_001.d.ts",
+    "diffType": 86,
+    "diffMessage": "API从支持元服务到不支持元服务",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [
+      "ut_property_in_typealias_001.d.ts",
+      "ColorStop",
+      "color"
+    ],
+    "newHierarchicalRelations": [
+      "ut_property_in_typealias_001.d.ts",
+      "ColorStop",
+      "color"
+    ],
+    "oldPos": {
+      "line": 32,
+      "character": 3
+    },
+    "newPos": {
+      "line": 31,
+      "character": 3
+    },
+    "oldDescription": "atomicservice",
+    "newDescription": "NA",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  },
+  {
+    "apiType": "Property",
+    "statusCode": 16,
+    "oldApiDefinedText": "offset: Length;",
+    "newApiDefinedText": "offset: string;",
+    "oldApiName": "offset",
+    "newApiName": "offset",
+    "oldDtsName": "ut_property_in_typealias_001.d.ts",
+    "newDtsName": "ut_property_in_typealias_001.d.ts",
+    "diffType": 52,
+    "diffMessage": "属性类型发生改变",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [
+      "ut_property_in_typealias_001.d.ts",
+      "ColorStop",
+      "offset"
+    ],
+    "newHierarchicalRelations": [
+      "ut_property_in_typealias_001.d.ts",
+      "ColorStop",
+      "offset"
+    ],
+    "oldPos": {
+      "line": 49,
+      "character": 3
+    },
+    "newPos": {
+      "line": 48,
+      "character": 3
+    },
+    "oldDescription": "Length",
+    "newDescription": "string",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

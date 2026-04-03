@@ -1,0 +1,38 @@
+{
+  "ut_export_005.d.ts": [
+    {
+      "filePath": "ut_export_005.d.ts",
+      "apiType": "Export",
+      "definedText": "export { getUserName as get, setName as set } from 'test';",
+      "pos": {
+        "line": 19,
+        "character": 1
+      },
+      "isExport": false,
+      "apiName": "export_get_set",
+      "hierarchicalRelations": [
+        "ut_export_005.d.ts",
+        "export_get_set"
+      ],
+      "isStruct": false,
+      "syscap": "",
+      "currentVersion": "-1",
+      "jsDocText": "",
+      "isJoinType": false,
+      "genericInfo": [],
+      "parentApiType": "SourceFile",
+      "fileAbsolutePath": "E:\\code\\wcy\\gitee\\interface_sdk-js\\build-tools\\dts_parser\\test\\ut\\parser\\ut_export_005.d.ts",
+      "isSameNameFunction": false,
+      "exportValues": [
+        {
+          "key": "get",
+          "value": "getUserName"
+        },
+        {
+          "key": "set",
+          "value": "setName"
+        }
+      ]
+    }
+  ]
+}

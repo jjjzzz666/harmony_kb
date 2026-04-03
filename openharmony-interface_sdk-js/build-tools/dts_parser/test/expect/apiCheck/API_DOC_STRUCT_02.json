@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_STRUCT_02.d.ets",
+    "codeContextStaerLine": "29",
+    "defectLevel": 2,
+    "defectType": "API_DOC_STRUCT_02",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [struct] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "export declare struct GridObjectSortComponent",
+    "mainBuggyLine": "29",
+    "extendInfo": {
+      "apiName": "GridObjectSortComponent",
+      "apiType": "Struct",
+      "hierarchicalRelations": "API_DOC_STRUCT_02.d.ets|GridObjectSortComponent",
+      "parentModuleName": "API_DOC_STRUCT_02.d.ets"
+    }
+  }
+]

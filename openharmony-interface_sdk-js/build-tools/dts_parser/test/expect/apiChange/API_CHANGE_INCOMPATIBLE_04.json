@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_04.d.ts",
+    "codeContextStaerLine": "24",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_04",
+    "description": "API check error of [api change errors]: Forbid changes: The number of error codes cannot be increased from 0 to multiple error codes.",
+    "language": "typescript",
+    "mainBuggyCode": "func(str: string): void;",
+    "mainBuggyLine": "24",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_04.d.ts|Test|func",
+      "parentModuleName": "func"
+    }
+  }
+]

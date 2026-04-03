@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_SYSCAP_02.d.ts",
+    "codeContextStaerLine": "27",
+    "defectLevel": 2,
+    "defectType": "API_DOC_SYSCAP_02",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [syscap] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "declare namespace hiAppEvent",
+    "mainBuggyLine": "27",
+    "extendInfo": {
+      "apiName": "hiAppEvent",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_DOC_SYSCAP_02.d.ts|hiAppEvent",
+      "parentModuleName": "API_DOC_SYSCAP_02.d.ts"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_19.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_19",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change form unrequired param to required param.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str: string, str2: string): void {}",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_19.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  }
+]

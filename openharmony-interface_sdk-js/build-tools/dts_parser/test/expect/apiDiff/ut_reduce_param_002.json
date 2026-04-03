@@ -1,0 +1,43 @@
+[
+  {
+    "apiType": "Method",
+    "statusCode": 16,
+    "oldApiDefinedText": "function testFun(a: number, b: string, c?: boolean): void;",
+    "newApiDefinedText": "function testFun(a: number, b: string): void;",
+    "oldApiName": "testFun",
+    "newApiName": "testFun",
+    "oldDtsName": "ut_reduce_param_002.d.ts",
+    "newDtsName": "ut_reduce_param_002.d.ts",
+    "diffType": 39,
+    "diffMessage": "函数删除参数",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [
+      "ut_reduce_param_002.d.ts",
+      "Test",
+      "testFun"
+    ],
+    "newHierarchicalRelations": [
+      "ut_reduce_param_002.d.ts",
+      "Test",
+      "testFun"
+    ],
+    "oldPos": {
+      "line": 2,
+      "character": 3
+    },
+    "newPos": {
+      "line": 2,
+      "character": 3
+    },
+    "oldDescription": "c?: boolean",
+    "newDescription": "",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

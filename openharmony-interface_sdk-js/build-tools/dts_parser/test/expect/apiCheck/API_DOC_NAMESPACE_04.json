@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_NAMESPACE_04.d.ts",
+    "codeContextStaerLine": "27",
+    "defectLevel": 2,
+    "defectType": "API_DOC_NAMESPACE_04",
+    "description": "API check error of [wrong scene]: JSDoc label validity verification failed. The [namespace] label is not allowed. Please check the label usage method.",
+    "language": "typescript",
+    "mainBuggyCode": "export declare class GesturePath",
+    "mainBuggyLine": "27",
+    "extendInfo": {
+      "apiName": "GesturePath",
+      "apiType": "Class",
+      "hierarchicalRelations": "API_DOC_NAMESPACE_04.d.ts|GesturePath",
+      "parentModuleName": "API_DOC_NAMESPACE_04.d.ts"
+    }
+  }
+]

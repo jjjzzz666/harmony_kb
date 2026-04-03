@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_07.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_07",
+    "description": "API check error of [api change errors]: Forbid changes: Crossplatform cannot be changed from supported to not supported.",
+    "language": "typescript",
+    "mainBuggyCode": "export namespace test",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "test",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_07.d.ts|test",
+      "parentModuleName": "test"
+    }
+  }
+]

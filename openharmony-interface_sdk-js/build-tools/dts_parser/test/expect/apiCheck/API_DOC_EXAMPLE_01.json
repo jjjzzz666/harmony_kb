@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_EXAMPLE_01.d.ts",
+    "codeContextStaerLine": "33",
+    "defectLevel": 2,
+    "defectType": "API_DOC_EXAMPLE_01",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [example] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "set(): void;",
+    "mainBuggyLine": "33",
+    "extendInfo": {
+      "apiName": "set",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_EXAMPLE_01.d.ts|FileAsset|set",
+      "parentModuleName": "FileAsset"
+    }
+  }
+]

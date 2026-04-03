@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_22.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_22",
+    "description": "API check error of [api change errors]: Forbid changes: Read-only properties cannot be changed from optional to required.",
+    "language": "typescript",
+    "mainBuggyCode": "readonly constant: 1;",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "constant",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_22.d.ts|Test|constant",
+      "parentModuleName": "constant"
+    }
+  }
+]

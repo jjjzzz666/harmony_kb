@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_ENUM_05.d.ts",
+    "codeContextStaerLine": "29",
+    "defectLevel": 2,
+    "defectType": "API_DOC_ENUM_05",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [enum] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "export enum ErrorCode",
+    "mainBuggyLine": "29",
+    "extendInfo": {
+      "apiName": "ErrorCode",
+      "apiType": "Enum",
+      "hierarchicalRelations": "API_DOC_ENUM_05.d.ts|ErrorCode",
+      "parentModuleName": "API_DOC_ENUM_05.d.ts"
+    }
+  }
+]

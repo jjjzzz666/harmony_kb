@@ -1,0 +1,18 @@
+{
+  "devices": {
+    "general": ["default","tablet"]
+  },
+  "production": {
+    "removedSysCaps": [
+      "SystemCapability.HiviewDFX.HiDumper",
+      "SystemCapability.Multimedia.AVSession.ExtendedDisplayCast",
+      "SystemCapability.Security.DeviceSecurityLevel",
+      "SystemCapability.UserIAM.UserAuth.PinAuth",
+      "SystemCapability.Security.DeviceAuth",
+      "SystemCapability.Security.DataTransitManager",
+      "SystemCapability.PowerManager.BatteryManager.Extension",
+      "SystemCapability.PowerManager.PowerManager.Extension",
+      "SystemCapability.Window.SessionManager"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "apiType": "Method",
+    "statusCode": 16,
+    "oldApiDefinedText": "testFun(dataSource: IDataSource, url: string | number, itenGenerator: (item: any, index: number) => string): LazyForEachInterface;",
+    "newApiDefinedText": "testFun(dataSource: IDataSource, url: string | number, itenGenerator: testType): LazyForEachInterface;",
+    "oldApiName": "testFun",
+    "newApiName": "testFun",
+    "oldDtsName": "ut_anonymous_function_003.d.ts",
+    "newDtsName": "ut_anonymous_function_003.d.ts",
+    "diffType": 96,
+    "diffMessage": "函数的参数类型变更",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [
+      "ut_anonymous_function_003.d.ts",
+      "Test",
+      "testFun"
+    ],
+    "newHierarchicalRelations": [
+      "ut_anonymous_function_003.d.ts",
+      "Test",
+      "testFun"
+    ],
+    "oldPos": {
+      "line": 21,
+      "character": 3
+    },
+    "newPos": {
+      "line": 20,
+      "character": 3
+    },
+    "oldDescription": "itenGenerator: (item: any, index: number) => string",
+    "newDescription": "itenGenerator: testType",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

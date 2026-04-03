@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_SYSTEMAPI_02.d.ts",
+    "codeContextStaerLine": "33",
+    "defectLevel": 2,
+    "defectType": "API_DOC_SYSTEMAPI_02",
+    "description": "API check error of [wrong scene]: It was detected that there is an inheritable label [systemapi] in the current file, but there are child nodes without this label.",
+    "language": "typescript",
+    "mainBuggyCode": "let TEST051: boolean;",
+    "mainBuggyLine": "33",
+    "extendInfo": {
+      "apiName": "TEST051",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_DOC_SYSTEMAPI_02.d.ts|config|TEST051",
+      "parentModuleName": "config"
+    }
+  }
+]

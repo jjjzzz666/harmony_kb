@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_READONLY_03.d.ts",
+    "codeContextStaerLine": "36",
+    "defectLevel": 2,
+    "defectType": "API_DOC_READONLY_03",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [readonly] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "readonly moduleName: string;",
+    "mainBuggyLine": "36",
+    "extendInfo": {
+      "apiName": "moduleName",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_DOC_READONLY_03.d.ts|HapModuleQuickFixInfo|moduleName",
+      "parentModuleName": "HapModuleQuickFixInfo"
+    }
+  }
+]

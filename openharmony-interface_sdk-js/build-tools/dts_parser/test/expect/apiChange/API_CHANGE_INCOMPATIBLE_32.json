@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_32.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_32",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot expand the range of custom type.",
+    "language": "typescript",
+    "mainBuggyCode": "type Type = 'none' | 'new';",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "Type",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_32.d.ts|test|Type",
+      "parentModuleName": "Type"
+    }
+  }
+]

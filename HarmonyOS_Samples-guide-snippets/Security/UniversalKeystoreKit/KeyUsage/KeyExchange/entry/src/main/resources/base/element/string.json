@@ -1,0 +1,40 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "KeyExchange"
+    },
+    {
+      "name": "x25519",
+      "value": "X25519"
+    },
+    {
+      "name": "dh",
+      "value": "DH"
+    },
+    {
+      "name": "ecdh",
+      "value": "ECDH"
+    },
+    {
+      "name": "call_cpp_ecdh_key",
+      "value": "Call C/C++ ECDH"
+    },
+    {
+      "name": "call_cpp_dh_key",
+      "value": "Call C/C++ DH"
+    },
+    {
+      "name": "call_cpp_x25519_key",
+      "value": "Call C/C++ X25519"
+    }
+  ]
+}

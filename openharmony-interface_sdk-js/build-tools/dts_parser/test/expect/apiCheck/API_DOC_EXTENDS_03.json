@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_EXTENDS_03.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_EXTENDS_03",
+    "description": "API check error of [wrong scene]: JSDoc label validity verification failed. The [extends] label is not allowed. Please check the label usage method.",
+    "language": "typescript",
+    "mainBuggyCode": "export default class ExtensionAbility",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "ExtensionAbility",
+      "apiType": "Class",
+      "hierarchicalRelations": "API_DOC_EXTENDS_03.d.ts|ExtensionAbility",
+      "parentModuleName": "API_DOC_EXTENDS_03.d.ts"
+    }
+  }
+]

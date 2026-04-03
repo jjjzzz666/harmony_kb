@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_RETURNS_03.d.ts",
+    "codeContextStaerLine": "34",
+    "defectLevel": 2,
+    "defectType": "API_DOC_RETURNS_03",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [returns] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "function getId(): number;",
+    "mainBuggyLine": "34",
+    "extendInfo": {
+      "apiName": "getId",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_RETURNS_03.d.ts|dataUriUtils|getId",
+      "parentModuleName": "dataUriUtils"
+    }
+  }
+]

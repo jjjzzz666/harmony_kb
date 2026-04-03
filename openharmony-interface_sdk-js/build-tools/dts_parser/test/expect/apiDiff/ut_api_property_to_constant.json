@@ -1,0 +1,43 @@
+[
+  {
+    "apiType": "Constant",
+    "statusCode": 16,
+    "oldApiDefinedText": "const TEST_CONSTAN: number[];",
+    "newApiDefinedText": "const TEST_CONSTAN: 123;",
+    "oldApiName": "TEST_CONSTAN",
+    "newApiName": "TEST_CONSTAN",
+    "oldDtsName": "ut_api_property_to_constant.d.ts",
+    "newDtsName": "ut_api_property_to_constant.d.ts",
+    "diffType": 57,
+    "diffMessage": "常量值发生改变",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [
+      "ut_api_property_to_constant.d.ts",
+      "test",
+      "TEST_CONSTAN"
+    ],
+    "newHierarchicalRelations": [
+      "ut_api_property_to_constant.d.ts",
+      "test",
+      "TEST_CONSTAN"
+    ],
+    "oldPos": {
+      "line": 17,
+      "character": 3
+    },
+    "newPos": {
+      "line": 17,
+      "character": 3
+    },
+    "oldDescription": "number[]",
+    "newDescription": "123",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

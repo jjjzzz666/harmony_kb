@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_37.d.ts",
+    "codeContextStaerLine": "27",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_37",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change from atomicservice to NA.",
+    "language": "typescript",
+    "mainBuggyCode": "declare namespace abilityAccessCtrl",
+    "mainBuggyLine": "27",
+    "extendInfo": {
+      "apiName": "abilityAccessCtrl",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_37.d.ts|abilityAccessCtrl",
+      "parentModuleName": "abilityAccessCtrl"
+    }
+  }
+]

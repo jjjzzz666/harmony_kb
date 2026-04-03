@@ -1,0 +1,36 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_30.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_30",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change constant value.",
+    "language": "typescript",
+    "mainBuggyCode": "const CONSTANT = 2;",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "CONSTANT",
+      "apiType": "Constant",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_30.d.ts|test|CONSTANT",
+      "parentModuleName": "CONSTANT"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_36.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_30",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change constant value.",
+    "language": "typescript",
+    "mainBuggyCode": "const CONSTANT = 2;",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "CONSTANT",
+      "apiType": "Constant",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_36.d.ts|test|CONSTANT",
+      "parentModuleName": "CONSTANT"
+    }
+  }
+]

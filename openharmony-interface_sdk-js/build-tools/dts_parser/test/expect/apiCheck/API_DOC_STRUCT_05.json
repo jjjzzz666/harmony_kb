@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_STRUCT_05.d.ets",
+    "codeContextStaerLine": "29",
+    "defectLevel": 2,
+    "defectType": "API_DOC_STRUCT_05",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [struct] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "export declare struct GridObjectSortComponent",
+    "mainBuggyLine": "29",
+    "extendInfo": {
+      "apiName": "GridObjectSortComponent",
+      "apiType": "Struct",
+      "hierarchicalRelations": "API_DOC_STRUCT_05.d.ets|GridObjectSortComponent",
+      "parentModuleName": "API_DOC_STRUCT_05.d.ets"
+    }
+  }
+]

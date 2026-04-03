@@ -1,0 +1,136 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "PushKitSample"
+    },
+    {
+      "name": "TestAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "TestAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "PushMessageAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "PushMessageAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "EntryFormAbility_desc",
+      "value": "form_description"
+    },
+    {
+      "name": "EntryFormAbility_label",
+      "value": "form_label"
+    },
+    {
+      "name": "widget_desc",
+      "value": "This is a service widget."
+    },
+    {
+      "name": "widget_display_name",
+      "value": "widget"
+    },
+    {
+      "name": "VoIPUIAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "VoIPUIAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "entry_desc",
+      "value": "Push功能示例项目"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "Push功能主页"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "PushKitDemo"
+    },
+    {
+      "name": "FormAbility_label",
+      "value": "卡片能力"
+    },
+    {
+      "name": "FormAbility_desc",
+      "value": "卡片能力"
+    },
+    {
+      "name": "RemoteNotificationExtAbility_desc",
+      "value": "通知扩展消息"
+    },
+    {
+      "name": "ClickActionAbility_desc",
+      "value": "点击通知落地页"
+    },
+    {
+      "name": "ClickActionAbility_desc2",
+      "value": "点击通知落地页 - 通过uris配置"
+    },
+    {
+      "name": "ClickActionAbility_label",
+      "value": "点击通知落地页"
+    },
+    {
+      "name": "apply_token_button",
+      "value": "申请Token"
+    },
+    {
+      "name": "apply_token_title",
+      "value": "申请Token能力"
+    },
+    {
+      "name": "apply_token_success",
+      "value": "申请Token成功"
+    },
+    {
+      "name": "apply_token_failed",
+      "value": "申请Token失败"
+    },
+    {
+      "name": "default_card_text",
+      "value": "卡片默认信息"
+    },
+    {
+      "name": "card_id",
+      "value": "卡片ID:"
+    },
+    {
+      "name": "card_content",
+      "value": "卡片内容:"
+    },
+    {
+      "name": "click_action_data",
+      "value": "消息中携带的数据"
+    },
+    {
+      "name": "express_title",
+      "value": "转账提醒"
+    },
+    {
+      "name": "express_message",
+      "value": "%s 收到转账 %s"
+    },
+    {
+      "name": "clear_badge",
+      "value": "清除角标"
+    }
+  ]
+}

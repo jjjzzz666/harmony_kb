@@ -1,0 +1,12 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "AlbumPickerComponentSample"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "AlbumPickerComponentSample Entry Ability"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_CROSSPLATFORM_02.d.ts",
+    "codeContextStaerLine": "35",
+    "defectLevel": 2,
+    "defectType": "API_DOC_CROSSPLATFORM_02",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [crossplatform] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "function createAtManager(): AtManager;",
+    "mainBuggyLine": "35",
+    "extendInfo": {
+      "apiName": "createAtManager",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_CROSSPLATFORM_02.d.ts|abilityAccessCtrl|createAtManager",
+      "parentModuleName": "abilityAccessCtrl"
+    }
+  }
+]

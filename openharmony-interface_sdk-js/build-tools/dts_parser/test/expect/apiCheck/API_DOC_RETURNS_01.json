@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_RETURNS_01.d.ts",
+    "codeContextStaerLine": "33",
+    "defectLevel": 2,
+    "defectType": "API_DOC_RETURNS_01",
+    "description": "API check error of [wrong value]: The [returns] tag was used incorrectly. The returns tag should not be used when the return type is void.",
+    "language": "typescript",
+    "mainBuggyCode": "function getId(): void;",
+    "mainBuggyLine": "33",
+    "extendInfo": {
+      "apiName": "getId",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_RETURNS_01.d.ts|dataUriUtils|getId",
+      "parentModuleName": "dataUriUtils"
+    }
+  }
+]

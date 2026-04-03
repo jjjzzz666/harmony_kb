@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_USEINSTEAD_01.d.ts",
+    "codeContextStaerLine": "30",
+    "defectLevel": 2,
+    "defectType": "API_DOC_USEINSTEAD_01",
+    "description": "API check error of [wrong value]: The [useinstead] tag value is incorrect. Please check the usage method.",
+    "language": "typescript",
+    "mainBuggyCode": "declare namespace dataUriUtils",
+    "mainBuggyLine": "30",
+    "extendInfo": {
+      "apiName": "dataUriUtils",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_DOC_USEINSTEAD_01.d.ts|dataUriUtils",
+      "parentModuleName": "API_DOC_USEINSTEAD_01.d.ts"
+    }
+  }
+]

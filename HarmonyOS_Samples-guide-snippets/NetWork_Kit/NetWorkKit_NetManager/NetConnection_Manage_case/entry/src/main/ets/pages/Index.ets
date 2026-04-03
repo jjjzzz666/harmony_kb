@@ -1,0 +1,260 @@
+/*
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+// [Start net_Connection_create_connection_import]
+import { connection, socket } from '@kit.NetworkKit';
+import { BusinessError } from '@kit.BasicServicesKit';
+import { hilog } from '@kit.PerformanceAnalysisKit';
+// [End net_Connection_create_connection_import]
+
+import { promptAction } from '@kit.ArkUI';
+import ConnectNetworkBtn from './ConnectNetworkBtn';
+import AllNetworksBtn from './AllNetworksBtn';
+import DefaultNetworkBtn from './DefaultNetworkBtn';
+import DefaultNetworkIPBtn from './DefaultNetworkIPBtn';
+import DefaultNetSyncBtn from './DefaultNetSyncBtn';
+import GetAllNets from './GetAllNets';
+
+const NETWORK_CONNECTION_TIMEOUT = 1000; // 网络连接超时
+const BUTTON_HEIGHT = 50; // 按钮的高度
+const BUTTON_FONT_SIZE = 20; // 按钮的字体大小
+const BUTTON_RADIUS = 5; // 按钮的圆角半径
+const TEXT_FONT_SIZE = 18; // 文本的字体大小
+const TEXT_MARGIN_TOP = 5; // 文本的上边距
+const TEXT_MARGIN_TOP_L = 10; // 长文本的上边距
+
+// 监控默认网络变化
+function test() {
+  // [Start monitor_default_network_change]
+  const netConnection = connection.createNetConnection();
+  /* 监听默认网络改变 */
+  netConnection.on('netAvailable', (data: connection.NetHandle) => {
+    hilog.info(0x0000, 'testTag', JSON.stringify(data));
+  });
+  // [End monitor_default_network_change]
+}
+
+// [Start original_network_connection_uses_socket]
+// 创建socket对象。
+let sock: socket.TCPSocket = socket.constructTCPSocketInstance();
+
+// 原网络连接使用Socket模块建立连接
+function useSocket() {
+  let netAddress: socket.NetAddress = {
+    address: '192.168.xx.xxx',
+    port: 8080 // 端口号，默认设置为8080
+  };
+
+  let tcpConnectOptions: socket.TCPConnectOptions = {
+    address: netAddress,
+    timeout: 6000 // 连接超时时间
+  };
+
+  // 建立socket连接
+  sock.connect(tcpConnectOptions, (err: BusinessError) => {
+    if (err) {
+      hilog.error(0x0000, 'testTag', 'connect fail: '+JSON.stringify(err));
+      // [StartExclude original_network_connection_uses_socket]
+      promptAction.openToast({
+        message: 'Connect fail!',
+        duration: 4000, // 提示消息持续时间
+        bottom: 300 // 提示消息与底部的距离
+      }).catch(() => {
+        hilog.error(0x0000, 'testTag', 'openToast fail');
+      });
+      // [EndExclude original_network_connection_uses_socket]
+      return;
+    }
+    hilog.info(0x0000, 'testTag', 'connect success');
+
+    // 通过socket发送数据
+    let tcpSendOptions: socket.TCPSendOptions = {
+      data: 'Hello, server!'
+    };
+    socketSend(tcpSendOptions);
+  });
+}
+
+// 通过socket发送数据。
+function socketSend(tcpSendOptions: socket.TCPSendOptions) {
+  sock.send(tcpSendOptions).then(() => {
+    hilog.info(0x0000, 'testTag', 'send success');
+    // [StartExclude original_network_connection_uses_socket]
+    promptAction.openToast({
+      message: 'Connect and Send successfully!',
+      duration: 4000, // 提示消息持续时间
+      bottom: 300 // 提示消息与底部的距离
+    }).catch(() => {
+      hilog.error(0x0000, 'testTag', 'openToast fail');
+    });
+    // [EndExclude original_network_connection_uses_socket]
+  }).catch((err: BusinessError) => {
+    hilog.error(0x0000, 'testTag', 'send fail');
+    // [StartExclude original_network_connection_uses_socket]
+    promptAction.openToast({
+      message: 'Send fail!',
+      duration: 4000, // 提示消息持续时间
+      bottom: 300 // 提示消息与底部的距离
+    }).catch(() => {
+      hilog.error(0x0000, 'testTag', 'openToast fail');
+    });
+    // [EndExclude original_network_connection_uses_socket]
+  });
+}
+
+function socketTest() {
+  const netConnection = connection.createNetConnection();
+  // 网络切换会导致网络发生中断，原socket失效，故需重新建立socket。
+  netConnection.on('netAvailable', (netHandle: connection.NetHandle) => {
+    hilog.info(0x0000, 'testTag', 'default network changed: ' + JSON.stringify(netHandle));
+    sock.close();
+    sock = socket.constructTCPSocketInstance();
+    // 通过socket发送数据。
+    useSocket();
+  });
+  // [StartExclude original_network_connection_uses_socket]
+  try {
+    // [EndExclude original_network_connection_uses_socket]
+    // 订阅指定网络状态变化的通知。
+    netConnection.register((error: BusinessError) => {
+      if (error) {
+        hilog.error(0x0000, 'testTag', 'register fail: ' + JSON.stringify(error));
+      } else {
+        hilog.info(0x0000, 'testTag', 'register success');
+      }
+    });
+    // [StartExclude original_network_connection_uses_socket]
+    useSocket();
+  } catch (error) {
+    hilog.error(0x0000, 'testTag', error.code.toString(), error.msg());
+  };
+  // [EndExclude original_network_connection_uses_socket]
+}
+// [End original_network_connection_uses_socket]
+
+export function resourceToString(resId: number, context: Context): string {
+  let str:string = "";
+  try {
+    str = context.resourceManager.getStringSync(resId)
+    hilog.info(0x0000, 'testTag', 'getStringSync success.');
+  } catch (error) {
+    hilog.error(0x0000, 'testTag', error.code.toString(), error.msg());
+  }
+  return str;
+}
+
+@Entry
+@Component
+struct NetworkConnectionPage {
+  @State connectStatus: string = 'Not connected';
+  @State disconnectStatus: string = 'Not disconnected';
+  @State allNetworksStatus: string = 'Not retrieved';
+  @State defaultNetworkStatus: string = 'Not retrieved';
+  @State defaultNetworkIPStatus: string = 'Not retrieved';
+  @State defaultNetSync: string = 'Not retrieved';
+  @State getAllNetsStatus: string = 'Not retrieved';
+  context = this.getUIContext().getHostContext() as Context
+
+  private conn: connection.NetConnection | null = null;
+
+  onInit() {
+    test(); // 开始监听网络变化
+  }
+
+  build() {
+    Column() {
+      Text($r('app.string.Network_Connection_Example'))
+        .fontSize(BUTTON_FONT_SIZE)
+        .margin({ bottom: TEXT_MARGIN_TOP_L })
+        .id('Network_Connection_Example')
+
+      Text(resourceToString($r('app.string.connectStatus').id, this.context) + ':' + this.connectStatus)
+        .fontSize(TEXT_FONT_SIZE)
+        .fontColor(Color.Black)
+        .margin({ top: TEXT_MARGIN_TOP })
+        .id('connectStatus')
+
+      Text(resourceToString($r('app.string.disconnectStatus').id, this.context) + ':' + this.disconnectStatus)
+        .fontSize(TEXT_FONT_SIZE)
+        .fontColor(Color.Black)
+        .margin({ top: TEXT_MARGIN_TOP })
+        .id('disconnectStatus')
+
+      Text(resourceToString($r('app.string.allNetworksStatus').id, this.context) + ':' + this.allNetworksStatus)
+        .fontSize(TEXT_FONT_SIZE)
+        .fontColor(Color.Black)
+        .margin({ top: TEXT_MARGIN_TOP })
+        .id('allNetworksStatus')
+
+      Text(resourceToString($r('app.string.Network_connection_information').id, this.context) + ':' + this.getAllNetsStatus)
+        .fontSize(TEXT_FONT_SIZE)
+        .fontColor(Color.Black)
+        .margin({ top: TEXT_MARGIN_TOP })
+        .id('Network_connection_information')
+
+      Text(resourceToString($r('app.string.defaultNetworkStatus').id, this.context) + ':' + this.defaultNetworkStatus)
+        .fontSize(TEXT_FONT_SIZE)
+        .fontColor(Color.Black)
+        .margin({ top: TEXT_MARGIN_TOP })
+        .id('defaultNetworkStatus')
+
+      Text(resourceToString($r('app.string.defaultNetworkIPStatus').id, this.context) + ':' + this.defaultNetworkIPStatus)
+        .fontSize(TEXT_FONT_SIZE)
+        .fontColor(Color.Black)
+        .margin({ top: TEXT_MARGIN_TOP })
+        .id('defaultNetworkIPStatus')
+
+      Text(resourceToString($r('app.string.JudgeDefaultNetwork').id, this.context) + ':' + this.defaultNetSync)
+        .fontSize(TEXT_FONT_SIZE)
+        .fontColor(Color.Black)
+        .margin({ top: TEXT_MARGIN_TOP })
+        .id('JudgeDefaultNetwork')
+
+      // 连接断开网络
+      ConnectNetworkBtn({connectStatus: this.connectStatus, disconnectStatus: this.disconnectStatus});
+
+      Button($r('app.string.Reconnect_Network'))
+        .onClick(() => {
+          socketTest();
+        })
+        .width('80%')
+        .height(BUTTON_HEIGHT)
+        .margin({ top: TEXT_MARGIN_TOP_L })
+        .fontColor(Color.White)
+        .fontSize(BUTTON_FONT_SIZE)
+        .borderRadius(BUTTON_RADIUS)
+        .id('SocketConnect_Network')
+
+      // 获取所有注册的网络
+      AllNetworksBtn({ allNetworksStatus: this.allNetworksStatus });
+
+      // 查询所有网络连接信息
+      GetAllNets({ getAllNetsStatus: this.getAllNetsStatus });
+
+      // 获取默认网络信息
+      DefaultNetworkBtn({ defaultNetworkStatus: this.defaultNetworkStatus })
+
+      // 获取默认网络IP
+      DefaultNetworkIPBtn({ defaultNetworkIPStatus: this.defaultNetworkIPStatus })
+
+      // 默认网络是否可以访问互联网
+      DefaultNetSyncBtn({ defaultNetSync: this.defaultNetSync })
+    }
+    .width('100%')
+    .height('100%')
+    .justifyContent(FlexAlign.Center)
+  }
+}

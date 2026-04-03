@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_01.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_01",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change from public API to system API.",
+    "language": "typescript",
+    "mainBuggyCode": "export class Test",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "Test",
+      "apiType": "Class",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_01.d.ts|Test",
+      "parentModuleName": "Test"
+    }
+  }
+]

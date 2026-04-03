@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_26.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_26",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot Expand the range of readonly property types.",
+    "language": "typescript",
+    "mainBuggyCode": "readonly constant: string | number;",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "constant",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_26.d.ts|Test|constant",
+      "parentModuleName": "constant"
+    }
+  }
+]

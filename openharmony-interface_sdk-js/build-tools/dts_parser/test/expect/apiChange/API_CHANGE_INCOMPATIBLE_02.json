@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_02.d.ts",
+    "codeContextStaerLine": "24",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_02",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot reduce or permission or increase and permission.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str: string): void;",
+    "mainBuggyLine": "24",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_02.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  }
+]

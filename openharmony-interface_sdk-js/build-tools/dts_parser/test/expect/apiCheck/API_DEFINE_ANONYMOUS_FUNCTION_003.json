@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_ANONYMOUS_FUNCTION_003.d.ts",
+    "codeContextStaerLine": "36",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_ANONYMOUS_FUNCTION_01",
+    "description": "API check error of [wrong scene]: Anonymous functions or anonymous object that are not allowed are used in this api.",
+    "language": "typescript",
+    "mainBuggyCode": "function createManager(name: { [key: string]: string[] }): string;",
+    "mainBuggyLine": "36",
+    "extendInfo": {
+      "apiName": "createManager",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DEFINE_ANONYMOUS_FUNCTION_003.d.ts|abilityAccessCtrl|createManager",
+      "parentModuleName": "abilityAccessCtrl"
+    }
+  }
+]

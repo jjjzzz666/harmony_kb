@@ -1,0 +1,84 @@
+[
+  {
+    "apiType": "Method",
+    "statusCode": 6,
+    "oldApiDefinedText": "func(str: string): void;",
+    "newApiDefinedText": "func(str: string): void;",
+    "oldApiName": "func",
+    "newApiName": "func",
+    "oldDtsName": "ut_jsdoc_error_code_change.d.ts",
+    "newDtsName": "ut_jsdoc_error_code_change.d.ts",
+    "diffType": 21,
+    "diffMessage": "错误码增加",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [
+      "ut_jsdoc_error_code_change.d.ts",
+      "Test",
+      "func"
+    ],
+    "newHierarchicalRelations": [
+      "ut_jsdoc_error_code_change.d.ts",
+      "Test",
+      "func"
+    ],
+    "oldPos": {
+      "line": 26,
+      "character": 3
+    },
+    "newPos": {
+      "line": 26,
+      "character": 3
+    },
+    "oldDescription": "NA",
+    "newDescription": "404",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  },
+  {
+    "apiType": "Method",
+    "statusCode": 28,
+    "oldApiDefinedText": "func(str: string): void;",
+    "newApiDefinedText": "func(str: string): void;",
+    "oldApiName": "func",
+    "newApiName": "func",
+    "oldDtsName": "ut_jsdoc_error_code_change.d.ts",
+    "newDtsName": "ut_jsdoc_error_code_change.d.ts",
+    "diffType": 22,
+    "diffMessage": "错误码减少",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [
+      "ut_jsdoc_error_code_change.d.ts",
+      "Test",
+      "func"
+    ],
+    "newHierarchicalRelations": [
+      "ut_jsdoc_error_code_change.d.ts",
+      "Test",
+      "func"
+    ],
+    "oldPos": {
+      "line": 26,
+      "character": 3
+    },
+    "newPos": {
+      "line": 26,
+      "character": 3
+    },
+    "oldDescription": "401",
+    "newDescription": "NA",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

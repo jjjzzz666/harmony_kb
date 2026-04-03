@@ -1,0 +1,152 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "zipLib"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "ziplib"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "Call the compressed file interface"
+    },
+    {
+      "name": "zip",
+      "value": "zip"
+    },
+    {
+      "name": "unzip",
+      "value": "unzip"
+    },
+    {
+      "name": "file_name",
+      "value": "FileName"
+    },
+    {
+      "name": "file_content",
+      "value": "FileContent"
+    },
+    {
+      "name": "button_confirm",
+      "value": "confirm"
+    },
+    {
+      "name": "button_cancel",
+      "value": "cancel"
+    },
+    {
+      "name": "input_name",
+      "value": "Please enter a name"
+    },
+    {
+      "name": "input_content",
+      "value": "Please enter the file content"
+    },
+    {
+      "name": "create_file",
+      "value": "Create File"
+    },
+    {
+      "name": "warning_empty",
+      "value": "The file name cannot be empty"
+    },
+    {
+      "name": "warning_failed",
+      "value": "Compression failed because the compressed file exists, compression failure"
+    },
+    {
+      "name": "zlib_compress_failure",
+      "value": "File compression failure"
+    },
+    {
+      "name": "tip_complete",
+      "value": "File compression complete"
+    },
+    {
+      "name": "warning_failure",
+      "value": "File compression failure"
+    },
+    {
+      "name": "ziplibdecompression",
+      "value": "zipLibDecompression"
+    },
+    {
+      "name": "zlibInterface",
+      "value": "zipLibInterface"
+    },
+    {
+      "name": "zLib",
+      "value": "zLib"
+    },
+    {
+      "name": "zlib_uncompress_failure",
+      "value": "zlib uncompression failure"
+    },
+    {
+      "name": "gzip_compress_failure",
+      "value": "gzip compression failure"
+    },
+    {
+      "name": "gzip_uncompress_failure",
+      "value": "gzip uncompression failure"
+    },
+    {
+      "name": "gzip_interface",
+      "value": "gzip interface"
+    },
+    {
+      "name": "zlib_interface",
+      "value": "zlib interface"
+    },
+    {
+      "name": "CompressFiles",
+      "value": "CompressFiles"
+    },
+    {
+      "name": "CompressFiles_success",
+      "value": "compressFiles complete"
+    },
+    {
+      "name": "CompressFiles_failure",
+      "value": "compressFiles failure"
+    },
+    {
+      "name": "tip_CompressFiles",
+      "value": "tip"
+    },
+    {
+      "name": "tip_Gzip",
+      "value": "tip"
+    },
+    {
+      "name": "CompressFiles_success_size",
+      "value": "CompressFiles success size£º%s"
+    },
+    {
+      "name": "zlib_compress_success",
+      "value": "zlib compress success£º%s"
+    },
+    {
+      "name": "zlib_uncompress_success",
+      "value": "zlib uncompress success£º%s"
+    },
+    {
+      "name": "gzip_compress_success",
+      "value": "gzip compress success£º%s"
+    },
+    {
+      "name": "gzip_uncompress_success",
+      "value": "gzip uncompress success£º%s"
+    }
+  ]
+}

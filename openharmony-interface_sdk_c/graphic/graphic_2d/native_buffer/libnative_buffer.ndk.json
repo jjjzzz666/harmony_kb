@@ -1,0 +1,44 @@
+[
+    { "name": "OH_NativeBuffer_Alloc" },
+    { "name": "OH_NativeBuffer_Reference" },
+    { "name": "OH_NativeBuffer_Unreference" },
+    { "name": "OH_NativeBuffer_GetConfig" },
+    { "name": "OH_NativeBuffer_Map" },
+    { "name": "OH_NativeBuffer_Unmap" },
+    { "name": "OH_NativeBuffer_GetSeqNum" },
+    { "name": "OH_NativeBuffer_SetColorSpace" },
+    { "name": "OH_NativeBuffer_MapPlanes" },
+    { "name": "OH_NativeBuffer_FromNativeWindowBuffer" },
+    {
+        "first_introduced": "12",
+        "name": "OH_NativeBuffer_GetColorSpace"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_NativeBuffer_SetMetadataValue"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_NativeBuffer_GetMetadataValue"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_NativeBuffer_MapWaitFence"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_NativeBuffer_WriteToParcel"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_NativeBuffer_ReadFromParcel"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_NativeBuffer_IsSupported"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_NativeBuffer_MapAndGetConfig"
+    }
+]

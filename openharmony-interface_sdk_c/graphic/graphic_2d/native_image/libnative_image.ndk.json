@@ -1,0 +1,70 @@
+[
+    { "name": "OH_NativeImage_Create" },
+    { "name": "OH_NativeImage_AcquireNativeWindow" },
+    { "name": "OH_NativeImage_AttachContext" },
+    { "name": "OH_NativeImage_DetachContext" },
+    { "name": "OH_NativeImage_UpdateSurfaceImage" },
+    { "name": "OH_NativeImage_GetTimestamp" },
+    { "name": "OH_NativeImage_GetTransformMatrix" },
+    { "name": "OH_NativeImage_GetSurfaceId" },
+    { "name": "OH_NativeImage_SetOnFrameAvailableListener" },
+    { "name": "OH_NativeImage_UnsetOnFrameAvailableListener" },
+    { "name": "OH_NativeImage_Destroy" },
+    { "name": "OH_NativeImage_GetTransformMatrixV2" },
+    {
+        "first_introduced": "15",
+        "name": "OH_NativeImage_GetBufferMatrix"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_NativeImage_AcquireNativeWindowBuffer"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_NativeImage_ReleaseNativeWindowBuffer"
+    },
+    {
+        "first_introduced": "12",
+        "name": "OH_ConsumerSurface_Create"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_ConsumerSurface_SetDefaultUsage"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_ConsumerSurface_SetDefaultSize"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_NativeImage_SetDropBufferMode"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_NativeImage_CreateWithSingleBufferMode"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_ConsumerSurface_CreateWithSingleBufferMode"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_NativeImage_ReleaseTextImage"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_NativeImage_GetColorSpace"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_NativeImage_AcquireLatestNativeWindowBuffer"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_NativeImage_IsReleased"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_NativeImage_Release"
+    }
+]

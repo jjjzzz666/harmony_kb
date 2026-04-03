@@ -1,0 +1,36 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_RETURNS_02.d.ts",
+    "codeContextStaerLine": "33",
+    "defectLevel": 2,
+    "defectType": "API_DOC_RETURNS_02",
+    "description": "API check error of [wrong value]: The [returns] tag type is incorrect. Please check if the tag type is consistent with the return type.",
+    "language": "typescript",
+    "mainBuggyCode": "function getId(): number;",
+    "mainBuggyLine": "33",
+    "extendInfo": {
+      "apiName": "getId",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_RETURNS_02.d.ts|dataUriUtils|getId",
+      "parentModuleName": "dataUriUtils"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_RETURNS_02.d.ts",
+    "codeContextStaerLine": "46",
+    "defectLevel": 2,
+    "defectType": "API_DOC_RETURNS_02",
+    "description": "API check error of [wrong value]: The [returns] tag type is incorrect. Please check if the tag type is consistent with the return type.",
+    "language": "typescript",
+    "mainBuggyCode": "declare type ClickEventListenerCallback = (event: ClickEvent) => number;",
+    "mainBuggyLine": "46",
+    "extendInfo": {
+      "apiName": "ClickEventListenerCallback",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_DOC_RETURNS_02.d.ts|ClickEventListenerCallback",
+      "parentModuleName": "API_DOC_RETURNS_02.d.ts"
+    }
+  }
+]

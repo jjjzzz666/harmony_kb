@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_THROWS_08.d.ts",
+    "codeContextStaerLine": "39",
+    "defectLevel": 2,
+    "defectType": "API_DOC_THROWS_08",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [throws] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "function disableAbility(name: string, callback: AsyncCallback<void>): void;",
+    "mainBuggyLine": "39",
+    "extendInfo": {
+      "apiName": "disableAbility",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_THROWS_08.d.ts|config|disableAbility",
+      "parentModuleName": "config"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_NAME_02_ability.d.ets",
+    "codeContextStaerLine": "27",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_NAME_02",
+    "description": "API check error of [naming errors]: Prohibited word in [api_define_name_02_ability.d.ets]:{ability} in the [API_DEFINE_NAME_02_ability.d.ets] file.",
+    "language": "typescript",
+    "mainBuggyCode": "export interface Configuration",
+    "mainBuggyLine": "27",
+    "extendInfo": {
+      "apiName": "Configuration",
+      "apiType": "Interface",
+      "hierarchicalRelations": "API_DEFINE_NAME_02_ability.d.ets|Configuration",
+      "parentModuleName": "API_DEFINE_NAME_02_ability.d.ets"
+    }
+  }
+]

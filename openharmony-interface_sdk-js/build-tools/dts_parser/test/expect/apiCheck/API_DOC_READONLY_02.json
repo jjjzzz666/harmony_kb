@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_READONLY_02.d.ts",
+    "codeContextStaerLine": "34",
+    "defectLevel": 2,
+    "defectType": "API_DOC_READONLY_02",
+    "description": "API check error of [wrong scene]: JSDoc label validity verification failed. The [readonly] label is not allowed. Please check the label usage method.",
+    "language": "typescript",
+    "mainBuggyCode": "export interface HapModuleQuickFixInfo",
+    "mainBuggyLine": "34",
+    "extendInfo": {
+      "apiName": "HapModuleQuickFixInfo",
+      "apiType": "Interface",
+      "hierarchicalRelations": "API_DOC_READONLY_02.d.ts|quickFixManager|HapModuleQuickFixInfo",
+      "parentModuleName": "quickFixManager"
+    }
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "string": [
+    {
+      "name": "Calendar",
+      "value": "公历"
+    },
+    {
+      "name": "CountryWordChina",
+      "value": "中国"
+    },
+    {
+      "name": "TeacherShan",
+      "value": "单老师"
+    },
+    {
+      "name": "ZhangSunWuJi",
+      "value": "长孙无忌"
+    },
+    {
+      "name": "NiHao",
+      "value": "你好"
+    },
+    {
+      "name": "ExpectedDisplayLanguage",
+      "value": "德语"
+    },
+    {
+      "name": "ExpectedTimeZoneName",
+      "value": "巴西利亚"
+    },
+    {
+      "name": "ExpectedTimeZone",
+      "value": "巴西利亚"
+    },
+    {
+      "name": "ExpectedFormattedNumber2",
+      "value": "12万"
+    },
+    {
+      "name": "ExpectedFormattedNumber6",
+      "value": "123,400.00美元"
+    },
+    {
+      "name": "TimeZone",
+      "value": "时区:"
+    },
+    {
+      "name": "Time",
+      "value": "时间:"
+    },
+    {
+      "name": "ExpectedCityDisplayName",
+      "value": "奥克兰 (新西兰)"
+    },
+    {
+      "name": "Adak",
+      "value": "埃达克 (美国)"
+    },
+    {
+      "name": "Anchorage",
+      "value": "安克雷奇 (美国)"
+    },
+    {
+      "name": "ExpectedTimeZoneData1",
+      "value": "时区: America/Sao_Paulo"
+    },
+    {
+      "name": "Yerevan",
+      "value": "埃里温 (亚美尼亚)"
+    },
+    {
+      "name": "ExpectedTimeZoneData2",
+      "value": "时区: Asia/Shanghai"
+    }
+  ]
+}

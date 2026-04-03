@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_UNALLOWABLE_03.d.ts",
+    "codeContextStaerLine": "33",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_UNALLOWABLE_03",
+    "description": "API check error of [forbidden word]: Illegal [unknown] keyword used in the API.",
+    "language": "typescript",
+    "mainBuggyCode": "addAccountImplicitly(options: unknown): void;",
+    "mainBuggyLine": "33",
+    "extendInfo": {
+      "apiName": "addAccountImplicitly",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DEFINE_UNALLOWABLE_03.d.ts|Configuration|addAccountImplicitly",
+      "parentModuleName": "Configuration"
+    }
+  }
+]

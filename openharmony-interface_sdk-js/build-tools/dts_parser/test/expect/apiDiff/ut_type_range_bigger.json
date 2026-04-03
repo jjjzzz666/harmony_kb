@@ -1,0 +1,43 @@
+[
+  {
+    "apiType": "Method",
+    "statusCode": 16,
+    "oldApiDefinedText": "function fuc(str: string):void {}",
+    "newApiDefinedText": "function fuc(str: string | number): void {}",
+    "oldApiName": "fuc",
+    "newApiName": "fuc",
+    "oldDtsName": "ut_type_range_bigger.d.ts",
+    "newDtsName": "ut_type_range_bigger.d.ts",
+    "diffType": 44,
+    "diffMessage": "函数的参数类型范围扩大",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [
+      "ut_type_range_bigger.d.ts",
+      "test",
+      "fuc"
+    ],
+    "newHierarchicalRelations": [
+      "ut_type_range_bigger.d.ts",
+      "test",
+      "fuc"
+    ],
+    "oldPos": {
+      "line": 21,
+      "character": 3
+    },
+    "newPos": {
+      "line": 21,
+      "character": 3
+    },
+    "oldDescription": "str: string",
+    "newDescription": "str: string | number",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

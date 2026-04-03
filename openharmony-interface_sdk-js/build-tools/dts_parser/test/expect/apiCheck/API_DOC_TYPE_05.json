@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_TYPE_05.d.ts",
+    "codeContextStaerLine": "33",
+    "defectLevel": 2,
+    "defectType": "API_DOC_TYPE_05",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [type] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "durationTime: number;",
+    "mainBuggyLine": "33",
+    "extendInfo": {
+      "apiName": "durationTime",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_DOC_TYPE_05.d.ts|GesturePath|durationTime",
+      "parentModuleName": "GesturePath"
+    }
+  }
+]

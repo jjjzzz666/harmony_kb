@@ -1,0 +1,41 @@
+[
+  {
+    "apiType": "Class",
+    "statusCode": 27,
+    "oldApiDefinedText": "export class Test",
+    "newApiDefinedText": "export class Test",
+    "oldApiName": "Test",
+    "newApiName": "Test",
+    "oldDtsName": "ut_jsdoc_atomicservice_have_to_na.d.ts",
+    "newDtsName": "ut_jsdoc_atomicservice_have_to_na.d.ts",
+    "diffType": 86,
+    "diffMessage": "API从支持元服务到不支持元服务",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [
+      "ut_jsdoc_atomicservice_have_to_na.d.ts",
+      "Test"
+    ],
+    "newHierarchicalRelations": [
+      "ut_jsdoc_atomicservice_have_to_na.d.ts",
+      "Test"
+    ],
+    "oldPos": {
+      "line": 21,
+      "character": 1
+    },
+    "newPos": {
+      "line": 20,
+      "character": 1
+    },
+    "oldDescription": "atomicservice",
+    "newDescription": "NA",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

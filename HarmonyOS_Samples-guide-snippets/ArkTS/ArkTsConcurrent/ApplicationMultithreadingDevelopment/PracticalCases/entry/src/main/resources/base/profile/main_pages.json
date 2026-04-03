@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/Index",
+    "managers/UsingTaskPool",
+    "managers/UsingSendable",
+    "managers/ComplexClassInstanceObjectUsingSendable",
+    "managers/ConcurrentLoadingModulesGuide",
+    "managers/GlobalConfigurationGuide",
+    "managers/MakeobservedSendable",
+    "managers/WaterfallRendering"
+  ]
+}

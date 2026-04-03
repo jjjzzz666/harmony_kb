@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_DEFAULT_02.d.ts",
+    "codeContextStaerLine": "35",
+    "defectLevel": 2,
+    "defectType": "API_DOC_DEFAULT_02",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [default] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "isProxy?: boolean;",
+    "mainBuggyLine": "35",
+    "extendInfo": {
+      "apiName": "isProxy",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_DOC_DEFAULT_02.d.ts|DataShareHelperOptions|isProxy",
+      "parentModuleName": "DataShareHelperOptions"
+    }
+  }
+]

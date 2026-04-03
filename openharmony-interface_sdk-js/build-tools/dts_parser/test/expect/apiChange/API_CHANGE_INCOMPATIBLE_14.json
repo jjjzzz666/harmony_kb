@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_14.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_14",
+    "description": "API check error of [api change errors]: Forbid changes: The function return value type cannot be reduced.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str: string, str2: string): string {}",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_14.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_21.d.ts",
+    "codeContextStaerLine": "2",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_21",
+    "description": "API check error of [api change errors]: Forbid changes: The function param type range is cannot be reduced.",
+    "language": "typescript",
+    "mainBuggyCode": "function testFun(a: number, b: string, c?: number): void;",
+    "mainBuggyLine": "2",
+    "extendInfo": {
+      "apiName": "testFun",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_21.d.ts|Test|testFun",
+      "parentModuleName": "testFun"
+    }
+  }
+]

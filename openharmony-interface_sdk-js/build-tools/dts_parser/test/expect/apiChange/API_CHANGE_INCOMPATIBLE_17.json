@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_17.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_17",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot add function required param.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str: string, str2: string, str3: string): void {}",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_17.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  }
+]

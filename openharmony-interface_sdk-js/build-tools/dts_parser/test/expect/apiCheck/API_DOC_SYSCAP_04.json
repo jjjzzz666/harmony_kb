@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_SYSCAP_04.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_SYSCAP_04",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [syscap] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "declare namespace hiAppEvent",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "hiAppEvent",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_DOC_SYSCAP_04.d.ts|hiAppEvent",
+      "parentModuleName": "API_DOC_SYSCAP_04.d.ts"
+    }
+  }
+]

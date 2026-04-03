@@ -1,0 +1,53 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_34.d.ts",
+    "codeContextStaerLine": "20",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_34",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change Enumeration assignment.",
+    "language": "typescript",
+    "mainBuggyCode": "VALUE_ONE = 2",
+    "mainBuggyLine": "20",
+    "extendInfo": {
+      "apiName": "VALUE_ONE",
+      "apiType": "EnumValue",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_34.d.ts|Test|VALUE_ONE",
+      "parentModuleName": "VALUE_ONE"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_34.d.ts",
+    "codeContextStaerLine": "22",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_34",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change Enumeration assignment.",
+    "language": "typescript",
+    "mainBuggyCode": "VALUE_TWO",
+    "mainBuggyLine": "22",
+    "extendInfo": {
+      "apiName": "VALUE_TWO",
+      "apiType": "EnumValue",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_34.d.ts|Test|VALUE_TWO",
+      "parentModuleName": "VALUE_TWO"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_34.d.ts",
+    "codeContextStaerLine": "24",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_34",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change Enumeration assignment.",
+    "language": "typescript",
+    "mainBuggyCode": "VALUE_THREE",
+    "mainBuggyLine": "24",
+    "extendInfo": {
+      "apiName": "VALUE_THREE",
+      "apiType": "EnumValue",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_34.d.ts|Test|VALUE_THREE",
+      "parentModuleName": "VALUE_THREE"
+    }
+  }
+]

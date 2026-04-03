@@ -1,0 +1,76 @@
+[
+  {
+    "apiType": "Property",
+    "statusCode": 3,
+    "oldApiDefinedText": "",
+    "newApiDefinedText": "testProperty: string;",
+    "oldApiName": "",
+    "newApiName": "testProperty",
+    "oldDtsName": "",
+    "newDtsName": "ut_property_in_typealias_002.d.ts",
+    "diffType": 75,
+    "diffMessage": "新增API",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [],
+    "newHierarchicalRelations": [
+      "ut_property_in_typealias_002.d.ts",
+      "ColorStop",
+      "testProperty"
+    ],
+    "oldPos": {
+      "line": -1,
+      "character": -1
+    },
+    "newPos": {
+      "line": 51,
+      "character": 3
+    },
+    "oldDescription": "",
+    "newDescription": "testProperty: string;",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  },
+  {
+    "apiType": "Property",
+    "statusCode": 3,
+    "oldApiDefinedText": "",
+    "newApiDefinedText": "testProperty1?: string;",
+    "oldApiName": "",
+    "newApiName": "testProperty1",
+    "oldDtsName": "",
+    "newDtsName": "ut_property_in_typealias_002.d.ts",
+    "diffType": 75,
+    "diffMessage": "新增API",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [],
+    "newHierarchicalRelations": [
+      "ut_property_in_typealias_002.d.ts",
+      "ColorStop",
+      "testProperty1"
+    ],
+    "oldPos": {
+      "line": -1,
+      "character": -1
+    },
+    "newPos": {
+      "line": 53,
+      "character": 3
+    },
+    "oldDescription": "",
+    "newDescription": "testProperty1?: string;",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

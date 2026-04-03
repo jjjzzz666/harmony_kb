@@ -1,0 +1,8 @@
+allAux.heic filter=lfs diff=lfs merge=lfs -text
+Media/Image/ImageArkTSSample/entry/src/main/resources/rawfile/allAux.heic filter=lfs diff=lfs merge=lfs -text
+Media/Image/ImageNativeSample/entry/src/main/resources/rawfile/allAux.heic filter=lfs diff=lfs merge=lfs -text
+Media/Image/ImageArkTSSample/entry/src/main/resources/rawfile/allAux.jpg filter=lfs diff=lfs merge=lfs -text
+Media/Image/ImageArkTSSample/entry/src/main/resources/rawfile/test.png filter=lfs diff=lfs merge=lfs -text
+Media/Image/ImageNativeSample/entry/src/main/resources/rawfile/allAux.jpg filter=lfs diff=lfs merge=lfs -text
+Media/Image/ImageNativeSample/entry/src/main/resources/rawfile/test.gif filter=lfs diff=lfs merge=lfs -text
+Media/AVSession/AVCastPicker/entry/src/main/resources/rawfile/kv-popup.mp4 filter=lfs diff=lfs merge=lfs -text

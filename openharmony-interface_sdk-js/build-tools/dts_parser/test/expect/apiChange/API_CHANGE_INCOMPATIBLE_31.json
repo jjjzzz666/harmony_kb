@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_31.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_31",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change custom type value.",
+    "language": "typescript",
+    "mainBuggyCode": "type Type = 'new';",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "Type",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_31.d.ts|test|Type",
+      "parentModuleName": "Type"
+    }
+  }
+]

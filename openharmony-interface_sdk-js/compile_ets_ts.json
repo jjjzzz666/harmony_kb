@@ -1,0 +1,5 @@
+{
+"excluded_dirs": ["build-tools", "node_modules"],
+"excluded_files": [],
+"excluded_extensions": [".exe", ".dll", ".so",".json"]
+}

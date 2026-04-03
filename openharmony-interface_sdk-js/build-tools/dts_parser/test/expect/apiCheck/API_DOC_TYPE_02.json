@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_TYPE_02.d.ts",
+    "codeContextStaerLine": "33",
+    "defectLevel": 2,
+    "defectType": "API_DOC_TYPE_02",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [type] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "durationTime: number;",
+    "mainBuggyLine": "33",
+    "extendInfo": {
+      "apiName": "durationTime",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_DOC_TYPE_02.d.ts|GesturePath|durationTime",
+      "parentModuleName": "GesturePath"
+    }
+  }
+]

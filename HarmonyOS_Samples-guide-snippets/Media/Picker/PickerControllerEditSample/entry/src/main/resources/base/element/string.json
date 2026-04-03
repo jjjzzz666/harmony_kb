@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "picker_controller_save_as",
+      "value": "另存为"
+    },
+    {
+      "name": "picker_controller_overwrite_save",
+      "value": "覆盖保存"
+    },
+    {
+      "name": "picker_controller_replace_url",
+      "value": "Replace Url"
+    },
+    {
+      "name": "picker_controller_all",
+      "value": "全部"
+    }
+  ]
+}

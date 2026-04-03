@@ -1,0 +1,36 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_THROWS_05.d.ts",
+    "codeContextStaerLine": "36",
+    "defectLevel": 2,
+    "defectType": "API_DOC_THROWS_05",
+    "description": "API check error of [wrong scene]: JSDoc tag validity verification failed. Please confirm if the [throws 201] tag is missing.",
+    "language": "typescript",
+    "mainBuggyCode": "function enableAbility(): void;",
+    "mainBuggyLine": "36",
+    "extendInfo": {
+      "apiName": "enableAbility",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_THROWS_05.d.ts|config|enableAbility",
+      "parentModuleName": "config"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_THROWS_05.d.ts",
+    "codeContextStaerLine": "45",
+    "defectLevel": 2,
+    "defectType": "API_DOC_THROWS_05",
+    "description": "API check error of [wrong scene]: JSDoc tag validity verification failed. Please confirm if the [throws 202] tag is missing.",
+    "language": "typescript",
+    "mainBuggyCode": "function disableAbility(): void;",
+    "mainBuggyLine": "45",
+    "extendInfo": {
+      "apiName": "disableAbility",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_THROWS_05.d.ts|config|disableAbility",
+      "parentModuleName": "config"
+    }
+  }
+]

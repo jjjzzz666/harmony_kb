@@ -1,0 +1,42 @@
+# Copyright (c) 2021 Huawei Device Co., Ltd.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+import("//build/config/components/sdk/interface.gni")
+common_api_src = [
+  "//interface/sdk-js/api/@system.app.d.ts",
+  "//interface/sdk-js/api/@system.configuration.d.ts",
+  "//interface/sdk-js/api/@system.file.d.ts",
+  "//interface/sdk-js/api/@system.mediaquery.d.ts",
+  "//interface/sdk-js/api/@system.prompt.d.ts",
+  "//interface/sdk-js/api/@system.router.d.ts",
+]
+common_api_src_ets2 = [
+  "//interface/sdk-js/api/@system.app.d.ts",
+  "//interface/sdk-js/api/@system.configuration.d.ts",
+  "//interface/sdk-js/api/@system.mediaquery.d.ts",
+  "//interface/sdk-js/api/@system.prompt.d.ts",
+]
+sdk_type = "ets"
+
+ohos_ets_dynamic_path = "${root_build_dir}/ohos_dynamic"
+ohos_ets_dynamic_api_path = "${ohos_ets_dynamic_path}/api"
+ohos_ets_dynamic_arkts_path = "${ohos_ets_dynamic_path}/arkts"
+ohos_ets_dynamic_component_path = "${ohos_ets_dynamic_path}/component"
+ohos_ets_dynamic_kits_path = "${ohos_ets_dynamic_path}/kits"
+
+ohos_ets_dynamic_two_path = "${root_build_dir}/ohos_dynamic_two"
+
+ohos_ets_static_path = "${root_build_dir}/ohos_static"
+ohos_ets_static_api_path = "${ohos_ets_static_path}/api"
+ohos_ets_static_arkts_path = "${ohos_ets_static_path}/arkts"
+ohos_ets_static_kits_path = "${ohos_ets_static_path}/kits"

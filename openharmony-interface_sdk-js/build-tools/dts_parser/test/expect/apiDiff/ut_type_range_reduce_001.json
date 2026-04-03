@@ -1,0 +1,41 @@
+[
+  {
+    "apiType": "TypeAlias",
+    "statusCode": 14,
+    "oldApiDefinedText": "declare type TestAlign = \"center\" | \"end\" | \"left\" | \"right\" | \"start\";",
+    "newApiDefinedText": "declare type TestAlign = \"center\" | \"end\" | \"left\" | \"right\";",
+    "oldApiName": "TestAlign",
+    "newApiName": "TestAlign",
+    "oldDtsName": "ut_type_range_reduce_001.d.ts",
+    "newDtsName": "ut_type_range_reduce_001.d.ts",
+    "diffType": 60,
+    "diffMessage": "自定义类型值范围缩小",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [
+      "ut_type_range_reduce_001.d.ts",
+      "TestAlign"
+    ],
+    "newHierarchicalRelations": [
+      "ut_type_range_reduce_001.d.ts",
+      "TestAlign"
+    ],
+    "oldPos": {
+      "line": 1,
+      "character": 1
+    },
+    "newPos": {
+      "line": 1,
+      "character": 1
+    },
+    "oldDescription": "\"center\" | \"end\" | \"left\" | \"right\" | \"start\"",
+    "newDescription": "\"center\" | \"end\" | \"left\" | \"right\"",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

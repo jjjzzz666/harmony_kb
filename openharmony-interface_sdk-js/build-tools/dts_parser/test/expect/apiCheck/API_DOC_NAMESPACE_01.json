@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_NAMESPACE_01.d.ts",
+    "codeContextStaerLine": "29",
+    "defectLevel": 2,
+    "defectType": "API_DOC_NAMESPACE_01",
+    "description": "API check error of [wrong value]: The [namespace] tag value is incorrect. Please check if it matches the namespace name.",
+    "language": "typescript",
+    "mainBuggyCode": "declare namespace ability",
+    "mainBuggyLine": "29",
+    "extendInfo": {
+      "apiName": "ability",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_DOC_NAMESPACE_01.d.ts|ability",
+      "parentModuleName": "API_DOC_NAMESPACE_01.d.ts"
+    }
+  }
+]

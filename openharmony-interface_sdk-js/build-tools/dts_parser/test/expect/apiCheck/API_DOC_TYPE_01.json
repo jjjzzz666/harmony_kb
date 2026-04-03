@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_TYPE_01.d.ts",
+    "codeContextStaerLine": "32",
+    "defectLevel": 2,
+    "defectType": "API_DOC_TYPE_01",
+    "description": "API check error of [wrong value]: The [type] tag type is incorrect. Please check if the type matches the attribute type.",
+    "language": "typescript",
+    "mainBuggyCode": "durationTime: number;",
+    "mainBuggyLine": "32",
+    "extendInfo": {
+      "apiName": "durationTime",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_DOC_TYPE_01.d.ts|GesturePath|durationTime",
+      "parentModuleName": "GesturePath"
+    }
+  }
+]

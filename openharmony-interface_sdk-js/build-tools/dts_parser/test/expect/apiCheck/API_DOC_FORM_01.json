@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_FORM_01.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_FORM_01",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [form] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "declare enum BadgePosition",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "BadgePosition",
+      "apiType": "Enum",
+      "hierarchicalRelations": "API_DOC_FORM_01.d.ts|BadgePosition",
+      "parentModuleName": "API_DOC_FORM_01.d.ts"
+    }
+  }
+]

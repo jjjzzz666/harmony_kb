@@ -1,0 +1,70 @@
+/*
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+*/
+
+// [Start View_ListView]
+// src/main/ets/view/ListView.ets
+import TaskViewModel from '../viewmodel/TaskViewModel';
+import TaskListViewModel from '../viewmodel/TaskListViewModel';
+import { Setting } from '../pages/SettingPage';
+import { ActionButton } from './BottomView';
+import { hilog } from '@kit.PerformanceAnalysisKit';
+
+@ComponentV2
+struct TaskItem {
+  @Param task: TaskViewModel = new TaskViewModel();
+  @Event deleteTask: () => void = () => {};
+
+  @Monitor('task.isFinish')
+  onTaskFinished(mon: IMonitor) {
+    hilog.info(0x0000, 'testTag', '%{public}s', 'task' + this.task.taskName + 'The completion status of the' + mon.value()?.before + 'has become' + mon.value()?.now);
+  }
+
+  build() {
+    Row() {
+      // 请开发者自行在src/main/resources/base/media路径下添加finished.png和unfinished.png两张图片，否则运行时会因资源缺失而报错。
+      Image(this.task.isFinish ? $r('app.media.finished') : $r('app.media.unfinished'))
+        .width(28)
+        .height(28)
+        .margin({ left: 15, right: 10 })
+      Text(this.task.taskName)
+        .decoration({ type: this.task.isFinish ? TextDecorationType.LineThrough : TextDecorationType.None })
+        .fontSize(18)
+      ActionButton('Delete', () => this.deleteTask());
+    }
+    .height('7%')
+    .width('90%')
+    .backgroundColor('#90f1f3f5')
+    .borderRadius(25)
+    .onClick(() => this.task.updateIsFinish())
+  }
+}
+
+@ComponentV2
+export default struct ListView {
+  @Param taskList: TaskListViewModel = new TaskListViewModel();
+  @Param setting: Setting = new Setting();
+
+  build() {
+    Repeat<TaskViewModel>(this.taskList.tasks.filter(task => this.setting.showCompletedTask || !task.isFinish))
+      .each((obj: RepeatItem<TaskViewModel>) => {
+        TaskItem({
+          task: obj.item,
+          deleteTask: () => this.taskList.removeTask(obj.item)
+        }).margin(5)
+      })
+  }
+}
+// [End View_ListView]

@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_33.d.ts",
+    "codeContextStaerLine": "21",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_33",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot reduce the range of custom type.",
+    "language": "typescript",
+    "mainBuggyCode": "type Type = 'none';",
+    "mainBuggyLine": "21",
+    "extendInfo": {
+      "apiName": "Type",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_33.d.ts|test|Type",
+      "parentModuleName": "Type"
+    }
+  }
+]

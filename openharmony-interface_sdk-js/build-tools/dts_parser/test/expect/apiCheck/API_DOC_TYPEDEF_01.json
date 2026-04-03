@@ -1,0 +1,53 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_TYPEDEF_01.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_TYPEDEF_01",
+    "description": "API check error of [wrong value]: The [typedef] tag value is incorrect. Please check if it matches the interface name or type content.",
+    "language": "typescript",
+    "mainBuggyCode": "export interface OnReleaseCallback",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "OnReleaseCallback",
+      "apiType": "Interface",
+      "hierarchicalRelations": "API_DOC_TYPEDEF_01.d.ts|OnReleaseCallback",
+      "parentModuleName": "API_DOC_TYPEDEF_01.d.ts"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_TYPEDEF_01.d.ts",
+    "codeContextStaerLine": "36",
+    "defectLevel": 2,
+    "defectType": "API_DOC_TYPEDEF_01",
+    "description": "API check error of [wrong value]: The [typedef] tag value is incorrect. Please check if it matches the interface name or type content.",
+    "language": "typescript",
+    "mainBuggyCode": "declare type ValueType = number | string;",
+    "mainBuggyLine": "36",
+    "extendInfo": {
+      "apiName": "ValueType",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_DOC_TYPEDEF_01.d.ts|ValueType",
+      "parentModuleName": "API_DOC_TYPEDEF_01.d.ts"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_TYPEDEF_01.d.ts",
+    "codeContextStaerLine": "46",
+    "defectLevel": 2,
+    "defectType": "API_DOC_TYPEDEF_01",
+    "description": "API check error of [wrong value]: The [typedef] tag value is incorrect. Please check if it matches the interface name or type content.",
+    "language": "typescript",
+    "mainBuggyCode": "declare type ClickEventListenerCallback = (event: ClickEvent) => void;",
+    "mainBuggyLine": "46",
+    "extendInfo": {
+      "apiName": "ClickEventListenerCallback",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_DOC_TYPEDEF_01.d.ts|ClickEventListenerCallback",
+      "parentModuleName": "API_DOC_TYPEDEF_01.d.ts"
+    }
+  }
+]

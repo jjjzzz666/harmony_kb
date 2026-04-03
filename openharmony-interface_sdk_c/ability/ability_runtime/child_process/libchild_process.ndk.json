@@ -1,0 +1,54 @@
+[
+  {
+      "first_introduced": "12",
+      "name": "OH_Ability_CreateNativeChildProcess"
+  },
+  {
+      "first_introduced": "13",
+      "name": "OH_Ability_StartNativeChildProcess"
+  },
+  {
+      "first_introduced": "17",
+      "name": "OH_Ability_GetCurrentChildProcessArgs"
+  },
+  {
+      "first_introduced": "20",
+      "name": "OH_Ability_RegisterNativeChildProcessExitCallback"
+  },
+  {
+      "first_introduced": "20",
+      "name": "OH_Ability_UnregisterNativeChildProcessExitCallback"
+  },
+  {
+      "first_introduced": "20",
+      "name": "OH_Ability_CreateChildProcessConfigs"
+  },
+  {
+      "first_introduced": "20",
+      "name": "OH_Ability_DestroyChildProcessConfigs"
+  },
+  {
+      "first_introduced": "20",
+      "name": "OH_Ability_ChildProcessConfigs_SetIsolationMode"
+  },
+  {
+      "first_introduced": "20",
+      "name": "OH_Ability_ChildProcessConfigs_SetProcessName"
+  },
+  {
+      "first_introduced": "20",
+      "name": "OH_Ability_CreateNativeChildProcessWithConfigs"
+  },
+  {
+      "first_introduced": "20",
+      "name": "OH_Ability_StartNativeChildProcessWithConfigs"
+  },
+  {
+      "first_introduced": "21",
+      "name": "OH_Ability_ChildProcessConfigs_SetIsolationUid"
+  },
+  {
+    "first_introduced": "22",
+    "name": "OH_Ability_KillChildProcess"
+  }
+]

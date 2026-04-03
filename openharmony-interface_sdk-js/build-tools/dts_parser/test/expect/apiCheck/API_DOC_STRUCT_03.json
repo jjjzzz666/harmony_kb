@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_STRUCT_03.d.ets",
+    "codeContextStaerLine": "29",
+    "defectLevel": 2,
+    "defectType": "API_DOC_STRUCT_03",
+    "description": "API check error of [wrong scene]: JSDoc label validity verification failed. The [struct] label is not allowed. Please check the label usage method.",
+    "language": "typescript",
+    "mainBuggyCode": "export declare enum GridObjectSortComponentType",
+    "mainBuggyLine": "29",
+    "extendInfo": {
+      "apiName": "GridObjectSortComponentType",
+      "apiType": "Enum",
+      "hierarchicalRelations": "API_DOC_STRUCT_03.d.ets|GridObjectSortComponentType",
+      "parentModuleName": "API_DOC_STRUCT_03.d.ets"
+    }
+  }
+]

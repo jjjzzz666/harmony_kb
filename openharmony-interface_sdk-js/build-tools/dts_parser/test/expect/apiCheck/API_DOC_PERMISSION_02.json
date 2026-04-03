@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_PERMISSION_02.d.ts",
+    "codeContextStaerLine": "34",
+    "defectLevel": 2,
+    "defectType": "API_DOC_PERMISSION_02",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [permission] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "function getId(): void;",
+    "mainBuggyLine": "34",
+    "extendInfo": {
+      "apiName": "getId",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_PERMISSION_02.d.ts|missionManager|getId",
+      "parentModuleName": "missionManager"
+    }
+  }
+]

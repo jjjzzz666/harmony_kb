@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_TEST_02.d.ts",
+    "codeContextStaerLine": "33",
+    "defectLevel": 2,
+    "defectType": "API_DOC_TEST_02",
+    "description": "API check error of [wrong scene]: It was detected that there is an inheritable label [test] in the current file, but there are child nodes without this label.",
+    "language": "typescript",
+    "mainBuggyCode": "EQUALS = 0",
+    "mainBuggyLine": "33",
+    "extendInfo": {
+      "apiName": "EQUALS",
+      "apiType": "EnumValue",
+      "hierarchicalRelations": "API_DOC_TEST_02.d.ts|MatchPattern|EQUALS",
+      "parentModuleName": "MatchPattern"
+    }
+  }
+]

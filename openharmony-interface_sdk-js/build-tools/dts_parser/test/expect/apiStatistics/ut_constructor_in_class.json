@@ -1,0 +1,31 @@
+[
+  {
+    "filePath": "ut_constructor_in_class.d.ts",
+    "packageName": "ut_constructor_in_class",
+    "parentModuleName": "testNamespace",
+    "syscap": "",
+    "permissions": "",
+    "since": "-1",
+    "isForm": false,
+    "isCrossPlatForm": false,
+    "isAutomicService": false,
+    "hierarchicalRelations": "ut_constructor_in_class.d.ts/testNamespace/TestInterface",
+    "apiName": "TestInterface",
+    "deprecatedVersion": "",
+    "useInstead": "",
+    "apiType": "Class",
+    "definedText": "class TestInterface",
+    "pos": {
+      "line": 17,
+      "character": 3
+    },
+    "isSystemapi": false,
+    "modelLimitation": "",
+    "decorators": [],
+    "errorCodes": [],
+    "kitInfo": "NA",
+    "absolutePath": "",
+    "parentApiType": "Namespace",
+    "isOptional": false
+  }
+]

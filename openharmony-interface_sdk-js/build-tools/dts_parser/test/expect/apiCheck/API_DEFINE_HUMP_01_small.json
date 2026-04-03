@@ -1,0 +1,18 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_HUMP_01_small.d.ts",
+    "codeContextStaerLine": "27",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_HUMP_01",
+    "description": "API check error of [naming errors]: This API file should be named by large hump.",
+    "language": "typescript",
+    "mainBuggyCode": "",
+    "mainBuggyLine": "27",
+    "extendInfo": {
+      "apiName": "API_DEFINE_HUMP_01_small.d.ts",
+      "apiType": "SourceFile",
+      "hierarchicalRelations": "API_DEFINE_HUMP_01_small.d.ts"
+    }
+  }
+]

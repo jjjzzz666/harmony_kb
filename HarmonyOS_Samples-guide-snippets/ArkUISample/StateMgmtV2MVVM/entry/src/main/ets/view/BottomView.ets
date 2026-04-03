@@ -1,0 +1,75 @@
+/*
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+*/
+
+// [Start View_BottomView]
+// src/main/ets/view/BottomView.ets
+import { common, Want } from '@kit.AbilityKit';
+import TaskViewModel from '../viewmodel/TaskViewModel';
+import TaskListViewModel from '../viewmodel/TaskListViewModel';
+
+@Builder
+export function ActionButton(text: string | Resource, onClick: () => void) {
+  Button(text, { buttonStyle: ButtonStyleMode.NORMAL })
+    .onClick(onClick)
+    .margin({
+      left: 10,
+      right: 10,
+      top: 5,
+      bottom: 5
+    })
+}
+
+@ComponentV2
+export default struct BottomView {
+  @Param taskList: TaskListViewModel = new TaskListViewModel();
+  @Local newTaskName: string = '';
+  private context = this.getUIContext().getHostContext() as common.UIAbilityContext;
+
+  build() {
+    Column() {
+      Row() {
+        ActionButton('All Completed', (): void => this.taskList.finishAll(true))
+        ActionButton('All Not Completed', (): void => this.taskList.finishAll(false))
+      }
+      .margin({ top: 10 })
+
+      Row() {
+        ActionButton('Setting', (): void => {
+          let wantInfo: Want = {
+            deviceId: '', // deviceId为空表示本设备。
+            bundleName: 'com.samples.statemgmtv2mvvm', // 替换成AppScope/app.json5里的bundleName。
+            abilityName: 'SettingAbility',
+          };
+          this.context.startAbility(wantInfo);
+        })
+      }
+      .margin({ bottom: 5 })
+
+      Row() {
+        TextInput({ placeholder: 'Add new tasks', text: this.newTaskName })
+          .onChange((value) => this.newTaskName = value)
+          .width('70%')
+        ActionButton('+', (): void => {
+          let newTask = new TaskViewModel();
+          newTask.taskName = this.newTaskName;
+          this.taskList.addTask(newTask);
+          this.newTaskName = '';
+        })
+      }
+    }
+  }
+}
+// [End View_BottomView]

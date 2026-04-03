@@ -1,0 +1,27 @@
+[
+    {
+        "name": "OH_LOG_Print"
+    },
+    {
+        "name": "OH_LOG_IsLoggable"
+    },
+    {
+        "name": "OH_LOG_SetCallback"
+    },
+    {
+        "name": "OH_LOG_PrintMsg"
+    },
+    {
+        "name": "OH_LOG_PrintMsgByLen"
+    },
+    {
+        "name": "OH_LOG_VPrint"
+    },
+    {
+        "name": "OH_LOG_SetMinLogLevel"
+    },
+    {
+        "first_instroduced":"21",
+        "name": "OH_LOG_SetLogLevel"
+    }
+]

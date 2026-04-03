@@ -1,0 +1,36 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_RETURNS_04.d.ts",
+    "codeContextStaerLine": "32",
+    "defectLevel": 2,
+    "defectType": "API_DOC_RETURNS_04",
+    "description": "API check error of [wrong scene]: JSDoc tag validity verification failed. Please confirm if the [returns] tag is missing.",
+    "language": "typescript",
+    "mainBuggyCode": "function getId(): number;",
+    "mainBuggyLine": "32",
+    "extendInfo": {
+      "apiName": "getId",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_RETURNS_04.d.ts|dataUriUtils|getId",
+      "parentModuleName": "dataUriUtils"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_RETURNS_04.d.ts",
+    "codeContextStaerLine": "44",
+    "defectLevel": 2,
+    "defectType": "API_DOC_RETURNS_04",
+    "description": "API check error of [wrong scene]: JSDoc tag validity verification failed. Please confirm if the [returns] tag is missing.",
+    "language": "typescript",
+    "mainBuggyCode": "declare type ClickEventListenerCallback = (event: ClickEvent) => number;",
+    "mainBuggyLine": "44",
+    "extendInfo": {
+      "apiName": "ClickEventListenerCallback",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_DOC_RETURNS_04.d.ts|ClickEventListenerCallback",
+      "parentModuleName": "API_DOC_RETURNS_04.d.ts"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_SYSTEMAPI_03.d.ts",
+    "codeContextStaerLine": "29",
+    "defectLevel": 2,
+    "defectType": "API_DOC_SYSTEMAPI_03",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [systemapi] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "declare namespace config",
+    "mainBuggyLine": "29",
+    "extendInfo": {
+      "apiName": "config",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_DOC_SYSTEMAPI_03.d.ts|config",
+      "parentModuleName": "API_DOC_SYSTEMAPI_03.d.ts"
+    }
+  }
+]

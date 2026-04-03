@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_PERMISSION_01.d.ts",
+    "codeContextStaerLine": "33",
+    "defectLevel": 2,
+    "defectType": "API_DOC_PERMISSION_01",
+    "description": "API check error of [wrong value]: The [permission] tag value is incorrect. Please check if the permission field has been configured or update the configuration file.",
+    "language": "typescript",
+    "mainBuggyCode": "function getId(): void;",
+    "mainBuggyLine": "33",
+    "extendInfo": {
+      "apiName": "getId",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_PERMISSION_01.d.ts|missionManager|getId",
+      "parentModuleName": "missionManager"
+    }
+  }
+]

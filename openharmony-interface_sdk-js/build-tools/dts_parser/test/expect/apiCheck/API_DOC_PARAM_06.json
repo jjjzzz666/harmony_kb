@@ -1,0 +1,36 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_PARAM_06.d.ts",
+    "codeContextStaerLine": "35",
+    "defectLevel": 2,
+    "defectType": "API_DOC_PARAM_06",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [param] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "function getId(uri: string): void;",
+    "mainBuggyLine": "35",
+    "extendInfo": {
+      "apiName": "getId",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_PARAM_06.d.ts|dataUriUtils|getId",
+      "parentModuleName": "dataUriUtils"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_PARAM_06.d.ts",
+    "codeContextStaerLine": "46",
+    "defectLevel": 2,
+    "defectType": "API_DOC_PARAM_06",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [param] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "declare type ClickEventListenerCallback = (event: ClickEvent) => void;",
+    "mainBuggyLine": "46",
+    "extendInfo": {
+      "apiName": "ClickEventListenerCallback",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_DOC_PARAM_06.d.ts|ClickEventListenerCallback",
+      "parentModuleName": "API_DOC_PARAM_06.d.ts"
+    }
+  }
+]

@@ -1,0 +1,36 @@
+/*
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+// [Start navigate_to_web_page_pre_start_webview_load]
+// index.ets
+import { webview } from '@kit.ArkWeb';
+
+@Entry
+@Component
+struct Index1 {
+  webviewController: webview.WebviewController = new webview.WebviewController();
+  	
+  build() {
+    Column() {
+      //已经预启动Render进程
+      Button('Jump to web page').onClick(()=>{
+        this.getUIContext().getRouter().pushUrl({url: 'pages/index2'});
+      })
+        .width('100%')
+        .height('100%')
+    }
+  }
+}
+// [End navigate_to_web_page_pre_start_webview_load]

@@ -1,0 +1,73 @@
+/*
+ * Copyright (c) 2025 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+import { CommonButton } from '../util/CommonButton';
+
+@Entry
+@Component
+struct Index {
+  aboutToAppear() {
+  }
+
+  build() {
+    Scroll() {
+      Flex({ direction: FlexDirection.Row, wrap: FlexWrap.Wrap }) {
+        Text($r('app.string.Practical_cases'))
+          .padding('15vp')
+          .width('100%')
+          .fontSize('25fp')
+          .textAlign(TextAlign.Center)
+        CommonButton({
+          buttonName: $r('app.string.Using_taskpool'),
+          buttonId: 'app.string.Using_taskpool',
+          buttonUrl: 'managers/UsingTaskPool'
+        });
+        CommonButton({
+          buttonName: $r('app.string.Using_sendable'),
+          buttonId: 'app.string.Using_sendable',
+          buttonUrl: 'managers/UsingSendable'
+        });
+        CommonButton({
+          buttonName: $r('app.string.Complex_class_instance_object_using_sendable'),
+          buttonId: 'app.string.Complex_class_instance_object_using_sendable',
+          buttonUrl: 'managers/ComplexClassInstanceObjectUsingSendable'
+        });
+        CommonButton({
+          buttonName: $r('app.string.Concurrent_loading_modules_guide'),
+          buttonId: 'app.string.Concurrent_loading_modules_guide',
+          buttonUrl: 'managers/ConcurrentLoadingModulesGuide'
+        });
+        CommonButton({
+          buttonName: $r('app.string.Global_configuration_guide'),
+          buttonId: 'app.string.Global_configuration_guide',
+          buttonUrl: 'managers/GlobalConfigurationGuide'
+        });
+        CommonButton({
+          buttonName: $r('app.string.Makeobserved_sendable'),
+          buttonId: 'app.string.Makeobserved_sendable',
+          buttonUrl: 'managers/MakeobservedSendable'
+        });
+        CommonButton({
+          buttonName: $r('app.string.Waterfall_rendering'),
+          buttonId: 'app.string.Waterfall_rendering',
+          buttonUrl: 'managers/WaterfallRendering'
+        });
+      }
+      .padding('20vp')
+      .width('100%')
+    }.margin({ bottom: 60 })
+    .width('100%')
+  }
+}

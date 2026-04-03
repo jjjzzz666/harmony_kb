@@ -1,0 +1,89 @@
+# Web组件渲染模式
+
+## RenderMode
+
+### 介绍
+
+1. 实现指南文档[Web组件渲染模式](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/web-render-mode)中示例代码片段的工程化，保证指南中示例代码与sample工程文件同源。
+
+### 效果预览
+
+| 主页                                                         |
+| ------------------------------------------------------------ |
+| <img src="screenshots\RenderModeWebComp.png" width="360;" /> |
+
+使用说明
+
+1. 使用renderMode设置渲染模式为 ASYNC_RENDER (同步渲染模式)。
+
+## 具体实现
+
+* 设置Web组件为同步渲染模式`Web({src: '', controller: this.webviewController, renderMode: RenderMode.ASYNC_RENDER})`，参考源码：[RenderMode.ets](https://gitcode.com/HarmonyOS_Samples/guide-snippets/blob/master/ArkWeb/WebRenderLayout/entry/src/main/ets/pages/RenderMode.ets)
+
+# Web组件大小自适应页面内容布局
+
+## FitPageContent
+
+### 介绍
+
+1. 实现指南文档[Web组件大小自适应页面内容布局](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/web-fit-content)中示例代码片段的工程化，保证指南中示例代码与sample工程文件同源。
+
+### 效果预览
+
+| 主页                                                      |
+| --------------------------------------------------------- |
+| <img src="screenshots\FitPageContent.png" width="360;" /> |
+
+使用说明
+
+1. 使用Web组件大小自适应页面内容布局模式layoutMode(WebLayoutMode.FIT_CONTENT)时，能使Web组件的大小根据页面内容自适应变化。
+
+## 具体实现
+* 开启渲染模式，设置Web组件大小自适应页面内容布局模式，并关闭过滚动模式，参考源码：[FitPageContent.ets](https://gitcode.com/HarmonyOS_Samples/guide-snippets/blob/master/ArkWeb/WebRenderLayout/entry/src/main/ets/pages/FitPageContent.ets)
+   * 设置Web组件为同步渲染模式`Web({src: '', controller: this.webviewController, renderMode: RenderMode.ASYNC_RENDER})`。
+   * 通过layoutMode(WebLayoutMode.FIT_CONTENT)Web组件大小自适应页面内容布局模式。
+   * 通过overScrollMode(OverScrollMode.NEVER)设置过滚动模式为关闭状态。
+
+## 工程目录
+
+```
+entry/src/main/
+|---ets
+|---|---entryability
+|---|---|---EntryAbility.ets
+|---|---pages
+|---|---|---Index.ets						// 首页
+|---|---|---FitPageContent.ets
+|---|---|---RenderMode.ets
+|---resources								// 静态资源
+|---ohosTest
+|---|---ets
+|---|---|---tests
+|---|---|---|---Ability.test.ets            // 自动化测试用例
+```
+
+## 相关权限
+
+[ohos.permission.INTERNET](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/permissions-for-all#ohospermissioninternet)
+
+## 依赖
+
+不涉及。
+
+## 约束与限制
+
+1. 本示例仅支持标准系统上运行。
+2. 本示例支持API14版本SDK，SDK版本号(API Version 14 Release)。
+3. 本示例需要使用DevEco Studio 版本号(5.0.1Release)才可编译运行。
+
+## 下载
+
+如需单独下载本工程，执行如下命令：
+
+```
+git init
+git config core.sparsecheckout true
+echo ArkWeb/ProcessWebPageCont > .git/info/sparse-checkout
+git remote add origin https://gitcode.com/openharmony/guide-snippets.git
+git pull origin master
+```

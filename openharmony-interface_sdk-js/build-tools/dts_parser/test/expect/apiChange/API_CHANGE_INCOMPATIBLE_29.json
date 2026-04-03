@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_29.d.ets",
+    "codeContextStaerLine": "15",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_29",
+    "description": "API check error of [api change errors]: Forbid changes: Decorator cannot be deleted.",
+    "language": "typescript",
+    "mainBuggyCode": "struct MyComponent",
+    "mainBuggyLine": "15",
+    "extendInfo": {
+      "apiName": "MyComponent",
+      "apiType": "Struct",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_29.d.ets|MyComponent",
+      "parentModuleName": "MyComponent"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_JSDOC_01.d.ts",
+    "codeContextStaerLine": "25",
+    "defectLevel": 2,
+    "defectType": "API_DOC_JSDOC_01",
+    "description": "API check error of [No jsdoc]: Jsdoc needs to be added to the current API.",
+    "language": "typescript",
+    "mainBuggyCode": "export interface OnReleaseCallback",
+    "mainBuggyLine": "25",
+    "extendInfo": {
+      "apiName": "OnReleaseCallback",
+      "apiType": "Interface",
+      "hierarchicalRelations": "API_DOC_JSDOC_01.d.ts|OnReleaseCallback",
+      "parentModuleName": "API_DOC_JSDOC_01.d.ts"
+    }
+  }
+]

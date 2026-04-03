@@ -1,0 +1,38 @@
+name: Sync Repo5 to dev
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+          fetch-depth: 0
+          ref: dev
+
+      - name: Git config
+        run: |
+          git config --global user.name "jjjzzz666"
+          git config --global user.email "jjjzzz666@users.noreply.github.com"
+          git config --global lfs.allowincompletepush true
+
+      - name: Update repo5
+        run: |
+          rm -rf openharmony-interface_sdk_c
+          mkdir -p temp
+          curl -L https://github.com/openharmony/interface_sdk_c/archive/refs/heads/master.tar.gz | tar xz --strip 1 -C temp
+          find temp -size +10M -delete
+          find temp -type d -empty -delete
+          mv temp openharmony-interface_sdk_c
+
+
+      - name: Push
+        run: |
+          git add .
+          git commit -m "update repo5" || true
+          git push origin dev --no-verify

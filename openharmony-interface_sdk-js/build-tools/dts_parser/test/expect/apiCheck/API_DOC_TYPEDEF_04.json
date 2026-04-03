@@ -1,0 +1,36 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_TYPEDEF_04.d.ts",
+    "codeContextStaerLine": "26",
+    "defectLevel": 2,
+    "defectType": "API_DOC_TYPEDEF_04",
+    "description": "API check error of [wrong scene]: JSDoc tag validity verification failed. Please confirm if the [typedef] tag is missing.",
+    "language": "typescript",
+    "mainBuggyCode": "export interface OnReleaseCallback",
+    "mainBuggyLine": "26",
+    "extendInfo": {
+      "apiName": "OnReleaseCallback",
+      "apiType": "Interface",
+      "hierarchicalRelations": "API_DOC_TYPEDEF_04.d.ts|OnReleaseCallback",
+      "parentModuleName": "API_DOC_TYPEDEF_04.d.ts"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_TYPEDEF_04.d.ts",
+    "codeContextStaerLine": "33",
+    "defectLevel": 2,
+    "defectType": "API_DOC_TYPEDEF_04",
+    "description": "API check error of [wrong scene]: JSDoc tag validity verification failed. Please confirm if the [typedef] tag is missing.",
+    "language": "typescript",
+    "mainBuggyCode": "declare type ValueType = null | number | string | boolean | Uint8Array | Asset | Assets | Float32Array | bigint;",
+    "mainBuggyLine": "33",
+    "extendInfo": {
+      "apiName": "ValueType",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_DOC_TYPEDEF_04.d.ts|ValueType",
+      "parentModuleName": "API_DOC_TYPEDEF_04.d.ts"
+    }
+  }
+]

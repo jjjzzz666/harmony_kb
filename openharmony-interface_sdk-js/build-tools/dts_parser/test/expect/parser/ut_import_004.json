@@ -1,0 +1,35 @@
+{
+  "ut_import_004.d.ts": [
+    {
+      "filePath": "ut_import_004.d.ts",
+      "apiType": "Import",
+      "definedText": "import * as _ApplicationStateObserver from './application/ApplicationStateObserver';",
+      "pos": {
+        "line": 19,
+        "character": 1
+      },
+      "isExport": false,
+      "apiName": "'./application/ApplicationStateObserver'",
+      "hierarchicalRelations": [
+        "ut_import_004.d.ts",
+        "'./application/ApplicationStateObserver'"
+      ],
+      "isStruct": false,
+      "syscap": "",
+      "currentVersion": "-1",
+      "jsDocText": "",
+      "isJoinType": false,
+      "genericInfo": [],
+      "parentApiType": "SourceFile",
+      "fileAbsolutePath": "E:\\code\\wcy\\gitee\\interface_sdk-js\\build-tools\\dts_parser\\test\\ut\\parser\\ut_import_004.d.ts",
+      "isSameNameFunction": false,
+      "importValues": [
+        {
+          "key": "",
+          "value": ""
+        }
+      ],
+      "importPath": "'./application/ApplicationStateObserver'"
+    }
+  ]
+}

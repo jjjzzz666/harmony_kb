@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "recent_photo_get_photo",
+      "value": "获取最近图片"
+    },
+    {
+      "name": "recent_photo_day",
+      "value": "天"
+    },
+    {
+      "name": "recent_photo_selected_photos",
+      "value": "选中的照片: "
+    },
+    {
+      "name": "recent_photo_no_photos",
+      "value": "未找到符合条件的最近图片"
+    },
+    {
+      "name": "recent_photo_get",
+      "value": "获取"
+    },
+    {
+      "name": "recent_photo_selected",
+      "value": "已选择: "
+    },
+    {
+      "name": "recent_photo_not_found",
+      "value": "未找到照片"
+    }
+  ]
+}

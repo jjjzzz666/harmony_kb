@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_EXTENDS_02.d.ts",
+    "codeContextStaerLine": "29",
+    "defectLevel": 2,
+    "defectType": "API_DOC_EXTENDS_02",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [extends] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "export default class ExtensionAbility",
+    "mainBuggyLine": "29",
+    "extendInfo": {
+      "apiName": "ExtensionAbility",
+      "apiType": "Class",
+      "hierarchicalRelations": "API_DOC_EXTENDS_02.d.ts|ExtensionAbility",
+      "parentModuleName": "API_DOC_EXTENDS_02.d.ts"
+    }
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "album_picker_all_albums",
+      "value": "全部相册"
+    },
+    {
+      "name": "album_picker_system",
+      "value": "系统"
+    },
+    {
+      "name": "album_picker_light",
+      "value": "浅色"
+    },
+    {
+      "name": "album_picker_dark",
+      "value": "深色"
+    },
+    {
+      "name": "album_picker_unnamed_album",
+      "value": "未命名相册"
+    },
+    {
+      "name": "album_picker_selected_albums",
+      "value": "已选择相册: "
+    }
+  ]
+}

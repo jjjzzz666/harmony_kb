@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_EVENT_05.d.ts",
+    "codeContextStaerLine": "36",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_EVENT_05",
+    "description": "API check error of [limited api pair errors]: The on and off event subscription methods do not appear in pair.",
+    "language": "typescript",
+    "mainBuggyCode": "off(type: 'serviceChange'): void;",
+    "mainBuggyLine": "36",
+    "extendInfo": {
+      "apiName": "off_serviceChange",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DEFINE_EVENT_05.d.ts|Configuration|off_serviceChange",
+      "parentModuleName": "Configuration"
+    }
+  }
+]

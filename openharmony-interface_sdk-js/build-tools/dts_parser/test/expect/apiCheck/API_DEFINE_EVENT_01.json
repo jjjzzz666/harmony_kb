@@ -1,0 +1,36 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_EVENT_01.d.ts",
+    "codeContextStaerLine": "38",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_EVENT_01",
+    "description": "API check error of [wrong parameter]: The event name should be string.",
+    "language": "typescript",
+    "mainBuggyCode": "on(type: serviceChange, callback: Callback<ServiceChangeType>): void;",
+    "mainBuggyLine": "38",
+    "extendInfo": {
+      "apiName": "on_serviceChange",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DEFINE_EVENT_01.d.ts|Configuration|on_serviceChange",
+      "parentModuleName": "Configuration"
+    }
+  },
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_EVENT_01.d.ts",
+    "codeContextStaerLine": "48",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_EVENT_01",
+    "description": "API check error of [wrong parameter]: The event name should be string.",
+    "language": "typescript",
+    "mainBuggyCode": "off(type: serviceChange, callback?: Callback<ServiceChangeType>): void;",
+    "mainBuggyLine": "48",
+    "extendInfo": {
+      "apiName": "off_serviceChange",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DEFINE_EVENT_01.d.ts|Configuration|off_serviceChange",
+      "parentModuleName": "Configuration"
+    }
+  }
+]

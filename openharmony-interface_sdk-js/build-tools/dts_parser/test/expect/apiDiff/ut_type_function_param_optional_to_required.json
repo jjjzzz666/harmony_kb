@@ -1,0 +1,41 @@
+[
+  {
+    "apiType": "TypeAlias",
+    "statusCode": 14,
+    "oldApiDefinedText": "export type Test = (a: Error | any, b?: number) => void;",
+    "newApiDefinedText": "export type Test = (a: Error | any, b: number) => void;",
+    "oldApiName": "Test",
+    "newApiName": "Test",
+    "oldDtsName": "ut_type_function_param_optional_to_required.d.ts",
+    "newDtsName": "ut_type_function_param_optional_to_required.d.ts",
+    "diffType": 70,
+    "diffMessage": "自定义方法类型的可选参数变为必选参数",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": true,
+    "oldHierarchicalRelations": [
+      "ut_type_function_param_optional_to_required.d.ts",
+      "Test"
+    ],
+    "newHierarchicalRelations": [
+      "ut_type_function_param_optional_to_required.d.ts",
+      "Test"
+    ],
+    "oldPos": {
+      "line": 1,
+      "character": 1
+    },
+    "newPos": {
+      "line": 1,
+      "character": 1
+    },
+    "oldDescription": "b?: number",
+    "newDescription": "b: number",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

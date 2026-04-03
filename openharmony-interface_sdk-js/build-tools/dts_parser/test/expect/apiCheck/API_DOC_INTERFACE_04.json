@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_INTERFACE_04.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_INTERFACE_04",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [interface] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "export interface OnReleaseCallback",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "OnReleaseCallback",
+      "apiType": "Interface",
+      "hierarchicalRelations": "API_DOC_INTERFACE_04.d.ts|OnReleaseCallback",
+      "parentModuleName": "API_DOC_INTERFACE_04.d.ts"
+    }
+  }
+]

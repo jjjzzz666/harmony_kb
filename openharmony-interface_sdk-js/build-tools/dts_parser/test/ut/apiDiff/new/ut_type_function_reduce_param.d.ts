@@ -1,0 +1,1 @@
+export type Test = (b: number) => void;

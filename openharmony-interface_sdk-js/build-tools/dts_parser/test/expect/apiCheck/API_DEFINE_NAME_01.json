@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DEFINE_NAME_01.d.ts",
+    "codeContextStaerLine": "33",
+    "defectLevel": 2,
+    "defectType": "API_DEFINE_NAME_01",
+    "description": "API check error of [naming errors]: Prohibited word in [option]:{option}.The word allowed is [options].",
+    "language": "typescript",
+    "mainBuggyCode": "optionAddAccount(name: string): void;",
+    "mainBuggyLine": "33",
+    "extendInfo": {
+      "apiName": "optionAddAccount",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DEFINE_NAME_01.d.ts|Configuration|optionAddAccount",
+      "parentModuleName": "Configuration"
+    }
+  }
+]

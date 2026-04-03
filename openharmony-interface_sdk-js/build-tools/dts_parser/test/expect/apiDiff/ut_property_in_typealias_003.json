@@ -1,0 +1,41 @@
+[
+  {
+    "apiType": "Property",
+    "statusCode": 16,
+    "oldApiDefinedText": "[key: string]: ValueType | Uint8Array | null",
+    "newApiDefinedText": "[key: string]: ValueTest | Uint8Array | null",
+    "oldDtsName": "ut_property_in_typealias_003.d.ts",
+    "newDtsName": "ut_property_in_typealias_003.d.ts",
+    "diffType": 52,
+    "diffMessage": "属性类型发生改变",
+    "changeLogUrl": "",
+    "changeLogs": [],
+    "isCompatible": false,
+    "oldHierarchicalRelations": [
+      "ut_property_in_typealias_003.d.ts",
+      "ValuesBucket",
+      null
+    ],
+    "newHierarchicalRelations": [
+      "ut_property_in_typealias_003.d.ts",
+      "ValuesBucket",
+      null
+    ],
+    "oldPos": {
+      "line": 16,
+      "character": 31
+    },
+    "newPos": {
+      "line": 16,
+      "character": 31
+    },
+    "oldDescription": "ValueType,Uint8Array,null",
+    "newDescription": "ValueTest,Uint8Array,null",
+    "oldSyscapField": "",
+    "newSyscapField": "",
+    "oldKitInfo": "NA",
+    "newKitInfo": "NA",
+    "isSystemapi": false,
+    "isSameNameFunction": false
+  }
+]

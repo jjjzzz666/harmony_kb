@@ -1,0 +1,258 @@
+[
+    {
+        "first_introduced": "13",
+        "name": "OH_AbilityRuntime_ApplicationContextGetCacheDir"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_AbilityRuntime_ApplicationContextGetAreaMode"
+    },
+    {
+        "first_introduced": "13",
+        "name": "OH_AbilityRuntime_ApplicationContextGetBundleName"
+    },
+    {
+        "first_introduced": "15",
+        "name": "OH_AbilityRuntime_StartSelfUIAbility"
+    },
+    {
+        "first_introduced": "16",
+        "name": "OH_AbilityRuntime_ApplicationContextGetTempDir"
+    },
+    {
+        "first_introduced": "16",
+        "name": "OH_AbilityRuntime_ApplicationContextGetFilesDir"
+    },
+    {
+        "first_introduced": "16",
+        "name": "OH_AbilityRuntime_ApplicationContextGetDatabaseDir"
+    },
+    {
+        "first_introduced": "16",
+        "name": "OH_AbilityRuntime_ApplicationContextGetPreferencesDir"
+    },
+    {
+        "first_introduced": "16",
+        "name": "OH_AbilityRuntime_ApplicationContextGetBundleCodeDir"
+    },
+    {
+        "first_introduced": "16",
+        "name": "OH_AbilityRuntime_ApplicationContextGetDistributedFilesDir"
+    },
+    {
+        "first_introduced": "16",
+        "name": "OH_AbilityRuntime_ApplicationContextGetCloudFileDir"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_StartSelfUIAbilityWithStartOptions"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_CreateStartOptions"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_DestroyStartOptions"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsWindowMode"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsWindowMode"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsDisplayId"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsDisplayId"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsWithAnimation"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsWithAnimation"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsWindowLeft"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsWindowLeft"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsWindowTop"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsWindowTop"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsWindowHeight"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsWindowHeight"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsWindowWidth"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsWindowWidth"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsStartVisibility"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsStartVisibility"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsStartWindowIcon"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsStartWindowIcon"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsStartWindowBackgroundColor"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsStartWindowBackgroundColor"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsSupportedWindowModes"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsSupportedWindowModes"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsMinWindowWidth"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsMinWindowWidth"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsMaxWindowWidth"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsMaxWindowWidth"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsMinWindowHeight"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsMinWindowHeight"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_SetStartOptionsMaxWindowHeight"
+    },
+    {
+        "first_introduced": "17",
+        "name": "OH_AbilityRuntime_GetStartOptionsMaxWindowHeight"
+    },
+	{
+        "first_introduced": "20",
+        "name": "OH_AbilityRuntime_ApplicationContextGetResourceDir"
+    },
+	{
+        "first_introduced": "21",
+        "name": "OH_AbilityRuntime_ApplicationContextGetLaunchParameter"
+    },
+	{
+        "first_introduced": "21",
+        "name": "OH_AbilityRuntime_ApplicationContextGetLatestParameter"
+    },
+	{
+        "first_introduced": "21",
+        "name": "OH_AbilityRuntime_ApplicationContextGetVersionCode"
+    },
+    {
+        "first_introduced": "21",
+        "name": "OH_AbilityRuntime_StartSelfUIAbilityWithPidResult"
+    },
+    {
+        "first_introduced": "22",
+        "name": "OH_AbilityRuntime_ApplicationContextGetLogFileDir"
+    },
+    {
+        "first_introduced": "23",
+        "name": "OH_AbilityRuntime_ApplicationContextNotifyPageChanged"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AbilityRuntime_Context_GetCacheDir"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AbilityRuntime_Context_GetTempDir"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AbilityRuntime_Context_GetFilesDir"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AbilityRuntime_Context_GetDatabaseDir"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AbilityRuntime_Context_GetPreferencesDir"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AbilityRuntime_Context_GetBundleCodeDir"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AbilityRuntime_Context_GetDistributedFilesDir"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AbilityRuntime_Context_GetResourceDir"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AbilityRuntime_Context_GetCloudFileDir"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AbilityRuntime_Context_GetAreaMode"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AbilityRuntime_Context_SetAreaMode"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AbilityRuntime_Context_GetLogFileDir"
+    },
+    {
+        "first_introduced": "24",
+        "name": "OH_AbilityRuntime_Context_GetProcessName"
+    }
+]

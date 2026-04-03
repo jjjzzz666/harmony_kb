@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_SINCE_04.d.ts",
+    "codeContextStaerLine": "28",
+    "defectLevel": 2,
+    "defectType": "API_DOC_SINCE_04",
+    "description": "API check error of [wrong scene]: The validity verification of the JSDoc tag failed. The [since] tag is not allowed to be reused, please delete the extra tags.",
+    "language": "typescript",
+    "mainBuggyCode": "declare namespace dataUriUtils",
+    "mainBuggyLine": "28",
+    "extendInfo": {
+      "apiName": "dataUriUtils",
+      "apiType": "Namespace",
+      "hierarchicalRelations": "API_DOC_SINCE_04.d.ts|dataUriUtils",
+      "parentModuleName": "API_DOC_SINCE_04.d.ts"
+    }
+  }
+]

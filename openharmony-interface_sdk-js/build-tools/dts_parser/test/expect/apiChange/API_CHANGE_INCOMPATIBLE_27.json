@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_27.d.ets",
+    "codeContextStaerLine": "17",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_27",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot Expand the range of writable property types.",
+    "language": "typescript",
+    "mainBuggyCode": "@Prop primaryText: ResourceStrs;",
+    "mainBuggyLine": "17",
+    "extendInfo": {
+      "apiName": "primaryText",
+      "apiType": "Property",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_27.d.ets|MyComponent|primaryText",
+      "parentModuleName": "primaryText"
+    }
+  }
+]

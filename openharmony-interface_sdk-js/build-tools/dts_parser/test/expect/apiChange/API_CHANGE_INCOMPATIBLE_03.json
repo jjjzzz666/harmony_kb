@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "API_CHANGE_INCOMPATIBLE_03.d.ts",
+    "codeContextStaerLine": "24",
+    "defectLevel": 2,
+    "defectType": "API_CHANGE_INCOMPATIBLE_03",
+    "description": "API check error of [api change errors]: Forbid changes: Cannot change permission value,cannot judge the range change.",
+    "language": "typescript",
+    "mainBuggyCode": "function func(str: string): void;",
+    "mainBuggyLine": "24",
+    "extendInfo": {
+      "apiName": "func",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_CHANGE_INCOMPATIBLE_03.d.ts|test|func",
+      "parentModuleName": "func"
+    }
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "模块描述"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Form Sample"
+    },
+    {
+      "name": "EntryFormAbility_desc",
+      "value": "form_description"
+    },
+    {
+      "name": "EntryFormAbility_label",
+      "value": "form_label"
+    },
+    {
+      "name": "widget_desc",
+      "value": "This is a service widget."
+    },
+    {
+      "name": "widget_display_name",
+      "value": "widget"
+    },
+    {
+      "name": "add_form",
+      "value": "添加至桌面"
+    },
+    {
+      "name": "default_city",
+      "value": "南京"
+    },
+    {
+      "name": "default_time",
+      "value": "--"
+    },
+    {
+      "name": "menu_info_long_click",
+      "value": "长按显示菜单"
+    },
+    {
+      "name": "font_size",
+      "value": "25fp"
+    },
+    {
+      "name": "page_a_title",
+      "value": "PageA"
+    },
+    {
+      "name": "form_static_card_name",
+      "value": "静态卡片"
+    },
+    {
+      "name": "form_static_card_desc",
+      "value": "跳转到PageA"
+    },
+    {
+      "name": "full_percent",
+      "value": "100%"
+    },
+    {
+      "name": "add_form_by_menu_id",
+      "value": "add_form_by_menu"
+    },
+    {
+      "name": "unknown_city",
+      "value": "未知"
+    }
+  ]
+}

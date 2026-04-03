@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_FAMODELONLY_03.d.ts",
+    "codeContextStaerLine": "34",
+    "defectLevel": 2,
+    "defectType": "API_DOC_FAMODELONLY_03",
+    "description": "API check error of [wrong scene]: It was detected that there is an inheritable label [famodelonly] in the current file, but there are child nodes without this label.",
+    "language": "typescript",
+    "mainBuggyCode": "export type DataAbilityHelper = _DataAbilityHelper;",
+    "mainBuggyLine": "34",
+    "extendInfo": {
+      "apiName": "DataAbilityHelper",
+      "apiType": "TypeAlias",
+      "hierarchicalRelations": "API_DOC_FAMODELONLY_03.d.ts|ability|DataAbilityHelper",
+      "parentModuleName": "ability"
+    }
+  }
+]

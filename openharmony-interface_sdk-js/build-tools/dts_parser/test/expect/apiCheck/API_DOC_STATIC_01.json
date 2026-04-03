@@ -1,0 +1,19 @@
+[
+  {
+    "analyzerName": "apiengine",
+    "buggyFilePath": "build-tools\\dts_parser\\test\\ut\\apiCheck\\API_DOC_STATIC_01.d.ts",
+    "codeContextStaerLine": "35",
+    "defectLevel": 2,
+    "defectType": "API_DOC_STATIC_01",
+    "description": "API check error of [wrong order]: JSDoc label order error, please adjust the order of [static] labels.",
+    "language": "typescript",
+    "mainBuggyCode": "function write(): void;",
+    "mainBuggyLine": "35",
+    "extendInfo": {
+      "apiName": "write",
+      "apiType": "Method",
+      "hierarchicalRelations": "API_DOC_STATIC_01.d.ts|hiAppEvent|write",
+      "parentModuleName": "hiAppEvent"
+    }
+  }
+]

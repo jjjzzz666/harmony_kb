@@ -1,0 +1,8 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/TestAbilityPage",
+    "pages/CalleePage",
+    "pages/InnerPage"
+  ]
+}

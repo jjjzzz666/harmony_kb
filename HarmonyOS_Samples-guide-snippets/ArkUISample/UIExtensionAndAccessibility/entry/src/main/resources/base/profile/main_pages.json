@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/IsolatedComponent/Extension",
+    "pages/EmbeddedComponent/Extension",
+    "pages/UIExtensionComponent/Extension",
+    "pages/ShowEmbeddedComponent/ShowPage",
+    "pages/UniversalAttributesAccessibility/VirtualNodeExample"
+  ]
+}
